@@ -1,0 +1,16 @@
+{
+  "n": 46,
+  "h": 0,
+  "count": 3434439518413719248592,
+  "status": "exact",
+  "formula": "n M_(n/2) = n o_(n-1)",
+  "input": {
+    "method": "odd open equals closed",
+    "path": "experiments/runs/projective42/open45.json",
+    "sha256": "5ba94784aaffb307a3a7c2eebfd40bf7892af1a1b75303c2603f0250b5756423",
+    "horizon": 45
+  },
+  "input_index": 45,
+  "last_input": 45,
+  "external_tabulated_input": false
+}

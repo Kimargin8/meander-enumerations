@@ -1,0 +1,173 @@
+{
+  "n": 33,
+  "D": 3300537227268906,
+  "K_index": 32,
+  "K": 1650268613634453,
+  "by_height": {
+    "1": {
+      "value": 94259985091278,
+      "results": [
+        "sectors/n33/h01.json"
+      ],
+      "file_sha256": [
+        "8a3f27729d335348bf5118109e809e08ce3d6927499f311318037ad65f3c6862"
+      ]
+    },
+    "3": {
+      "value": 454885649308936,
+      "results": [
+        "sectors/n33/h03.json"
+      ],
+      "file_sha256": [
+        "db9acb4c70f665fbf660ecc2ea221d3801b34c41349101545187a80018340420"
+      ]
+    },
+    "5": {
+      "value": 798606214948019,
+      "results": [
+        "sectors/n33/h05.json"
+      ],
+      "file_sha256": [
+        "9c3305422cb140fe0c8c1699bf1e4510912be8bc1583ef4f107e7229e8244a51"
+      ]
+    },
+    "7": {
+      "value": 843208154727580,
+      "results": [
+        "sectors/n33/h07.json"
+      ],
+      "file_sha256": [
+        "e06a93b39ff46d0d73166faaf6dc4835679512e4674b246c4a9379a991173814"
+      ]
+    },
+    "9": {
+      "value": 614022548516068,
+      "results": [
+        "sectors/n33/h09.json"
+      ],
+      "file_sha256": [
+        "0bd2c5725da7041546c3dab9ca307e4471e14de57e531293e059cfcd5c1e49ef"
+      ]
+    },
+    "11": {
+      "value": 324089027902806,
+      "results": [
+        "sectors/n33/h11.json"
+      ],
+      "file_sha256": [
+        "bd91307302c8edc482cdcc9d39ba6b1abeb47d0ea71565efb508e6c83150aee9"
+      ]
+    },
+    "13": {
+      "value": 126190132470792,
+      "results": [
+        "sectors/n33/h13.json"
+      ],
+      "file_sha256": [
+        "927b8eeeb4fe9b3e1e3dc602fcffcce7d135ad578247bab73289dc1bedcc494b"
+      ]
+    },
+    "15": {
+      "value": 36316371320324,
+      "results": [
+        "sectors/n33/h15.json"
+      ],
+      "file_sha256": [
+        "d59502eb33a53f0a6f1ed1f61c03b79a434e7357e2c86b4710e0b1d07efe480a"
+      ]
+    },
+    "17": {
+      "value": 7661067011310,
+      "results": [
+        "sectors/n33/h17.json"
+      ],
+      "file_sha256": [
+        "259655b1ac769bb86a6e6d1c5879f98e86d69fb0a2e916c13306f62c354b45e1"
+      ]
+    },
+    "19": {
+      "value": 1164515999504,
+      "results": [
+        "sectors/n33/h19.json"
+      ],
+      "file_sha256": [
+        "d7f919da16f7a38428afc119ca41429bbf5b2712cfec4dc34f01124ea390f336"
+      ]
+    },
+    "21": {
+      "value": 124196359837,
+      "results": [
+        "sectors/n33/h21.json"
+      ],
+      "file_sha256": [
+        "5298dfd62b95ca45ebb92431da8988b18392a96b8f6ae295ca21638c692a6506"
+      ]
+    },
+    "23": {
+      "value": 8941430031,
+      "results": [
+        "sectors/n33/h23.json"
+      ],
+      "file_sha256": [
+        "d676c9d8a26c835caba430837e578d9c12432b36a26c1889faab3f9c85117a2e"
+      ]
+    },
+    "25": {
+      "value": 410939427,
+      "results": [
+        "sectors/n33/h25.json"
+      ],
+      "file_sha256": [
+        "9c9ca0a45db7dcaa63f9caae125b8e374b846866320a9cba5b0fd69d5b283791"
+      ]
+    },
+    "27": {
+      "value": 11088673,
+      "results": [
+        "sectors/n33/h27.json"
+      ],
+      "file_sha256": [
+        "4944a47286993017508c65f17879379d2fa592bf10522840d73d90477fadec38"
+      ]
+    },
+    "29": {
+      "value": 153472,
+      "results": [
+        "sectors/n33/h29.json"
+      ],
+      "file_sha256": [
+        "79ccf5d96f943653a8d0e3837abfb4121126383d4808259ffc1dfd5954674c22"
+      ]
+    },
+    "31": {
+      "value": 848,
+      "results": [
+        "sectors/n33/h31.json"
+      ],
+      "file_sha256": [
+        "911821757136c30bd48ad566e293f249696ff97cbe01c85829f350229d10c7fd"
+      ]
+    },
+    "33": {
+      "value": 1,
+      "results": [
+        "sectors/n33/h33.json"
+      ],
+      "file_sha256": [
+        "41c5bfc8dada13bec6bb16c5c4af00a2be7d3cee0ca3cc442a59e645581f5f34"
+      ]
+    }
+  },
+  "independent_queue_deficits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "even_h0_matches_M": false,
+  "all_sectors_prior_independent_files": [],
+  "source_sha256": "fa38235a51829fd46dc8a5444794452db6d4a68308df256872c282c13383a188"
+}

@@ -1,0 +1,80 @@
+\subsection{Excluding closed systems inside prefixes}
+\label{sec:projective-factor-bound}
+
+The forbidden pair in the preceding estimate is the smallest member
+of a family of forbidden factors. Keeping the whole family gives
+deterministic time and space \(O(n^{O(1)}\,1.7271^n)\) for the same
+transfer.
+
+Call a nonempty factor of a paired sign word a Dyck pair when its two
+coordinate words are both Dyck words. Whatever the state at the
+start of the factor, every closing in either coordinate then consumes
+a local opening made inside the factor. Hence every site in this
+interval has both its matching edge and its antipodal edge inside
+the interval. At least one component has closed by its end.
+Consequently a prefix stored for further transfer contains no Dyck
+pair. A terminal move that closes the entire diagram contributes
+directly to the answer and creates no stored successor.
+
+Let \(I_j\) count the paired Dyck words of length \(2j\) containing no
+proper nonempty Dyck pair. These are exactly the irreducible
+meandric systems of Lando and Zvonkin. A contiguous interval carries
+an independent system precisely when both coordinate matchings
+restrict to perfect matchings of that interval. In the two sign
+words this is equivalent to a Dyck pair. Put
+\[
+ B(x)=\sum_{j\ge0}C_j^2x^j,\qquad I(x)=1+\sum_{j\ge1} I_j x^j.
+\]
+Lando and Zvonkin proved \(B(x)=I(xB(x)^2)\) \cite{lz}.
+
+Two minimal forbidden factors cannot overlap properly. To see this,
+use boundary-time intervals \([a,c]\) and \([b,d]\), with
+\(a<b<c<d\), and let \(v(t)\) be the vector of the two heights.
+The Dyck condition gives \(v(b)\ge v(a)=v(c)\ge v(b)\)
+coordinatewise. The interval \([b,c]\) is therefore a proper
+nonempty Dyck pair, a contradiction. Containment of one minimal
+factor in another is excluded by definition.
+
+Choose \(u>1\), give a letter \((i,j)\) weight \(u^{i+j}\), and set
+\(S=(u+u^{-1})^2\). On any one interval of fixed coordinate sign
+changes in the minimum-reflection argument, each forbidden word is
+transformed by the same alphabet permutation. Nonoverlap is
+preserved, and the weight of each transformed forbidden word is
+one because both coordinate sums are zero. Let \(F_t\) be the
+total weight of words of length \(t\) avoiding these factors.
+Appending one letter to a valid word either leaves it valid or
+completes its unique minimal forbidden suffix. Conversely, appending
+a minimal forbidden word to a valid prefix creates the first
+occurrence at the final letter, by nonoverlap. Thus
+\[
+ \sum_{t\ge0}F_t z^t=\frac1{I(z^2)-S z}.
+\]
+
+The first positive pole is at \(R=B(S^{-2})/S\). Indeed,
+\(v\mapsto vB(v^2)\) increases strictly for \(0\le v<1/4\),
+and substitution \(z=vB(v^2)\) gives denominator
+\(B(v^2)(1-Sv)\). Since \(1/S<1/4\), the series \(I(z^2)\)
+converges beyond \(R\) by the Lando--Zvonkin identity and
+nonnegativity. The denominator is positive on \([0,R)\) and has a
+simple zero at \(R\). The generating function has nonnegative
+coefficients, so Pringsheim's theorem gives radius \(R\). Evaluating
+at \(R(1-1/t)\) for \(t\ge2\) then gives \(F_t=O(tR^{-t})\).
+
+Write \(\lambda=1/R\). Multiplication of the estimates for the at
+most three sign intervals bounds the number of histories for fixed
+parameters by \(n^{O(1)}\lambda^t u^{-D}\). The independent
+bit-length estimate is \(4\,2^D\). Balancing the two bounds at
+\((2u)^D=\lambda^t\) gives exponent \(\alpha t\) in base two,
+where \(\alpha=\log(\lambda)/\log(2u)\). Comparison with the
+remaining-length exponent \(2(n-t)\) gives the base
+\(2^{2\alpha/(2+\alpha)}\).
+
+For an exact numerical bound take \(u=41/20\),
+\(S=4330561/672400\), and
+\(B_5=\sum_{j=0}^5 C_j^2S^{-2j}<B(S^{-2})\).
+The two rational comparisons
+\[
+ (S/B_5)^{156}<(41/10)^{203},\qquad
+ 2^{406}10000^{515}<17271^{515}
+\]
+give \(\alpha<203/156\) and the stated upper bound \(1.7271\).

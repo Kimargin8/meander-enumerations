@@ -1,0 +1,15 @@
+{
+  "n": 57,
+  "h": 1,
+  "count": 2851249236338650213543814002,
+  "status": "exact",
+  "formula": "2n [z^n] log(1+O(z)) - n o_n",
+  "input": {
+    "sequence": "A005316",
+    "url": "https://oeis.org/A005316",
+    "path": "references/oeis/2026-11-15/b005316.txt",
+    "sha256": "2c264f47f4b8d3962c0b0a3c8281ec1779477540c3bac93f9dd85e77adaf1721"
+  },
+  "last_input": 57,
+  "external_tabulated_input": true
+}

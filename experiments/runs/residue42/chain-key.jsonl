@@ -1,0 +1,15 @@
+{"n":3,"E":2,"nodes":4,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":0,"misses":0,"keys":0,"impossible_faces":0,"seconds":1.708e-06}
+{"n":5,"E":8,"nodes":20,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":0,"misses":0,"keys":0,"impossible_faces":0,"seconds":1.1922e-05}
+{"n":7,"E":36,"nodes":99,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":0,"misses":0,"keys":0,"impossible_faces":0,"seconds":2.4394e-05}
+{"n":9,"E":170,"nodes":521,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":0,"misses":1,"keys":1,"impossible_faces":0,"seconds":0.000112738}
+{"n":11,"E":826,"nodes":2195,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":1,"misses":9,"keys":9,"impossible_faces":0,"seconds":0.000329386}
+{"n":13,"E":4084,"nodes":8328,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":27,"misses":57,"keys":57,"impossible_faces":0,"seconds":0.00130957}
+{"n":15,"E":20452,"nodes":33339,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":327,"misses":235,"keys":235,"impossible_faces":36,"seconds":0.00500704}
+{"n":17,"E":103374,"nodes":121753,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":2216,"misses":781,"keys":781,"impossible_faces":307,"seconds":0.0175689}
+{"n":19,"E":526298,"nodes":335412,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":8933,"misses":1742,"keys":1742,"impossible_faces":1600,"seconds":0.0418216}
+{"n":21,"E":2694816,"nodes":941362,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":32620,"misses":4405,"keys":4405,"impossible_faces":8024,"seconds":0.120497}
+{"n":23,"E":13862948,"nodes":2373056,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":100916,"misses":13691,"keys":13691,"impossible_faces":32586,"seconds":0.36088}
+{"n":25,"E":71591504,"nodes":4959010,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":254099,"misses":44418,"keys":44418,"impossible_faces":97726,"seconds":0.850922}
+{"n":27,"E":370926926,"nodes":9978413,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":703243,"misses":135661,"keys":135661,"impossible_faces":297989,"seconds":2.25891}
+{"n":29,"E":1927211540,"nodes":20373421,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":2067939,"misses":380543,"keys":380543,"impossible_faces":968493,"seconds":5.32324}
+{"n":31,"E":10037423838,"nodes":40598066,"cache_level":22,"cache_step":7,"selection":0,"chain_key":true,"hits":5826789,"misses":929949,"keys":929949,"impossible_faces":3086855,"seconds":14.5397}

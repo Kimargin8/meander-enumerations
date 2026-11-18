@@ -1,0 +1,24 @@
+{
+  "n": 12,
+  "h": 6,
+  "source_N": 20,
+  "source_H": 14,
+  "j": 3,
+  "t": 11,
+  "left": 6534,
+  "right": 3265,
+  "value": 9799,
+  "status": "exact",
+  "input_states": 116,
+  "layer_digest64": 8689975000935518608,
+  "attempted_moves_through_layer": 1804,
+  "compared_methods": [],
+  "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+  },
+  "utc": "2026-11-18T09:36:50.141965+00:00"
+}

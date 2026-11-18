@@ -1,0 +1,471 @@
+[
+  {
+    "crossings": 1,
+    "labelled": 1,
+    "correction": 0,
+    "divisor": 1,
+    "shapes": 1
+  },
+  {
+    "crossings": 2,
+    "labelled": 1,
+    "correction": 1,
+    "divisor": 2,
+    "shapes": 1
+  },
+  {
+    "crossings": 3,
+    "labelled": 2,
+    "correction": 2,
+    "divisor": 4,
+    "shapes": 1
+  },
+  {
+    "crossings": 4,
+    "labelled": 3,
+    "correction": 1,
+    "divisor": 2,
+    "shapes": 2
+  },
+  {
+    "crossings": 5,
+    "labelled": 8,
+    "correction": 4,
+    "divisor": 4,
+    "shapes": 3
+  },
+  {
+    "crossings": 6,
+    "labelled": 14,
+    "correction": 2,
+    "divisor": 2,
+    "shapes": 8
+  },
+  {
+    "crossings": 7,
+    "labelled": 42,
+    "correction": 10,
+    "divisor": 4,
+    "shapes": 13
+  },
+  {
+    "crossings": 8,
+    "labelled": 81,
+    "correction": 3,
+    "divisor": 2,
+    "shapes": 42
+  },
+  {
+    "crossings": 9,
+    "labelled": 262,
+    "correction": 26,
+    "divisor": 4,
+    "shapes": 72
+  },
+  {
+    "crossings": 10,
+    "labelled": 538,
+    "correction": 8,
+    "divisor": 2,
+    "shapes": 273
+  },
+  {
+    "crossings": 11,
+    "labelled": 1828,
+    "correction": 72,
+    "divisor": 4,
+    "shapes": 475
+  },
+  {
+    "crossings": 12,
+    "labelled": 3926,
+    "correction": 14,
+    "divisor": 2,
+    "shapes": 1970
+  },
+  {
+    "crossings": 13,
+    "labelled": 13820,
+    "correction": 204,
+    "divisor": 4,
+    "shapes": 3506
+  },
+  {
+    "crossings": 14,
+    "labelled": 30694,
+    "correction": 42,
+    "divisor": 2,
+    "shapes": 15368
+  },
+  {
+    "crossings": 15,
+    "labelled": 110954,
+    "correction": 598,
+    "divisor": 4,
+    "shapes": 27888
+  },
+  {
+    "crossings": 16,
+    "labelled": 252939,
+    "correction": 81,
+    "divisor": 2,
+    "shapes": 126510
+  },
+  {
+    "crossings": 17,
+    "labelled": 933458,
+    "correction": 1778,
+    "divisor": 4,
+    "shapes": 233809
+  },
+  {
+    "crossings": 18,
+    "labelled": 2172830,
+    "correction": 262,
+    "divisor": 2,
+    "shapes": 1086546
+  },
+  {
+    "crossings": 19,
+    "labelled": 8152860,
+    "correction": 5396,
+    "divisor": 4,
+    "shapes": 2039564
+  },
+  {
+    "crossings": 20,
+    "labelled": 19304190,
+    "correction": 538,
+    "divisor": 2,
+    "shapes": 9652364
+  },
+  {
+    "crossings": 21,
+    "labelled": 73424650,
+    "correction": 16534,
+    "divisor": 4,
+    "shapes": 18360296
+  },
+  {
+    "crossings": 22,
+    "labelled": 176343390,
+    "correction": 1828,
+    "divisor": 2,
+    "shapes": 88172609
+  },
+  {
+    "crossings": 23,
+    "labelled": 678390116,
+    "correction": 51368,
+    "divisor": 4,
+    "shapes": 169610371
+  },
+  {
+    "crossings": 24,
+    "labelled": 1649008456,
+    "correction": 3926,
+    "divisor": 2,
+    "shapes": 824506191
+  },
+  {
+    "crossings": 25,
+    "labelled": 6405031050,
+    "correction": 160698,
+    "divisor": 4,
+    "shapes": 1601297937
+  },
+  {
+    "crossings": 26,
+    "labelled": 15730575554,
+    "correction": 13820,
+    "divisor": 2,
+    "shapes": 7865294687
+  },
+  {
+    "crossings": 27,
+    "labelled": 61606881612,
+    "correction": 507744,
+    "divisor": 4,
+    "shapes": 15401847339
+  },
+  {
+    "crossings": 28,
+    "labelled": 152663683494,
+    "correction": 30694,
+    "divisor": 2,
+    "shapes": 76331857094
+  },
+  {
+    "crossings": 29,
+    "labelled": 602188541928,
+    "correction": 1612668,
+    "divisor": 4,
+    "shapes": 150547538649
+  },
+  {
+    "crossings": 30,
+    "labelled": 1503962954930,
+    "correction": 110954,
+    "divisor": 2,
+    "shapes": 751981532942
+  },
+  {
+    "crossings": 31,
+    "labelled": 5969806669034,
+    "correction": 5160558,
+    "divisor": 4,
+    "shapes": 1492452957398
+  },
+  {
+    "crossings": 32,
+    "labelled": 15012865733351,
+    "correction": 252939,
+    "divisor": 2,
+    "shapes": 7506432993145
+  },
+  {
+    "crossings": 33,
+    "labelled": 59923200729046,
+    "correction": 16581290,
+    "divisor": 4,
+    "shapes": 14980804327584
+  },
+  {
+    "crossings": 34,
+    "labelled": 151622652413194,
+    "correction": 933458,
+    "divisor": 2,
+    "shapes": 75811326673326
+  },
+  {
+    "crossings": 35,
+    "labelled": 608188709574124,
+    "correction": 53589132,
+    "divisor": 4,
+    "shapes": 152047190790814
+  },
+  {
+    "crossings": 36,
+    "labelled": 1547365078534578,
+    "correction": 2172830,
+    "divisor": 2,
+    "shapes": 773682540353704
+  },
+  {
+    "crossings": 37,
+    "labelled": 6234277838531806,
+    "correction": 173762358,
+    "divisor": 4,
+    "shapes": 1558569503073541
+  },
+  {
+    "crossings": 38,
+    "labelled": 15939972379349178,
+    "correction": 8152860,
+    "divisor": 2,
+    "shapes": 7969986193751019
+  },
+  {
+    "crossings": 39,
+    "labelled": 64477712119584604,
+    "correction": 566068240,
+    "divisor": 4,
+    "shapes": 16119428171413211
+  },
+  {
+    "crossings": 40,
+    "labelled": 165597452660771610,
+    "correction": 19304190,
+    "divisor": 2,
+    "shapes": 82798726340037900
+  },
+  {
+    "crossings": 41,
+    "labelled": 672265814872772972,
+    "correction": 1849043436,
+    "divisor": 4,
+    "shapes": 168066454180454102
+  },
+  {
+    "crossings": 42,
+    "labelled": 1733609081727968492,
+    "correction": 73424650,
+    "divisor": 2,
+    "shapes": 866804540900696571
+  },
+  {
+    "crossings": 43,
+    "labelled": 7060941974458061392,
+    "correction": 6063071076,
+    "divisor": 4,
+    "shapes": 1765235495130283117
+  },
+  {
+    "crossings": 44,
+    "labelled": 18276178714484582264,
+    "correction": 176343390,
+    "divisor": 2,
+    "shapes": 9138089357330462827
+  },
+  {
+    "crossings": 45,
+    "labelled": 74661728661167809752,
+    "correction": 19925591108,
+    "divisor": 4,
+    "shapes": 18665432170273350215
+  },
+  {
+    "crossings": 46,
+    "labelled": 193909492888406631692,
+    "correction": 678390116,
+    "divisor": 2,
+    "shapes": 96954746444542510904
+  },
+  {
+    "crossings": 47,
+    "labelled": 794337831754570367812,
+    "correction": 65693295316,
+    "divisor": 4,
+    "shapes": 198584457955065915782
+  },
+  {
+    "crossings": 48,
+    "labelled": 2069504277256274074724,
+    "correction": 1649008456,
+    "divisor": 2,
+    "shapes": 1034752138628961541590
+  },
+  {
+    "crossings": 49,
+    "labelled": 8499066628515413229282,
+    "correction": 216997919890,
+    "divisor": 4,
+    "shapes": 2124766657183102787293
+  },
+  {
+    "crossings": 50,
+    "labelled": 22206891674746169557410,
+    "correction": 6405031050,
+    "divisor": 2,
+    "shapes": 11103445837376287294230
+  },
+  {
+    "crossings": 51,
+    "labelled": 91412898898828176826244,
+    "correction": 718734727480,
+    "divisor": 4,
+    "shapes": 22853224724886727888431
+  },
+  {
+    "crossings": 52,
+    "labelled": 239489513356610743216954,
+    "correction": 15730575554,
+    "divisor": 2,
+    "shapes": 119744756678313236896254
+  },
+  {
+    "crossings": 53,
+    "labelled": 987975910996038555989486,
+    "correction": 2384457300354,
+    "divisor": 4,
+    "shapes": 246993977749605753322460
+  },
+  {
+    "crossings": 54,
+    "labelled": 2594805632585289523975474,
+    "correction": 61606881612,
+    "divisor": 2,
+    "shapes": 1297402816292675565428543
+  },
+  {
+    "crossings": 55,
+    "labelled": 10726008363361842734385644,
+    "correction": 7929057052488,
+    "divisor": 4,
+    "shapes": 2681502090842442947859533
+  },
+  {
+    "crossings": 56,
+    "labelled": 28235899288344793178333732,
+    "correction": 152663683494,
+    "divisor": 2,
+    "shapes": 14117949644172472921008613
+  },
+  {
+    "crossings": 57,
+    "labelled": 116936079373841873422508566,
+    "correction": 26403879351770,
+    "divisor": 4,
+    "shapes": 29234019843467069325465084
+  },
+  {
+    "crossings": 58,
+    "labelled": 308496356015441090010351094,
+    "correction": 602188541928,
+    "divisor": 2,
+    "shapes": 154248178007720846099446511
+  },
+  {
+    "crossings": 59,
+    "labelled": 1279842888607976889797535044,
+    "correction": 88103028384108,
+    "divisor": 4,
+    "shapes": 319960722152016248206479788
+  },
+  {
+    "crossings": 61,
+    "labelled": 14058963484756608748809713192,
+    "correction": 294341775684808,
+    "divisor": 4,
+    "shapes": 3514740871189225772646349500
+  },
+  {
+    "crossings": 63,
+    "labelled": 154967080111946539652848747626,
+    "correction": 985100914782086,
+    "divisor": 4,
+    "shapes": 38741770027986881188440882428
+  },
+  {
+    "crossings": 65,
+    "labelled": 1713661620837603791268481065446,
+    "correction": 3300537227268906,
+    "divisor": 4,
+    "shapes": 428415405209401772951427083588
+  },
+  {
+    "crossings": 67,
+    "labelled": 19007633817297768906172279813820,
+    "correction": 11075575754509696,
+    "divisor": 4,
+    "shapes": 4751908454324444995437008580879
+  },
+  {
+    "crossings": 69,
+    "labelled": 211433268000094602372146238438566,
+    "correction": 37202370972838258,
+    "divisor": 4,
+    "shapes": 52858317000023659893629302819206
+  },
+  {
+    "crossings": 71,
+    "labelled": 2358261838751729019212344104926012,
+    "correction": 125134664867105660,
+    "divisor": 4,
+    "shapes": 589565459687932286086752243007918
+  },
+  {
+    "crossings": 73,
+    "labelled": 26370652969449510879209096913242792,
+    "correction": 421272440419465856,
+    "divisor": 4,
+    "shapes": 6592663242362377825120384333177162
+  },
+  {
+    "crossings": 75,
+    "labelled": 295598081822804246724487760690994952,
+    "correction": 1419998608055312684,
+    "divisor": 4,
+    "shapes": 73899520455701062036121592186576909
+  }
+]

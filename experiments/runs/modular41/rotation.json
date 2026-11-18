@@ -1,0 +1,397 @@
+{
+  "object": "A005315, ordered pairs, fixed 2n labelled boundary points",
+  "n39_residues": {
+    "2": 0,
+    "3": 1,
+    "13": 3
+  },
+  "n39_mod78": 16,
+  "face_transfer": [
+    {
+      "m": 1,
+      "connected": 1,
+      "sum_even_upper": 1,
+      "sum_even_lower": 1,
+      "sum_product": 1,
+      "fixed": 2,
+      "peak_states": 1
+    },
+    {
+      "m": 2,
+      "connected": 2,
+      "sum_even_upper": 3,
+      "sum_even_lower": 3,
+      "sum_product": 4,
+      "fixed": 10,
+      "peak_states": 3
+    },
+    {
+      "m": 3,
+      "connected": 8,
+      "sum_even_upper": 16,
+      "sum_even_lower": 16,
+      "sum_product": 30,
+      "fixed": 68,
+      "peak_states": 6
+    },
+    {
+      "m": 4,
+      "connected": 42,
+      "sum_even_upper": 105,
+      "sum_even_lower": 105,
+      "sum_product": 248,
+      "fixed": 554,
+      "peak_states": 15
+    },
+    {
+      "m": 5,
+      "connected": 262,
+      "sum_even_upper": 786,
+      "sum_even_lower": 786,
+      "sum_product": 2250,
+      "fixed": 4932,
+      "peak_states": 29
+    },
+    {
+      "m": 6,
+      "connected": 1828,
+      "sum_even_upper": 6398,
+      "sum_even_lower": 6398,
+      "sum_product": 21504,
+      "fixed": 46564,
+      "peak_states": 67
+    },
+    {
+      "m": 7,
+      "connected": 13820,
+      "sum_even_upper": 55280,
+      "sum_even_lower": 55280,
+      "sum_product": 213402,
+      "fixed": 457676,
+      "peak_states": 160
+    },
+    {
+      "m": 8,
+      "connected": 110954,
+      "sum_even_upper": 499293,
+      "sum_even_lower": 499293,
+      "sum_product": 2176816,
+      "fixed": 4633642,
+      "peak_states": 363
+    },
+    {
+      "m": 9,
+      "connected": 933458,
+      "sum_even_upper": 4667290,
+      "sum_even_lower": 4667290,
+      "sum_product": 22680054,
+      "fixed": 47985692,
+      "peak_states": 845
+    },
+    {
+      "m": 10,
+      "connected": 8152860,
+      "sum_even_upper": 44840730,
+      "sum_even_lower": 44840730,
+      "sum_product": 240302120,
+      "fixed": 505891820,
+      "peak_states": 1890
+    },
+    {
+      "m": 11,
+      "connected": 73424650,
+      "sum_even_upper": 440547900,
+      "sum_even_lower": 440547900,
+      "sum_product": 2581052408,
+      "fixed": 5411044784,
+      "peak_states": 4579
+    },
+    {
+      "m": 12,
+      "connected": 678390116,
+      "sum_even_upper": 4409535754,
+      "sum_even_lower": 4409535754,
+      "sum_product": 28038031680,
+      "fixed": 58571866244,
+      "peak_states": 11215
+    },
+    {
+      "m": 13,
+      "connected": 6405031050,
+      "sum_even_upper": 44835217350,
+      "sum_even_lower": 44835217350,
+      "sum_product": 307493546698,
+      "fixed": 640398992404,
+      "peak_states": 26770
+    }
+  ],
+  "direct_permutation_orbits": [
+    {
+      "m": 1,
+      "p": 3,
+      "matchings": 2,
+      "ordered_pairs": 4,
+      "connected": 2
+    },
+    {
+      "m": 1,
+      "p": 5,
+      "matchings": 2,
+      "ordered_pairs": 4,
+      "connected": 2
+    },
+    {
+      "m": 2,
+      "p": 3,
+      "matchings": 6,
+      "ordered_pairs": 36,
+      "connected": 10
+    },
+    {
+      "m": 2,
+      "p": 5,
+      "matchings": 6,
+      "ordered_pairs": 36,
+      "connected": 10
+    },
+    {
+      "m": 3,
+      "p": 3,
+      "matchings": 20,
+      "ordered_pairs": 400,
+      "connected": 68
+    },
+    {
+      "m": 3,
+      "p": 5,
+      "matchings": 20,
+      "ordered_pairs": 400,
+      "connected": 68
+    },
+    {
+      "m": 4,
+      "p": 3,
+      "matchings": 70,
+      "ordered_pairs": 4900,
+      "connected": 554
+    },
+    {
+      "m": 4,
+      "p": 5,
+      "matchings": 70,
+      "ordered_pairs": 4900,
+      "connected": 554
+    },
+    {
+      "m": 5,
+      "p": 3,
+      "matchings": 252,
+      "ordered_pairs": 63504,
+      "connected": 4932
+    },
+    {
+      "m": 5,
+      "p": 5,
+      "matchings": 252,
+      "ordered_pairs": 63504,
+      "connected": 4932
+    },
+    {
+      "m": 3,
+      "p": 13,
+      "matchings": 20,
+      "ordered_pairs": 400,
+      "connected": 68
+    }
+  ],
+  "published_prime_checks": [
+    {
+      "n": 3,
+      "p": 3,
+      "residue": 2
+    },
+    {
+      "n": 5,
+      "p": 5,
+      "residue": 2
+    },
+    {
+      "n": 6,
+      "p": 3,
+      "residue": 1
+    },
+    {
+      "n": 7,
+      "p": 7,
+      "residue": 2
+    },
+    {
+      "n": 9,
+      "p": 3,
+      "residue": 2
+    },
+    {
+      "n": 10,
+      "p": 5,
+      "residue": 0
+    },
+    {
+      "n": 11,
+      "p": 11,
+      "residue": 2
+    },
+    {
+      "n": 12,
+      "p": 3,
+      "residue": 2
+    },
+    {
+      "n": 13,
+      "p": 13,
+      "residue": 2
+    },
+    {
+      "n": 14,
+      "p": 7,
+      "residue": 3
+    },
+    {
+      "n": 15,
+      "p": 3,
+      "residue": 0
+    },
+    {
+      "n": 15,
+      "p": 5,
+      "residue": 3
+    },
+    {
+      "n": 17,
+      "p": 17,
+      "residue": 2
+    },
+    {
+      "n": 18,
+      "p": 3,
+      "residue": 1
+    },
+    {
+      "n": 19,
+      "p": 19,
+      "residue": 2
+    },
+    {
+      "n": 20,
+      "p": 5,
+      "residue": 4
+    },
+    {
+      "n": 21,
+      "p": 3,
+      "residue": 2
+    },
+    {
+      "n": 21,
+      "p": 7,
+      "residue": 5
+    },
+    {
+      "n": 22,
+      "p": 11,
+      "residue": 10
+    },
+    {
+      "n": 23,
+      "p": 23,
+      "residue": 2
+    },
+    {
+      "n": 24,
+      "p": 3,
+      "residue": 1
+    },
+    {
+      "n": 25,
+      "p": 5,
+      "residue": 2
+    },
+    {
+      "n": 26,
+      "p": 13,
+      "residue": 10
+    },
+    {
+      "n": 27,
+      "p": 3,
+      "residue": 2
+    },
+    {
+      "n": 28,
+      "p": 7,
+      "residue": 1
+    },
+    {
+      "n": 29,
+      "p": 29,
+      "residue": 2
+    },
+    {
+      "n": 30,
+      "p": 3,
+      "residue": 2
+    },
+    {
+      "n": 30,
+      "p": 5,
+      "residue": 4
+    },
+    {
+      "n": 31,
+      "p": 31,
+      "residue": 2
+    },
+    {
+      "n": 33,
+      "p": 3,
+      "residue": 2
+    },
+    {
+      "n": 33,
+      "p": 11,
+      "residue": 2
+    },
+    {
+      "n": 34,
+      "p": 17,
+      "residue": 10
+    },
+    {
+      "n": 35,
+      "p": 5,
+      "residue": 1
+    },
+    {
+      "n": 35,
+      "p": 7,
+      "residue": 4
+    },
+    {
+      "n": 36,
+      "p": 3,
+      "residue": 2
+    },
+    {
+      "n": 37,
+      "p": 37,
+      "residue": 2
+    },
+    {
+      "n": 38,
+      "p": 19,
+      "residue": 10
+    }
+  ],
+  "code_sha256": "9b641fe97edcfadfd5920482a3cf2c02de02a0a28efc83e7bee10df2304faf65",
+  "known_table_sha256": "d007e8718fd36583779ed67ea6b07400e50e749a980b1c837e396e84e94a0673",
+  "python": "3.13.5"
+}

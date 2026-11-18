@@ -1,0 +1,227 @@
+{
+  "rows": [
+    {
+      "n": 3,
+      "P": 2,
+      "D_lower": 2,
+      "E": 2,
+      "Q": 0,
+      "P_mod8": 2
+    },
+    {
+      "n": 5,
+      "P": 12,
+      "D_lower": 4,
+      "E": 8,
+      "Q": 0,
+      "P_mod8": 4
+    },
+    {
+      "n": 7,
+      "P": 86,
+      "D_lower": 10,
+      "E": 36,
+      "Q": 0,
+      "P_mod8": 6
+    },
+    {
+      "n": 9,
+      "P": 710,
+      "D_lower": 26,
+      "E": 170,
+      "Q": 2,
+      "P_mod8": 6
+    },
+    {
+      "n": 11,
+      "P": 6316,
+      "D_lower": 72,
+      "E": 826,
+      "Q": 0,
+      "P_mod8": 4
+    },
+    {
+      "n": 13,
+      "P": 59204,
+      "D_lower": 204,
+      "E": 4084,
+      "Q": 0,
+      "P_mod8": 4
+    },
+    {
+      "n": 15,
+      "P": 576018,
+      "D_lower": 598,
+      "E": 20452,
+      "Q": 0,
+      "P_mod8": 2
+    },
+    {
+      "n": 17,
+      "P": 5764430,
+      "D_lower": 1778,
+      "E": 103374,
+      "Q": 10,
+      "P_mod8": 6
+    },
+    {
+      "n": 19,
+      "P": 58970568,
+      "D_lower": 5396,
+      "E": 526298,
+      "Q": 0,
+      "P_mod8": 0
+    },
+    {
+      "n": 21,
+      "P": 614037754,
+      "D_lower": 16534,
+      "E": 2694816,
+      "Q": 0,
+      "P_mod8": 2
+    },
+    {
+      "n": 23,
+      "P": 6487276640,
+      "D_lower": 51368,
+      "E": 13862948,
+      "Q": 0,
+      "P_mod8": 0
+    },
+    {
+      "n": 25,
+      "P": 69375045522,
+      "D_lower": 160698,
+      "E": 71591504,
+      "Q": 70,
+      "P_mod8": 2
+    },
+    {
+      "n": 27,
+      "P": 749582142524,
+      "D_lower": 507744,
+      "E": 370926926,
+      "Q": 0,
+      "P_mod8": 4
+    },
+    {
+      "n": 29,
+      "P": 8171105982948,
+      "D_lower": 1612668,
+      "E": 1927211540,
+      "Q": 0,
+      "P_mod8": 4
+    },
+    {
+      "n": 31,
+      "P": 89760045001718,
+      "D_lower": 5160558,
+      "E": 10037423838,
+      "Q": 0,
+      "P_mod8": 6
+    },
+    {
+      "n": 33,
+      "P": 992691750273066,
+      "D_lower": 16581290,
+      "E": 52388267330,
+      "Q": 568,
+      "P_mod8": 2
+    },
+    {
+      "n": 35,
+      "P": 11044223760599948,
+      "D_lower": 53589132,
+      "E": 273940480428,
+      "Q": 0,
+      "P_mod8": 4
+    },
+    {
+      "n": 37,
+      "P": 123526942005010542,
+      "D_lower": 173762358,
+      "E": 1434822175554,
+      "Q": 0,
+      "P_mod8": 6
+    },
+    {
+      "n": 39,
+      "P": 1388207765065576684,
+      "D_lower": 566068240,
+      "E": 7526335601910,
+      "Q": 0,
+      "P_mod8": 4
+    }
+  ],
+  "D39": 4790198939133878624,
+  "M39_mod8": 0,
+  "M39_mod312": 16,
+  "E39_branch20_by_direct_enumeration": true,
+  "E39_single_run_also_checked": true,
+  "E39_from_branches": [
+    43171001344,
+    37895201335,
+    32555370198,
+    30992062660,
+    30511475940,
+    30866013937,
+    31990337067,
+    33857888417,
+    36584107359,
+    40361403594,
+    45583551235,
+    52831053192,
+    63331003072,
+    78925089536,
+    104752844782,
+    148540582178,
+    252263703623,
+    585892463256,
+    3070378886022,
+    1434822175554,
+    345955214494,
+    185560878593,
+    117706474301,
+    87351088507,
+    68033882634,
+    56066765367,
+    47656687919,
+    41770774475,
+    37451449301,
+    34323444385,
+    32086666055,
+    30613887973,
+    29862957110,
+    29889659817,
+    31015814055,
+    34088316845,
+    41756135446,
+    89039290332
+  ],
+  "sha256": {
+    "scripts/residue42/check.py": "ea4fc105eb71e19331f5d4b67d57da97b76b477ec5427df1242be1c105d40124",
+    "scripts/residue42/dual.cpp": "062bfafe76e939bca67cfc323856b118977af74ffa9caebfd088cdf655f6726f",
+    "scripts/residue42/residual.hpp": "deabefe6d32bbcb5619c28f10baa48e7a10f4bc50f10ecbaf0e769059e0986f9",
+    "scripts/residue42/chain_key.hpp": "1d59b0cd58032c1950b9d6b7ea8339c1b1098b76c5fd2eee2cd9d0fbf09b3201",
+    "scripts/residue42/compact_cache.hpp": "74feb10fa3c324fc4c6c034e4b8f6caf63e3fdb558806ef04d57c4702a86f72b",
+    "scripts/residue42/quarter.cpp": "7b89e9b6d99f7281ee8b2312e25814650e88263de674c32973ff442e2087977c",
+    "scripts/residue42/quarter_interval.cpp": "0c56a543a11b9ec7048406414a61ac09beab7a750f55fc1757c34b6660790b4d",
+    "scripts/residue42/verify.py": "3f194cc376a780f7800504bfdaebf1cf9929c25cbf50a24b2c1fdbd573dbbe0c",
+    "experiments/runs/residue42/naive-through-13.jsonl": "d14b2def1a8dfdbcabfd1fa186d43fd1ca19e40a2c4e0470261f2b474ef8191f",
+    "experiments/runs/residue42/involutions.jsonl": "0ccfae563a6618b3eb6f0faa57d690de4e71438a55f86938ff18e99333d441f6",
+    "experiments/runs/residue42/involutions-large.jsonl": "9cc6b950c537ceada34d02c2de30ddaf59589174fc7fda167dc00260b384d75e",
+    "experiments/runs/residue42/chain-key.jsonl": "157dda2fe51595ba944a019df63ae2f8f53ba5d3b3687237cd19eca44656e639",
+    "experiments/runs/residue42/residual-n31-n33.jsonl": "dc190ab31aaf79ac4c67ab061b7c7059db38fb7c873789fa7c2e571d2dc383c4",
+    "experiments/runs/residue42/residual-n35.jsonl": "81a89797523c2bf61d2eb079260fcb4e245b19be038204412e3545ca1cd1c093",
+    "experiments/runs/residue42/e37.jsonl": "0ce590f452960960368311ecf66839d0701ea148e27abaf6e4d8fdb6e09a5fc4",
+    "experiments/runs/residue42/e39-head.jsonl": "5e1069b3b634183f09e34db56294fd2ccf2356baaa562abe9806a0fa46c6b7db",
+    "experiments/runs/residue42/e39-middle.jsonl": "4e9343be47121a6e0f01362b4d73ff3b8f3131aaf4aba4b2f39354e24bc26fe8",
+    "experiments/runs/residue42/e39-tail-independent.jsonl": "6b25810cc3fdc679c2ad2e9a2322e32b76b6800e0ec38ac7924ce0f6ead9fad9",
+    "experiments/runs/residue42/quarter.jsonl": "1f6dfd5dfd53d0fd645636b8bef3aa15c4424fb85b283c801692feef0fb8a36d",
+    "experiments/runs/residue42/quarter-large.jsonl": "c51665ab8ae5d46f0e8b20264137f3f20da4cd60b6057c4bc6ce0003df53557c",
+    "experiments/runs/residue42/quarter65.jsonl": "b307a064ce83018782a322d668860cd9fbe0a12baba37f3ce0be7ad61affe183",
+    "experiments/runs/residue42/quarter-interval.jsonl": "e857c0bbb534fe8c71ad1b68f87f02073779ed7ef48c97572fb774ff708b4b2e",
+    "experiments/runs/residue42/e39.jsonl": "62c2b0ec06db8dbadf2e89e5b162ba2157c80316e315faf8269ee9a44c984b09",
+    "references/oeis/2026-11-15/b005315.txt": "f4a7b3ca6fc1ac097fa2f6aaef2d8988974984c97a52917a85735d15e048b3f9"
+  }
+}

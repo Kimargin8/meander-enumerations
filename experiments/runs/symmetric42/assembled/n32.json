@@ -1,0 +1,173 @@
+{
+  "n": 32,
+  "D": 985100914782086,
+  "K_index": 31,
+  "K": 492550457391043,
+  "by_height": {
+    "0": {
+      "value": 5969806669034,
+      "results": [
+        "sectors/n32/h00.json"
+      ],
+      "file_sha256": [
+        "37c98ad83069c6e35586b0c5368ad482f9e06a0161494aacc2f190af0d4603fd"
+      ]
+    },
+    "2": {
+      "value": 78746056324767,
+      "results": [
+        "sectors/n32/h02.json"
+      ],
+      "file_sha256": [
+        "af3b231517cd19220e7f0a78eb0d1351090b5724a096f53cad8dde8b89e7c665"
+      ]
+    },
+    "4": {
+      "value": 201700723060936,
+      "results": [
+        "sectors/n32/h04.json"
+      ],
+      "file_sha256": [
+        "5e0e5094a084b3a2f143f7c4df00083f25ffe7eff319881b0bb71d1226104390"
+      ]
+    },
+    "6": {
+      "value": 262556041179962,
+      "results": [
+        "sectors/n32/h06.json"
+      ],
+      "file_sha256": [
+        "97cde2fb41e3292115327fa469c44a330874871ab0a1f3e80806e4aca07f629c"
+      ]
+    },
+    "8": {
+      "value": 222321486261549,
+      "results": [
+        "sectors/n32/h08.json"
+      ],
+      "file_sha256": [
+        "5b8b2ef08804fa3bbba4592eaf53c80042a5c1371f4c390f631969e4b5e16eb0"
+      ]
+    },
+    "10": {
+      "value": 132820933407970,
+      "results": [
+        "sectors/n32/h10.json"
+      ],
+      "file_sha256": [
+        "1b7f43090218c75851cc2b69d2affe4678c0d85684dd77ab9f94a730dd181eac"
+      ]
+    },
+    "12": {
+      "value": 57650381280332,
+      "results": [
+        "sectors/n32/h12.json"
+      ],
+      "file_sha256": [
+        "85db994342b6b78018f485938687bc7a0a2e7f67ee5f573aed768542fe6193c1"
+      ]
+    },
+    "14": {
+      "value": 18312495318055,
+      "results": [
+        "sectors/n32/h14.json"
+      ],
+      "file_sha256": [
+        "500a6e21d424660e27c8a29f68515310de42bb1f0669d740203e9993dd100f7f"
+      ]
+    },
+    "16": {
+      "value": 4233699628160,
+      "results": [
+        "sectors/n32/h16.json"
+      ],
+      "file_sha256": [
+        "ea63d88314a3b4123b1b0058daf9c70a4fd5226f7b9fea1ca073f7063395f986"
+      ]
+    },
+    "18": {
+      "value": 701460116022,
+      "results": [
+        "sectors/n32/h18.json"
+      ],
+      "file_sha256": [
+        "94e1c35f21e8dd3cd935f0145250b3cc250b533789166c0ed42d16c603d96656"
+      ]
+    },
+    "20": {
+      "value": 81188906142,
+      "results": [
+        "sectors/n32/h20.json"
+      ],
+      "file_sha256": [
+        "fe066bf04842e63bdc48de786582ad8c1219d509d8095d89a6504206717e181f"
+      ]
+    },
+    "22": {
+      "value": 6320312385,
+      "results": [
+        "sectors/n32/h22.json"
+      ],
+      "file_sha256": [
+        "eb58e7ac287b87ad1a42f8b21798a268d6d00f8bbc9caea810a51e1d8f7b6291"
+      ]
+    },
+    "24": {
+      "value": 313100745,
+      "results": [
+        "sectors/n32/h24.json"
+      ],
+      "file_sha256": [
+        "eecca7e0f40c67a6ea2931eb9497e197695e09aa5f6462840f5cc44fee8d514f"
+      ]
+    },
+    "26": {
+      "value": 9080524,
+      "results": [
+        "sectors/n32/h26.json"
+      ],
+      "file_sha256": [
+        "e42efe5f6f8f2168288486afc256a28d3daa410c8f68b5d26811245e4629de87"
+      ]
+    },
+    "28": {
+      "value": 134706,
+      "results": [
+        "sectors/n32/h28.json"
+      ],
+      "file_sha256": [
+        "9ecd7b67809f7e1ce6ae0e2200dad64c9d02c2c3f181d9c4d0cf57e17d354d9f"
+      ]
+    },
+    "30": {
+      "value": 796,
+      "results": [
+        "sectors/n32/h30.json"
+      ],
+      "file_sha256": [
+        "72299b17e349059a3b204ce97594407b3c7de1d423a68520d267c19d8aa39628"
+      ]
+    },
+    "32": {
+      "value": 1,
+      "results": [
+        "sectors/n32/h32.json"
+      ],
+      "file_sha256": [
+        "c881f60933e5bd5b1b37bcfa2d7bb69be575935f15fe3cbf53cddc46b8707a35"
+      ]
+    }
+  },
+  "independent_queue_deficits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "even_h0_matches_M": true,
+  "all_sectors_prior_independent_files": [],
+  "source_sha256": "fa38235a51829fd46dc8a5444794452db6d4a68308df256872c282c13383a188"
+}

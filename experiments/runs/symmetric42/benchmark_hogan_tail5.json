@@ -1,0 +1,128 @@
+{
+  "source_url": "https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/research/matrixMeanders/axis_transfer.cpp",
+  "published_source_sha256": "47592b5f797471f1ec8c1ba1d271786998a2cc183700383576b33792b5b8e083",
+  "fold_sha256": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "physical_host": "shared with other local research runs",
+  "cpu_affinity": 16,
+  "threads": 1,
+  "tail_layers": 5,
+  "data_limit_mib": 218,
+  "limit_seconds": 150,
+  "run_order": "published, fold, fold, published at each p",
+  "records": [
+    {
+      "p": 20,
+      "mode": "published",
+      "status": "exact",
+      "K": 924521718,
+      "kernel_seconds": 0.420396,
+      "wall_seconds": 0.43439201603177935,
+      "peak_RSS_KiB": 29528
+    },
+    {
+      "p": 20,
+      "mode": "fold",
+      "status": "exact",
+      "K": 924521718,
+      "kernel_seconds": 0.045504658,
+      "wall_seconds": 0.05202300095697865,
+      "peak_RSS_KiB": 11900
+    },
+    {
+      "p": 20,
+      "mode": "fold",
+      "status": "exact",
+      "K": 924521718,
+      "kernel_seconds": 0.050983734,
+      "wall_seconds": 0.057786796998698264,
+      "peak_RSS_KiB": 11920
+    },
+    {
+      "p": 20,
+      "mode": "published",
+      "status": "exact",
+      "K": 924521718,
+      "kernel_seconds": 0.391551,
+      "wall_seconds": 0.3999123540124856,
+      "peak_RSS_KiB": 29524
+    },
+    {
+      "p": 22,
+      "mode": "published",
+      "status": "exact",
+      "K": 9962795554,
+      "kernel_seconds": 2.06789,
+      "wall_seconds": 2.077509073948022,
+      "peak_RSS_KiB": 32604
+    },
+    {
+      "p": 22,
+      "mode": "fold",
+      "status": "exact",
+      "K": 9962795554,
+      "kernel_seconds": 0.12250923200000001,
+      "wall_seconds": 0.12864593096310273,
+      "peak_RSS_KiB": 11920
+    },
+    {
+      "p": 22,
+      "mode": "fold",
+      "status": "exact",
+      "K": 9962795554,
+      "kernel_seconds": 0.120693188,
+      "wall_seconds": 0.12769930600188673,
+      "peak_RSS_KiB": 11920
+    },
+    {
+      "p": 22,
+      "mode": "published",
+      "status": "exact",
+      "K": 9962795554,
+      "kernel_seconds": 1.93465,
+      "wall_seconds": 1.9417498639668338,
+      "peak_RSS_KiB": 32600
+    },
+    {
+      "p": 24,
+      "mode": "published",
+      "status": "exact",
+      "K": 108498959945,
+      "kernel_seconds": 14.5143,
+      "wall_seconds": 14.521066034969408,
+      "peak_RSS_KiB": 44888
+    },
+    {
+      "p": 24,
+      "mode": "fold",
+      "status": "exact",
+      "K": 108498959945,
+      "kernel_seconds": 0.353994373,
+      "wall_seconds": 0.3594188240240328,
+      "peak_RSS_KiB": 11936
+    },
+    {
+      "p": 24,
+      "mode": "fold",
+      "status": "exact",
+      "K": 108498959945,
+      "kernel_seconds": 0.359043377,
+      "wall_seconds": 0.36597835598513484,
+      "peak_RSS_KiB": 11940
+    },
+    {
+      "p": 24,
+      "mode": "published",
+      "status": "exact",
+      "K": 108498959945,
+      "kernel_seconds": 14.669,
+      "wall_seconds": 14.676551133044995,
+      "peak_RSS_KiB": 44888
+    }
+  ],
+  "median_wall_time_published_over_fold": {
+    "20": 7.597722476285945,
+    "22": 15.679085695139282,
+    "24": 40.250524778226186
+  }
+}

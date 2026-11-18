@@ -1,0 +1,20 @@
+{
+  "start_utc": "2026-11-18T10:23:21.565332+00:00",
+  "last_utc": "2026-11-18T12:48:33.310094+00:00",
+  "interval_seconds": 15,
+  "samples": 569,
+  "observed_max_combined_resident_KiB": 8764440,
+  "max_process_VmHWM_KiB": {
+    "n46h04": 3370676,
+    "n46h06": 3345000,
+    "n46h16": 2659632,
+    "n46h12": 1692936,
+    "n46h08": 1696820,
+    "n46h02": 3369616,
+    "n46h14": 1669608,
+    "n46h10": 1702752
+  },
+  "observed_max_active_layer_bytes": 58822610306,
+  "observed_max_all_retained_layer_bytes": 72035404184,
+  "observed_minimum_backing_volume_free_bytes": 21632450560
+}

@@ -1,0 +1,27 @@
+# Meander sequence tables
+
+Iaroslav Argunov · 18 November 2026
+
+The four b-files below contain consecutive pairs of decimal integers. The first integer is the OEIS index and the second is the exact count. The other tables have column headings and may contain selected indices. The file [index.json](index.json) lists the ranges and SHA-256 checksums of the b-files.
+
+| Sequence | Exact counts in this release | Table |
+|---|---|---|
+| [A006663](https://oeis.org/A006663), projective meanders | $P(n)$ for $0\le n\le47$. The order is the number of pairs among $2n$ labelled sites. | [b006663.txt](b006663.txt) |
+| [A223096](https://oeis.org/A223096), symmetric open shapes | $K(k)$ for $0\le k\le45$. Index $k$ counts shapes with $2k+1$ crossings. | [b223096.txt](b223096.txt) |
+| [A077055](https://oeis.org/A077055), all open shapes | Indices 0–58 cover physical crossing counts 1–59. Further exact counts are available at every odd crossing count through 75. | [b077055.txt](b077055.txt) · [Counts by crossing number](A077055-crossings.txt) |
+| [A400429](https://oeis.org/A400429), semi-meanders by crossings and winding | Flattened indices 2–509. The separate cell table identifies 2,646 certified entries by row, column and winding deficit. | [b400429.txt](b400429.txt) · [Certified cells](A400429-certified-cells.txt) |
+
+## Reading the supporting tables
+
+* **Projective meanders.** A fixed cut and the minimum over all rotated cuts give two different height statistics. A range of heights in one row represents their combined contribution. Beyond order 47 some individual sectors are known. The rotation tables give exact fixed counts and sector congruences at orders 44–47. [Height sectors](A006663-height-sectors.txt) · [Rotation classes](A006663-rotation-classes.txt) · [Sector congruences](A006663-sector-congruences.txt) · [Self-dual classes](A006663-self-dual-classes.txt)
+* **Symmetric shapes.** At disk order $n=k+1$ and $k\ge1$, the labelled marked-path count is $D(n)=2K(k)$. The one-crossing base case is $K(0)=1$. The terminal table gives the left and right weights used to reconstruct a labelled sector. [Height sectors](A223096-height-sectors.txt) · [Terminal weights](A223096-terminal-weights.txt) · [Leading coefficients by height deficit](A223096-leading-coefficients.txt)
+* **Ordinary closed meanders.** For A005315 the table records remainders at orders 39, 41, 43 and 45. For example, $M_{39}\equiv16\pmod{312}$. The open-shape remainder table uses physical crossing count $L$ and OEIS index $L-1$. [A005315](https://oeis.org/A005315) · [Closed residues](A005315-congruences.txt) · [Rotational fixed counts](A005315-rotation-moments.txt) · [Open-shape residues](A077055-congruences.txt)
+* **Semi-meander diagonals.** For row $n$ and deficit $j$, the column is $\lfloor n/2\rfloor-j+1$. The JSON file specifies the numerator and denominator of each certified generating function, with coefficients in ascending powers of the crossing variable. The separate first-column table reproduces published A005315 values with their original indices. [Rational functions](A400429-rational-functions.json) · [First-column values](A400429-closed-boundary.txt)
+
+## Sources and attribution
+
+The comparison of public tables is dated 18 November 2026. Lando and Zvonkin tabulated projective meanders through order 15. The OEIS credits Andrew Howroyd for the extension through 22. For symmetric shapes, the OEIS table ended at index 22 and Hunter Hogan's public table reached 32. Argunov's enumeration agrees on the overlap and extends through 45. [Lando and Zvonkin](https://www.labri.fr/perso/zvonkin/Research/proj-mean.pdf) · [A006663](https://oeis.org/A006663) · [Hogan's symmetric counts](https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/mapFolding/oeis/terms/files/A223/b223096.txt)
+
+Hogan's open-shape table reached 59 physical crossings. Legendre's identity and the published symmetric counts also give the odd lengths through 65. For A400429, flattened indices 508 and 509 were already public in *mapFolding* 0.40.1. Zhang and Ma proved the third and fourth fixed-deficit formulas. For deficits 5 through 11 the candidate functions are Hogan's and the certificates in this release establish the formulas for all admissible indices. [Hogan's open counts](https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/mapFolding/oeis/terms/files/A077/b077055.txt) · [Legendre, Proposition 6.1](https://ajc.maths.uq.edu.au/pdf/58/ajc_v58_p275.pdf) · [Zhang and Ma](https://oeis.org/A400429/a400429.pdf) · [Hogan's formulas](https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/mapFolding/oeis/A400429.py)
+
+Reference data transcribed from *The On-Line Encyclopedia of Integer Sequences* are credited to the OEIS Foundation Inc. and the individual sequence contributors under CC BY-SA 4.0. The tables above identify the matching entries. The first-column table reindexes A005315 by crossing number. Hogan's separately published comparison tables and formula material are distributed by *mapFolding* under CC BY-NC 4.0. These notices identify the terms for the respective source materials. [The On-Line Encyclopedia of Integer Sequences](https://oeis.org/) · [OEIS terms](https://oeis.org/wiki/The_OEIS_End-User_License_Agreement) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · [mapFolding 0.40.1](https://pypi.org/project/mapFolding/0.40.1/) · [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)

@@ -1,0 +1,5 @@
+# ordinary_order modulus least_nonnegative_residue
+39 312 16
+41 328 84
+43 344 260
+45 360 72

@@ -1,0 +1,27 @@
+[
+  {
+    "n": 3,
+    "distinct_cut_sets": 4,
+    "marked_diagrams": 8
+  },
+  {
+    "n": 5,
+    "distinct_cut_sets": 26,
+    "marked_diagrams": 92
+  },
+  {
+    "n": 7,
+    "distinct_cut_sets": 120,
+    "marked_diagrams": 884
+  },
+  {
+    "n": 9,
+    "distinct_cut_sets": 502,
+    "marked_diagrams": 8120
+  },
+  {
+    "n": 11,
+    "distinct_cut_sets": 2036,
+    "marked_diagrams": 74076
+  }
+]

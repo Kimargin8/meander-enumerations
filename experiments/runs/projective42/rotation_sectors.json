@@ -1,0 +1,99 @@
+{
+  "method": "Cyclic subgroup of prime order acting on labelled diagrams within each minimum class",
+  "rotation_totals_source": "experiments/runs/cyclic_projective42/checked.json",
+  "rotation_totals_sha256": "ee5c13649997de1e79cd1f27bec8fb09a42e43eb82ca53a81fc3532b35d67c42",
+  "code_sha256": "497c407d903398972dc1fa973344131740307b1f09d681794d2d947b982eb29e",
+  "rows": [
+    {
+      "n": 44,
+      "prime": 11,
+      "fundamental_words": 70,
+      "fixed_total": 24,
+      "fixed_by_minimum": {
+        "2": 24
+      },
+      "P_mod_2n": 24,
+      "rotation_total_inputs": [
+        {
+          "d": 11,
+          "phi": 10,
+          "fixed": 24
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "prime": 5,
+      "fundamental_words": 48620,
+      "fixed_total": 7100,
+      "fixed_by_minimum": {
+        "1": 3068,
+        "3": 3312,
+        "5": 684,
+        "7": 36
+      },
+      "P_mod_2n": 0,
+      "rotation_total_inputs": [
+        {
+          "d": 3,
+          "phi": 2,
+          "fixed": 9216288
+        },
+        {
+          "d": 5,
+          "phi": 4,
+          "fixed": 7100
+        },
+        {
+          "d": 9,
+          "phi": 6,
+          "fixed": 72
+        },
+        {
+          "d": 15,
+          "phi": 8,
+          "fixed": 8
+        },
+        {
+          "d": 45,
+          "phi": 24,
+          "fixed": 2
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "prime": 23,
+      "fundamental_words": 6,
+      "fixed_total": 4,
+      "fixed_by_minimum": {
+        "2": 4
+      },
+      "P_mod_2n": 4,
+      "rotation_total_inputs": [
+        {
+          "d": 23,
+          "phi": 22,
+          "fixed": 4
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "prime": 47,
+      "fundamental_words": 2,
+      "fixed_total": 2,
+      "fixed_by_minimum": {
+        "1": 2
+      },
+      "P_mod_2n": 2,
+      "rotation_total_inputs": [
+        {
+          "d": 47,
+          "phi": 46,
+          "fixed": 2
+        }
+      ]
+    }
+  ]
+}

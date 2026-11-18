@@ -1,0 +1,60 @@
+{
+  "n": 45,
+  "h": 3,
+  "source_N": 46,
+  "source_H": 4,
+  "j": 21,
+  "t": 44,
+  "left": 228950999982259520586,
+  "right": 391125938648598213782,
+  "value": 620076938630857734368,
+  "status": "exact",
+  "input_states": 14,
+  "layer_digest64": 7600764821197727997,
+  "attempted_moves_through_layer": 18295578434,
+  "compared_methods": [],
+  "peak_states_through_layer": 977550808,
+  "layer_bytes_read_and_written": 168321843818,
+  "max_two_layers_bytes": 17749274261,
+  "process_peak_KiB_this_invocation": 7936,
+  "wall_seconds_this_invocation": 0.0,
+  "resumed_from_layer": 43,
+  "driver_sha256": "8339735f22d33b53a04608ff22118f424bc7f97bbaffbbfbd687088e1c1885ee",
+  "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": {
+    "solver": "cc6c371ee0da59ca854d94c536c3ac2c755866c75603e39c71d8429a23cf0915",
+    "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+  },
+  "layer": {
+    "size": 288,
+    "sha256": "d9dc70c887d1f89e54497c60abe7c2591801d53f6b41bf61dd359e975886aa90",
+    "embedded": true,
+    "encoding": "zlib+base64",
+    "data": "eNrTZmaAAE4wycJ45XfXnHX/nk37wcMFkWCctXHrlIYJ+1+fkISo4WB8s3Xaq/kLF+zfJqXLAtXOBFU87eXG7Vfmzvu9WQusWICD4evs6fefXPx375w22EABBoad31a/+PDs5IGT8hA1LAynT+4/0j1v8/flPPosyO5R4GBsPvfr18Uj7b87pJgg2plOdazt2Lju2qqXEmADFRgYL+9oaP/z/eK2mUoQXSyMu+e3fG9p3/vgAachzINgxQYMTFOO3blwreXqol4hsGIDDqY/rdcW9X+Y9v6UIESEhWlK69ZpXy+8WNzPAQA7/GE5"
+  },
+  "generator_sha256": "34d304220a321e15dc97d374fd4b45e747ccb418433a694269eb2f7cb002567a",
+  "generator_sources": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574",
+    "narrow.cpp": "02a0a539b7be243573eb6d22c1c4bba6bb069029d00dde9f3691a267f3c5be92"
+  },
+  "single_output_group": true,
+  "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+  },
+  "utc": "2026-11-18T11:46:50.334446+00:00"
+}

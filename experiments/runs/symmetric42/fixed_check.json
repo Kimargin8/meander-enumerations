@@ -1,0 +1,338 @@
+{
+  "0": {
+    "period": 1,
+    "degree": 0,
+    "numerator_degree": 1,
+    "denominator_degree": 1,
+    "numerator_mod_cyclotomic": {
+      "1": [
+        1
+      ]
+    },
+    "common_leading_coefficient": "1",
+    "matching_completed_sector_records": 26,
+    "recomputed_queue": false,
+    "certificate_file": "fixed0.json",
+    "certificate_sha256": "e041375de12e0ae2eebeeb96ddbdace3cc11bdd38227f716eb00d9a129d7fd3d"
+  },
+  "1": {
+    "period": 3,
+    "degree": 2,
+    "numerator_degree": 5,
+    "denominator_degree": 5,
+    "numerator_mod_cyclotomic": {
+      "1": [
+        5
+      ],
+      "3": [
+        -1
+      ]
+    },
+    "common_leading_coefficient": "5/6",
+    "matching_completed_sector_records": 26,
+    "recomputed_queue": false,
+    "certificate_file": "fixed1.json",
+    "certificate_sha256": "4f585c5b718de66509b62e09fd88e2d538ae244b71d687c7fe5ecec222cf48bd"
+  },
+  "2": {
+    "period": 15,
+    "degree": 4,
+    "numerator_degree": 15,
+    "denominator_degree": 13,
+    "numerator_mod_cyclotomic": {
+      "1": [
+        175
+      ],
+      "3": [
+        5,
+        5
+      ],
+      "5": [
+        -1,
+        0,
+        2,
+        -1
+      ]
+    },
+    "common_leading_coefficient": "35/216",
+    "matching_completed_sector_records": 26,
+    "recomputed_queue": false,
+    "certificate_file": "fixed2.json",
+    "certificate_sha256": "04fcc358f1526c90cd1d9c05fe356ddfca4cc0d65a225dee5674d1f0896b3b36"
+  },
+  "3": {
+    "period": 105,
+    "degree": 6,
+    "numerator_degree": 31,
+    "denominator_degree": 27,
+    "numerator_mod_cyclotomic": {
+      "1": [
+        46367
+      ],
+      "3": [
+        0,
+        -25
+      ],
+      "5": [
+        2,
+        4,
+        -29,
+        -20
+      ],
+      "7": [
+        5,
+        0,
+        17,
+        3,
+        10,
+        -1
+      ]
+    },
+    "common_leading_coefficient": "46367/3402000",
+    "matching_completed_sector_records": 26,
+    "recomputed_queue": false,
+    "certificate_file": "fixed3.json",
+    "certificate_sha256": "47ebdbc867e1b28c7ba7f974ec7829a5dbbdc2737b9031fe4abe5b8682b9fc99"
+  },
+  "4": {
+    "period": 315,
+    "degree": 8,
+    "numerator_degree": 53,
+    "denominator_degree": 47,
+    "numerator_mod_cyclotomic": {
+      "1": [
+        38106381
+      ],
+      "3": [
+        -375
+      ],
+      "5": [
+        -204,
+        -242,
+        -278,
+        85
+      ],
+      "7": [
+        -96,
+        -96,
+        -294,
+        -349,
+        -252,
+        -182
+      ],
+      "9": [
+        118,
+        -37,
+        261,
+        68,
+        121,
+        87
+      ]
+    },
+    "common_leading_coefficient": "12702127/20003760000",
+    "matching_completed_sector_records": 26,
+    "recomputed_queue": false,
+    "certificate_file": "fixed4.json",
+    "certificate_sha256": "bedbfc3eccdbf0bf76d10451874e5c26d3a401d79290fca711f65af1a6420cc4"
+  },
+  "5": {
+    "period": 3465,
+    "degree": 10,
+    "numerator_degree": 85,
+    "denominator_degree": 77,
+    "numerator_mod_cyclotomic": {
+      "1": [
+        350717918061
+      ],
+      "3": [
+        0,
+        5625
+      ],
+      "5": [
+        839,
+        2953,
+        3501,
+        3993
+      ],
+      "7": [
+        -9099,
+        -16296,
+        -17600,
+        -10183,
+        -1484,
+        3114
+      ],
+      "9": [
+        14088,
+        12279,
+        2035,
+        7081,
+        -2210,
+        -11907
+      ],
+      "11": [
+        3926,
+        4520,
+        11309,
+        12202,
+        16266,
+        14167,
+        12683,
+        8632,
+        4151,
+        2657
+      ]
+    },
+    "common_leading_coefficient": "16700853241/891167508000000",
+    "matching_completed_sector_records": 25,
+    "recomputed_queue": false,
+    "certificate_file": "fixed5.json",
+    "certificate_sha256": "2fc5c4a1332fd7d07a97284f149fcc1a6e8af1dc8f5b412a0a7f744ffe28445c"
+  },
+  "6": {
+    "period": 45045,
+    "degree": 12,
+    "numerator_degree": 129,
+    "denominator_degree": 119,
+    "numerator_mod_cyclotomic": {
+      "1": [
+        42422413736439081
+      ],
+      "3": [
+        84375,
+        84375
+      ],
+      "5": [
+        30771,
+        60053,
+        73205,
+        35332
+      ],
+      "7": [
+        -205678,
+        -799242,
+        -1338865,
+        -1410447,
+        -971644,
+        -340820
+      ],
+      "9": [
+        5002308,
+        2803689,
+        -710520,
+        1114383,
+        -2447973,
+        -4859469
+      ],
+      "11": [
+        827993,
+        2788238,
+        5226691,
+        7402045,
+        8592466,
+        8446822,
+        6991316,
+        4699866,
+        2296717,
+        538998
+      ],
+      "13": [
+        -2840692,
+        -4735457,
+        -5106548,
+        -4041215,
+        -1592472,
+        1480363,
+        4667514,
+        7060147,
+        8263176,
+        7882449,
+        6081789,
+        3243113
+      ]
+    },
+    "common_leading_coefficient": "523733502919001/1373770360282320000000",
+    "matching_completed_sector_records": 25,
+    "recomputed_queue": false,
+    "certificate_file": "fixed6.json",
+    "certificate_sha256": "063a9a4f15c19b5a564a1504fab867393106b41355a578a8e176a5a21f62726a"
+  },
+  "7": {
+    "period": 45045,
+    "degree": 14,
+    "numerator_degree": 181,
+    "denominator_degree": 169,
+    "numerator_mod_cyclotomic": {
+      "1": [
+        5168374039049208674085
+      ],
+      "3": [
+        0,
+        -6328125
+      ],
+      "5": [
+        1178046,
+        201777,
+        -764529,
+        -1237719
+      ],
+      "7": [
+        -9340581,
+        -10924285,
+        -3754682,
+        6968290,
+        13054976,
+        9930280
+      ],
+      "9": [
+        361525588,
+        -65446608,
+        -461827514,
+        -280532491,
+        -587334846,
+        -619322017
+      ],
+      "11": [
+        473476072,
+        979915661,
+        1358516270,
+        1489122620,
+        1330204267,
+        932285254,
+        421618463,
+        -39582065,
+        -304955130,
+        -290175932
+      ],
+      "13": [
+        -972450629,
+        -1619413190,
+        -1793051786,
+        -1453132954,
+        -678036872,
+        355196461,
+        1409349342,
+        2243401858,
+        2665876581,
+        2580309869,
+        2006101102,
+        1074874724
+      ],
+      "15": [
+        11271698577,
+        -11909551281,
+        -11800301277,
+        1622210451,
+        -17739132681,
+        -1532664732,
+        -6288229482,
+        -21234160422
+      ]
+    },
+    "common_leading_coefficient": "16407536631902249759/2896053539133320485920000000",
+    "matching_completed_sector_records": 24,
+    "recomputed_queue": false,
+    "certificate_file": "fixed7.json",
+    "certificate_sha256": "1f152dd0b8796b517e235c3c5e2f9df369469ef7ce051ae92e315e51f4c58eb3"
+  }
+}

@@ -1,0 +1,60 @@
+\input{preamble.tex}
+\hypersetup{pdfauthor={Iaroslav Argunov},pdftitle={Congruences for closed meanders from rotations and curve interchange}}
+\begin{document}
+\paperhead{Congruences for closed meanders from rotations and curve interchange}
+\begin{abstract}
+Let \(M_n\) be the number of ordered pairs of noncrossing matchings on \(2n\) cyclically labelled sites whose union is connected. Two finite group actions determine a residue modulo \(8n\) at odd orders where the smaller fixed sets can be counted. In particular, \(M_{39}\equiv16\pmod{312}\). We give two ways to determine the projective term modulo eight, one by enumerating self-dual diagrams. The latter also characterizes exactly the odd orders admitting a projective word whose square reverses both curves.
+\end{abstract}
+Draw the two matchings in opposite hemispheres. Their common equator and their alternating circuit are the two curves of an ordinary meander. Retain the equatorial labels and the order of the hemispheres. The closed sequence in this convention is A005315. La Croix describes the symmetries of the two-curve model \cite{lacroix}. Howroyd gives a relation between reflection classes and the closed count \cite{how}. We combine the action on ordinary pairs with a second action on its projective fixed set. The accompanying exact tables give the projective count \(P_n\) and the symmetric marked count \(D_n=2K_{n-1}\) for \(n\ge2\). At the separate base case \(D_1=K_0=1\).
+
+\section{Eight symmetries of a connected pair}
+Put \(H(i)=i+n\bmod 2n\). Let \(X\) exchange the two ordinary noncrossing matchings on \(2n\) labelled sites and let \(R(i)=-1-i\bmod 2n\). For odd \(n>1\), \(L=HR\) is a reflection fixing two sites. The commuting involutions \(X,H,R\) act on ordered connected pairs. At \(n=39\) their fixed sets give
+\begin{center}\small
+\begin{tabular}{llr}\toprule
+Element & Fixed configurations & Count\\\midrule
+identity & ordinary closed diagrams & \(M_{39}\)\\
+\(X,L\) & common isolated chord, or identical matchings & 0 each\\
+\(H\) & labelled stamp foldings & \(23\,438\,785\,044\,156\,653\,184\)\\
+\(R\) & open meanders on 39 crossings & \(64\,477\,712\,119\,584\,604\)\\
+\(RX\) & semi-meanders on 39 crossings & \(600\,994\,488\,311\,709\,056\)\\
+\(HX\) & antipodal connected matchings & \(1\,388\,207\,765\,065\,576\,684\)\\
+\(LX\) & labelled symmetric open diagrams & \(4\,790\,198\,939\,133\,878\,624\)\\
+\bottomrule\end{tabular}
+\end{center}
+For \(H\), odd parity forces one diameter in each hemisphere. After quotienting, the two uncovered endpoints of the matchings are the ends of one path across the ordered levels. Reading the levels along this path gives a folding of a labelled strip, with the upper colour choosing the first end. For \(R\), reflect a half-diagram to complete it. A reflection of a connected alternating cycle through gaps fixes exactly two edges. Cutting there yields a single open meander on \(n\) sites; reflection is inverse to the cut. For \(RX\) the lower matching is determined by the upper one. The reflection edges form the fixed rainbow. For \(HX\), use \((AH)^2=A(HAH)\): a component of \(A\cup H\) with \(2r\) sites gives cycles of length \(r\) of \(AH\). The square gives a connected upper/lower pair exactly when there is one component and \(r=n\) is odd. For \(LX\) the reflection has two fixed vertices. Its edges and \(A\) form an alternating path and possibly separate cycles. The path uses the entire diagram precisely in the connected case. Projecting from one fixed vertex of the sphere gives the labelled centrally symmetric open meanders on \(2n-1\) crossings, whose number is \(2K_{n-1}\) \cite[Prop.~6.1]{legendre}. The folding and meander conventions are those of Sawada and Li \cite{folding}. The published values in the first three nonzero rows are given in A000136, A005316 and A060206 \cite{tables,hogan}.
+
+The two newly evaluated entries in the table are respectively \(4\) and \(0\) modulo eight. Summing fixed counts and dividing into orbits gives \(M_{39}\equiv0\bmod8\). By the face-count formula below, for the ordinary rotation subgroups of orders 3 and 13 the fixed counts are \(640\,398\,992\,404\) and \(68\). Orbit sizes give \(M_{39}\equiv1\bmod3\) and \(3\bmod13\). The three coprime moduli therefore give
+\[
+ \boxed{M_{39}\equiv16\pmod{312}}.
+\]
+This congruence is a check on a future exact enumeration. Applying the same two group actions at other odd orders gives the following additional entries. The residue in the second column refers to the full labelled closed count. The last column follows by adding the symmetric labelled count and dividing by four in Legendre's shape formula.
+\begin{center}\begin{tabular}{rrr}\toprule
+Order & \(M_n\bmod 8n\)&\(a(2n-1)\bmod 2n\)\\\midrule
+39 & 16 & 60\\
+41 & 84 & 43\\
+43 & 260 & 37\\
+45 & 72 & 82\\
+\bottomrule\end{tabular}\end{center}
+
+
+\section{The rotational term at odd order}
+Fix the equatorial gap immediately before label zero. In either disk the \(m\) matching arcs cut out \(m+1\) faces. Root the dual tree at the face touching the distinguished gap. Write \(e_A,o_A\) for the numbers of even- and odd-depth faces of a matching \(A\), and similarly for \(B\). Put
+\[
+  F_m=\sum_{(A,B)\text{ connected}}(e_Ao_B+o_Ae_B).
+\]
+For an odd divisor \(d>1\) of \(n\) a rotation of order \(d\) fixes exactly \(F_{n/d}\) ordinary connected pairs. Indeed, no diameter can occur, since a second rotated diameter would cross it. All chord orbits have length \(d\). Quotient either disk by this rotation to obtain a matching on \(2n/d\) sites with a marked face containing the rotation centre. Conversely the marked face determines, for each arc, its boundary interval away from the centre. Lifting these nested or disjoint intervals recovers the unique invariant matching on the original labels. A disconnected quotient cannot lift to a single component. A connected quotient is a simple loop on the sphere punctured at the two centres. Its lift is connected precisely when this loop separates the punctures, in which case it winds once up to sign. The two root faces touch through the distinguished gap. Crossing an arc changes side of the loop, so separation requires the marked faces to have opposite depth parities. This gives the formula. The cyclic group generated by a shift by two labels therefore gives
+\[
+ M_n\equiv-\sum_{1<d\mid n}\varphi(d)F_{n/d}\pmod n .
+\]
+Since \(n\) is odd, this combines with the residue modulo eight without ambiguity. The supplement includes two ways of computing the face sums, by forward transfer and by joining half-diagrams. Their entries agree through order 13 and at order 15, where \(F_{15}=78\,448\,367\,021\,148\).
+
+\input{residue_algorithm.tex}
+\begin{thebibliography}{9}\small
+\bibitem{legendre} S.~Legendre, Foldings and meanders, \emph{Australas. J. Combin.} \textbf{58} (2014), 275--291. \href{https://ajc.maths.uq.edu.au/pdf/58/ajc_v58_p275.pdf}{Article}.
+\bibitem{folding} J.~Sawada and R.~Li, Stamp foldings, semi-meanders, and open meanders: fast generation algorithms, \emph{Electron. J. Combin.} \textbf{19}(2) (2012), P43. \href{https://doi.org/10.37236/2404}{Publisher}.
+\bibitem{how} A.~Howroyd, symmetry formula for closed meanders, \href{https://oeis.org/A077460}{OEIS A077460} (2015).
+\bibitem{hogan} H.~Hogan, \href{https://pypi.org/project/mapFolding/0.40.1/}{\emph{mapFolding} 0.40.1}, 17 November 2026.
+\bibitem{lacroix} M.~A.~La Croix, \emph{Approaches to the Enumerative Theory of Meanders}, University of Waterloo (2003). \href{https://www.math.uwaterloo.ca/~malacroi/Latex/Meanders.pdf}{Thesis}.
+\bibitem{tables} OEIS Foundation, \href{https://oeis.org/A005315}{A005315}, \href{https://oeis.org/A000136}{A000136}, \href{https://oeis.org/A005316}{A005316} and \href{https://oeis.org/A060206}{A060206}.
+\end{thebibliography}
+\end{document}

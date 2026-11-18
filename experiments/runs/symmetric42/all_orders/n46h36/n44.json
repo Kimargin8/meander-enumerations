@@ -1,0 +1,53 @@
+{
+  "n": 44,
+  "h": 34,
+  "source_N": 46,
+  "source_H": 36,
+  "j": 5,
+  "t": 43,
+  "left": 185658817503,
+  "right": 29900262277,
+  "value": 215559079780,
+  "status": "exact",
+  "input_states": 74,
+  "layer_digest64": 14233359958221355530,
+  "attempted_moves_through_layer": 177904,
+  "compared_methods": [
+    "compact"
+  ],
+  "peak_states_through_layer": 1790,
+  "layer_bytes_read_and_written": 1097842,
+  "max_two_layers_bytes": 36301,
+  "process_peak_KiB_this_invocation": 5888,
+  "wall_seconds_this_invocation": 0.0,
+  "resumed_from_layer": 42,
+  "driver_sha256": "80682b0b55d5e203183f1595ef87372b2598a0266ca2590ab92b0556efc08219",
+  "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": {
+    "solver": "51e7ded25b365ed3a0869b2ab689dfa026e558150c85d45df4bef711096384df",
+    "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+  },
+  "layer": {
+    "size": 938,
+    "sha256": "198e83ae7518d149b172b3557dbd836ea0753bf45f62b76a90460d6bb246eef6",
+    "embedded": true,
+    "encoding": "zlib+base64",
+    "data": "eNo1U0tME1EUnZn+Zkqpsyoaf2Ne3iRvjHGMrk03unDVlXHnlp17V7ZgIlpMMAWKoTGh+CEaa6kRxApC0FpC6ZCQ2GgtNOFfi1KipKQfy3u3s3nn3nfuuffcmSF2jj0qxwmH50Ym4UScSPFMX3cL5swUp74sujDnoDj7snSEAGfi4/BxDWrXftWPoSYnvdFGoDYfLDgwJ1O8srd1AgF+Eu+Sz7bCAEQW+cOzkK3YVJmjeCaAJNB4VYpOmIlspvn5z61Ililc+Nkj2KH/c18wYNGgdvngEgaOYSREBPJ/lluw7KBwKdlhw6DYvd4mgaPRUDZpQcBZ7T11zgkTSiAxMv6swCNFpsl/C2FBApHooGEjikjzoaoVA2Xru0gUM4XvLmPFQZG3bEEAR8asmsJaBHMnBTBztz8RvaVCvlh0IRCetGAQ81+xg9fhonH6fHNMorMx5163qzq7f7HdeRRBOvaIxzoz93XeqgFjrOzjic5sRNI3JIVt/WF6/xoCdqRLFGTORHe771uMWSSFLSzcawQEDMV7QzeRztaemepspBlOJrcFu8KcZQZ3PzgvNN+7XWealVSuTCTdTINcz53gGexmQ8yuxUySLtKL3WBfQUVu1jjif8qrbiY6lJp2YTf79vLeTzx2s28sNhu3IMjfq34TCIjGR+9fRcA5+P3WpIHOZmHpOgF9o7bqudj8QYiHTRCtdTwQkMfBgknjB4/gJjT9t13zMDeZ8Z0BQYUgspN/zBMPs1apb/bzGIJIvbTeqJdpEJ5642/csGDAm601AtZm7n319n/iz8Tw"
+  },
+  "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+  },
+  "utc": "2026-11-18T09:53:27.026672+00:00"
+}

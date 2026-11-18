@@ -1,0 +1,24 @@
+{
+  "j": 0,
+  "period_bound": 1,
+  "denominator_cyclotomic_powers": {
+    "1": 1
+  },
+  "denominator_lowest_power_first": [
+    1,
+    -1
+  ],
+  "proven_numerator_degree_bound": 2,
+  "numerator_lowest_power_first": [
+    0,
+    1
+  ],
+  "coefficients_calculated_through_n": 17,
+  "peak_states": 1,
+  "source_sha256": "576574f3bddd68fee400b89faf8cb4fd888f79d81da95a856d2c6e1814ebd7d6",
+  "reduced_numerator_lowest_power_first": [
+    0,
+    1
+  ],
+  "reduced_denominator_factored": "1 - z"
+}

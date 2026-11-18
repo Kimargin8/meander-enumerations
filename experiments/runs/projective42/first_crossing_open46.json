@@ -1,0 +1,47 @@
+{
+  "certificate": {
+    "kind": "run",
+    "version": 1,
+    "profile": "compact",
+    "problem": "open",
+    "algorithm": "first_crossing_optimized",
+    "n": 46,
+    "count": 193909492888406631692,
+    "representation": "count",
+    "layers": [],
+    "root": "f8892e709e32c667c58079800dc9d6b679919d001def5936b21dacd64d22adf4"
+  },
+  "start_utc": "2026-11-18T10:10:07.392815+00:00",
+  "elapsed_seconds": 311.91505150304874,
+  "rss_kib": 657392,
+  "binary_sha256": "da37b65943242cca6d5a028ff68d3640484a2ec91c787c880e66afc4f2d349e0",
+  "source_commit": "be0a3f5e5d59d984171a2183dcf30acd1df46885",
+  "flags": [
+    "count",
+    "--problem",
+    "open",
+    "--algorithm",
+    "first_crossing_optimized",
+    "--n",
+    "46",
+    "--threads",
+    "2",
+    "--cert",
+    "count"
+  ],
+  "cap_mib": 2304,
+  "author": "Vladimir Osipov",
+  "source_url": "https://github.com/zouxuoz/first-crossing-meanders/tree/be0a3f5e5d59d984171a2183dcf30acd1df46885",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/zouxuoz/first-crossing-meanders/blob/be0a3f5e5d59d984171a2183dcf30acd1df46885/LICENSE",
+  "build": "cargo build --release --locked --manifest-path rust/Cargo.toml",
+  "certificate_scope": "Native exact count profile; no separate Lean replay of this run.",
+  "cross_check": {
+    "sequence": "A005316",
+    "url": "https://oeis.org/A005316/b005316.txt",
+    "index": 46,
+    "count": 193909492888406631692,
+    "b_file_sha256": "2c264f47f4b8d3962c0b0a3c8281ec1779477540c3bac93f9dd85e77adaf1721",
+    "method": "compared after the computation"
+  }
+}

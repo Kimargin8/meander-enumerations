@@ -1,0 +1,17 @@
+{
+  "binary_sha256": "ac000ea9bf1428338276e48be3f960c93cd3fb647db41af07b358c06a36070de",
+  "sources": {
+    "coarse.cpp": "999a4946fa518b46ebd7605152281e2a1895418848169f946a12d01b3d1814b4",
+    "merged.cpp": "f0fcb45ae8114903cc529c0d4a8d4fd1544f31efcece15ef49006d98ef4b26c5",
+    "fold.cpp": "d0737abe2bfc22da3ba5054b2bfdd47c5cf0628c3483809ecb9baf230232def4",
+    "word.cpp": "2ffa8a19aa78811834b40a4845e3811ea644362af81f2c00b1100847d9df3272",
+    "fast.hpp": "e89d079790933b24e55ab77ce074527855f53cc93b9338e0b4c3baddcde13a0b"
+  },
+  "flags": [
+    "-O3",
+    "-std=c++20",
+    "-march=native"
+  ],
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+}

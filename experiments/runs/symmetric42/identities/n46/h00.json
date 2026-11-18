@@ -1,0 +1,12 @@
+{
+  "n": 46,
+  "h": 0,
+  "value": 74661728661167809752,
+  "ordinary_order": 23,
+  "status": "exact",
+  "method": "cyclic relabelling of the two independent halves: D(2k,0)=M_k",
+  "source_file": "references/oeis/2026-11-15/b005315.txt",
+  "input_sha256": "f4a7b3ca6fc1ac097fa2f6aaef2d8988974984c97a52917a85735d15e048b3f9",
+  "reference_url": "https://oeis.org/A005315/b005315.txt",
+  "source_sha256": "a553b59e49ba8b25ef97b21a68c88bed0564d64a020232080c6addebd102eabb"
+}

@@ -1,0 +1,54 @@
+{
+  "source_url": "https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/research/matrixMeanders/axis_transfer.cpp",
+  "published_source_sha256": "47592b5f797471f1ec8c1ba1d271786998a2cc183700383576b33792b5b8e083",
+  "fold_sha256": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "physical_host": "shared with other local research runs",
+  "cpu_affinity": 16,
+  "threads": 1,
+  "tail_layers": 4,
+  "data_limit_mib": 730,
+  "limit_seconds": 260,
+  "run_order": "published, fold, fold, published at each p",
+  "records": [
+    {
+      "p": 26,
+      "mode": "published",
+      "status": "exact",
+      "K": 1192228650177,
+      "kernel_seconds": 80.5801,
+      "wall_seconds": 80.58807051798794,
+      "peak_RSS_KiB": 397144
+    },
+    {
+      "p": 26,
+      "mode": "fold",
+      "status": "exact",
+      "K": 1192228650177,
+      "kernel_seconds": 1.213783343,
+      "wall_seconds": 1.2220475969952531,
+      "peak_RSS_KiB": 17108
+    },
+    {
+      "p": 26,
+      "mode": "fold",
+      "status": "exact",
+      "K": 1192228650177,
+      "kernel_seconds": 1.1973305,
+      "wall_seconds": 1.2048636079998687,
+      "peak_RSS_KiB": 17112
+    },
+    {
+      "p": 26,
+      "mode": "published",
+      "status": "exact",
+      "K": 1192228650177,
+      "kernel_seconds": 75.4708,
+      "wall_seconds": 75.4788866089657,
+      "peak_RSS_KiB": 397144
+    }
+  ],
+  "median_wall_time_published_over_fold": {
+    "26": 64.3068262265769
+  }
+}

@@ -1,0 +1,5 @@
+{"n": 3, "total": 10, "fixed": 4, "remaining": 6, "remaining_mod8": 6}
+{"n": 5, "total": 101, "fixed": 15, "remaining": 86, "remaining_mod8": 6}
+{"n": 7, "total": 799, "fixed": 47, "remaining": 752, "remaining_mod8": 0}
+{"n": 39, "total": 20000273725559494, "fixed": 267914256, "remaining": 20000273457645238, "remaining_mod8": 6}
+{"triple_reflection_39_normalizers": [[1, 0]]}

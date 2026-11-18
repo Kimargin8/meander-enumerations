@@ -1,0 +1,16 @@
+{
+  "n": 5,
+  "pattern": "two-defects",
+  "utc": "2026-11-18T06:24:51.388414+00:00",
+  "seconds_total": 0.0022776779951527715,
+  "peak_KiB": 3584,
+  "limit_states": 8500000,
+  "limit_seconds": 180,
+  "binary_sha256": "99b3013abb0a0279fffe46ed6a69dfcb058c6a454a6fd4fa82792b431c10aae5",
+  "status": "exact",
+  "value": 26,
+  "memo_states": 9,
+  "calls": 25,
+  "kernel_seconds": 4.2541e-05,
+  "published_crosscheck": 26
+}

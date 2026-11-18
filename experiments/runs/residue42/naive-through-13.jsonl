@@ -1,0 +1,6 @@
+{"n": 3, "catalan": 5, "P": 2, "by_height": {"1": 2}, "D_lower": 2, "E": 2, "Q": 0, "contracted_branch": 1}
+{"n": 5, "catalan": 42, "P": 12, "by_height": {"1": 8, "3": 4}, "D_lower": 4, "E": 8, "Q": 0, "contracted_branch": 2}
+{"n": 7, "catalan": 429, "P": 86, "by_height": {"1": 42, "3": 40, "5": 4}, "D_lower": 10, "E": 36, "Q": 0, "contracted_branch": 8}
+{"n": 9, "catalan": 4862, "P": 710, "by_height": {"1": 262, "3": 356, "5": 88, "7": 4}, "D_lower": 26, "E": 170, "Q": 2, "contracted_branch": 36}
+{"n": 11, "catalan": 58786, "P": 6316, "by_height": {"1": 1828, "3": 3120, "5": 1224, "7": 140, "9": 4}, "D_lower": 72, "E": 826, "Q": 0, "contracted_branch": 170}
+{"n": 13, "catalan": 742900, "P": 59204, "by_height": {"1": 13820, "3": 27704, "5": 14632, "7": 2840, "9": 204, "11": 4}, "D_lower": 204, "E": 4084, "Q": 0, "contracted_branch": 826}

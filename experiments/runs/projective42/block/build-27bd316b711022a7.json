@@ -1,0 +1,17 @@
+{
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "flags": [
+    "-O3",
+    "-std=c++20",
+    "-march=native",
+    "-Wall",
+    "-Wextra"
+  ],
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "binary_sha256": "27bd316b711022a7d20be2ed342fa76a5ada976aeee600294253079fb3085651",
+  "source_sha256": {
+    "block.cpp": "a3e1b612988ae8d9d2f600f97b99a58c20c9158d39b8237b82bdab00c3638a61",
+    "word.cpp": "2ffa8a19aa78811834b40a4845e3811ea644362af81f2c00b1100847d9df3272",
+    "fold.cpp": "d0737abe2bfc22da3ba5054b2bfdd47c5cf0628c3483809ecb9baf230232def4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "n": 31,
+  "pattern": "projective",
+  "utc": "2026-11-18T07:25:02.416020+00:00",
+  "seconds_total": 576.5899792750133,
+  "peak_KiB": 5203012,
+  "limit_states": 46000000,
+  "limit_seconds": 1800,
+  "binary_sha256": "99b3013abb0a0279fffe46ed6a69dfcb058c6a454a6fd4fa82792b431c10aae5",
+  "status": "exact",
+  "value": 89760045001718,
+  "memo_states": 34180866,
+  "calls": 143687500,
+  "kernel_seconds": 569.307,
+  "published_crosscheck": null
+}

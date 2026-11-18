@@ -1,0 +1,16 @@
+{
+  "n": 4,
+  "h": 0,
+  "count": 8,
+  "status": "exact",
+  "formula": "n M_(n/2) = n o_(n-1)",
+  "input": {
+    "method": "local planar two-ended transfer",
+    "path": "experiments/runs/projective42/open31.json",
+    "sha256": "97c4a70af2da2a7abd3dc72494a07ae5c38e3dcc90c64e54203e15ed610f4cf2",
+    "horizon": 31
+  },
+  "input_index": 3,
+  "last_input": 3,
+  "external_tabulated_input": false
+}

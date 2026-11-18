@@ -1,0 +1,15 @@
+{
+  "n": 25,
+  "h": 1,
+  "count": 59962141002,
+  "status": "exact",
+  "formula": "2n [z^n] log(1+O(z)) - n o_n",
+  "input": {
+    "method": "local planar two-ended transfer",
+    "path": "experiments/runs/projective42/open31.json",
+    "sha256": "97c4a70af2da2a7abd3dc72494a07ae5c38e3dcc90c64e54203e15ed610f4cf2",
+    "horizon": 31
+  },
+  "last_input": 25,
+  "external_tabulated_input": false
+}

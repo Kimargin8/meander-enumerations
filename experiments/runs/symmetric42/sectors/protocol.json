@@ -1,0 +1,14 @@
+{
+  "source_sha256": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+  "driver_sha256": "d3308b633f3327ec09af1baa4bed2ebf74b8029880ce7515901be5a7ab17ca9b",
+  "binary_sha256": "6b82517d15566006f608c86bbbc2eed40efe67464b9f685df6e9139dc27ae3cf",
+  "flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+}

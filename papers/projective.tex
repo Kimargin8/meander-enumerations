@@ -1,0 +1,150 @@
+\input{preamble.tex}
+\hypersetup{pdfauthor={Iaroslav Argunov},pdftitle={A bit transfer for connected projective meanders}}
+\begin{document}
+\paperhead{A bit transfer for connected projective meanders}
+\begin{abstract}
+We count the connected projective meanders of Lando and Zvonkin through order 47. Exposed paths in an antipodal scan consist of noncrossing arcs around a family of mutually crossing chords. This gives a cyclic bit representation and an exact algorithm with worst-case time and space \(O^*(1.7271^n)\), where polynomial factors are suppressed. A separate disk recursion agrees through order 31. We also determine the fixed diagrams under every rotation, in both parities of the projective order and obtain an arithmetic check of the enumeration. Together with reflected open counts, the calculation gives \(M_{39}\equiv16\pmod{312}\) for the ordinary closed meandric number.
+\end{abstract}
+
+\section{Antipodal matchings}
+On \(2n\) labelled sites in cyclic order place the matching \(H(i)=i+n\bmod 2n\). Let \(P_n\) count the noncrossing perfect matchings \(A\) for which \(A\cup H\) has one alternating circuit. Edges of the two colours are retained, including a doubled edge when \(n=1\). Identifying opposite boundary points turns the disk into the projective plane and the matching into a system of embedded circles. The labels fix the rotation of the boundary. Thus two rotated matchings contribute separately whenever their labelled edges differ.
+
+Lando and Zvonkin tabulated this sequence through \(n=15\), introduced a simultaneous scan of opposite sites, and proved rotation congruences at prime powers \cite[\S\S2--3]{lz}. Howroyd contributed orders 16 through 22 to A006663 in 2017 \cite{pseq}. The public table we retrieved on 18 November 2026 ends at \(P_{22}=3\,109\,111\,064\). The projective entry in the examined release of \textit{mapFolding} has the same endpoint \cite{hogan}. The predecessor search and its limits are recorded in the supplement.
+
+\begin{figure}[ht]\centering
+\includegraphics[width=.82\linewidth]{projective_example.pdf}
+\caption{Order five. The upper arcs form the noncrossing matching, and the dashed lower arcs identify antipodes. Crossings in the drawing of the dashed edges are not vertices. Exactly 12 of the 42 upper matchings give one circuit.}
+\end{figure}
+\section{Transfer of connected paths}
+\input{projective_algorithm.tex}
+\input{factor_bound.tex}
+
+\section{Enumeration and independent checks}
+\begin{table}[htbp]\centering
+\begin{tabular}{rr@{\hspace{2em}}rr}\toprule
+Order&\(P_n\)&Order&\(P_n\)\\\midrule
+23 & 6\,487\,276\,640 & 36 & 56\,389\,748\,865\,507\,576\\
+24 & 32\,926\,261\,904 & 37 & 123\,526\,942\,005\,010\,542\\
+25 & 69\,375\,045\,522 & 38 & 630\,893\,573\,030\,449\,592\\
+26 & 352\,747\,963\,832 & 39 & 1\,388\,207\,765\,065\,576\,684\\
+27 & 749\,582\,142\,524 & 40 & 7\,091\,465\,641\,012\,195\,920\\
+28 & 3\,816\,546\,844\,344 & 41 & 15\,667\,858\,250\,501\,674\,960\\
+29 & 8\,171\,105\,982\,948 & 42 & 80\,046\,867\,529\,579\,845\,256\\
+30 & 41\,646\,461\,012\,208 & 43 & 177\,521\,966\,872\,449\,581\,620\\
+31 & 89\,760\,045\,001\,718 & 44 & 907\,011\,128\,480\,812\,884\,256\\
+32 & 457\,842\,107\,839\,104 & 45 & 2\,018\,507\,715\,763\,963\,571\,880\\
+33 & 992\,691\,750\,273\,066 & 46 & 10\,313\,227\,102\,656\,698\,518\,952\\
+34 & 5\,066\,368\,912\,728\,652 & 47 & 23\,025\,690\,740\,071\,248\,492\,028\\
+35 & 11\,044\,223\,760\,599\,948 &  & \\
+\bottomrule\end{tabular}
+\caption{Projective counts beyond the end of the public b-file. Each order counts labelled matchings.}
+\end{table}
+The complete data begin at \(P_1=1\). An additional direct implementation records the contribution of each admissible height \(h\), the number of chords between the two half intervals. The number of unrestricted partial matchings on one half with \(h\) exposed ends is
+\[
+ B(n,h)=\binom n{(n-h)/2}-\binom n{(n-h)/2-1}.
+\]
+Read an exposed end as an opening that is never closed. This gives the ballot path counted by \(B(n,h)\), with its unmatched openings marking the exposed ends. It follows that \(P_{n,h}\le B(n,h)^2\) and \(\sum_h B(n,h)^2=C_n\), the Catalan number. The lowest sectors satisfy \(P_{2k,0}=P_{2k-1,1}=M_k\). In the first case the two halves are independent ordinary arch systems \cite[\S3.2]{lz}. In the second, cut the sole connecting chord and attach each resulting endpoint to a new rightmost site of its half. This subdivides the connecting edge after antipodal identification and gives the inverse opening of an ordinary pair.
+
+The disk check permits an arbitrary exterior matching. Choose a port \(a\) of one disk. Its partner \(b\) must be an odd distance away on that boundary. An exterior edge already joining \(a,b\) closes a circuit, counted only if these are the last two ports. Otherwise join their former partners and split the disk along \(ab\). A choice of \(b\) and a completion of the two resulting disks reconstruct the original diagram uniquely. Applying this recurrence at \(n=31\) gave \(89\,760\,045\,001\,718\) from \(34\,180\,866\) cached states. The sector scan and the compressed representation give the same integer. Higher orders have the computation and checks specified below.
+
+Fixed-cut sector records are available up to order 40. At order 47 the selected full calculation accounts for 60\,634\,292\,073 weighted transitions. The largest individual process recorded for this cover used 8.38 GiB. The records distinguish the original height sectors from bands and minimum-over-rotations sectors. Independent enumeration of rotationally fixed matchings checks each minimum-height sector modulo twice the order. The prime-subgroup calculation also supplies a separate check for the following pairs (order, prime): (44, 11), (45, 5), (46, 23), (47, 47).
+
+\section{Fixed diagrams under rotation}
+For unrestricted noncrossing matchings the balanced-word model for
+rotation-fixed diagrams without diameters is given by Alexandersson,
+Linusson, Potka and Uhlin \cite[Appendix B.1, Bijection 5]{alpu}.
+The unrefined count for a rotation of odd order \(d\mid n\) is
+\(\binom{2n/d}{n/d}\); see Bousquet-M\'elou and Krattenthaler
+\cite[Corollary 26]{bmk}. We impose connectedness with the antipodal
+matching and keep track of the minimum diameter-cut height.
+Let \(F_n(d)\) count the connected matchings invariant under the rotation by \(2n/d\) sites, where \(d\mid2n\). For \(n>2\) one has \(F_n(d)=0\) for even \(d\): invariance under the half-turn would make \(A\) and \(H\) commuting involutions, so every component has at most four sites. This is the observation of \cite[Lemma~2.3]{lz}.
+
+\begin{proposition}
+For \(n>2\) and odd \(d>1\) dividing \(n\), put \(m=n/d\), and define \(b_m=m+1\) for odd \(m\), \(b_m=m/2+1\) for even \(m\). Then \(F_n(d)=b_mP_m\). In particular,
+\[
+ P_n\equiv-\!\!\sum_{\substack{d\mid n\\d>1,\ d\ {\rm odd}}}\varphi(d)b_{n/d}P_{n/d}\pmod{2n}.
+\]
+\end{proposition}
+\begin{proof}
+Take the degree-\(d\) quotient of the circular disk by rotation. No chord of an invariant matching can pass through the centre: its distinct rotations would be diameters and intersect. The quotient has \(2m\) boundary labels, a noncrossing matching, and a marked face containing the branch point. Conversely place the branch point in a chosen face of a base matching, lift the arcs, and read their endpoints. An isotopy within that face leaves the lifted matching unchanged. Disjoint arcs cut a disk into disks, so their endpoint data and the marked face determine their isotopy class relative to the branch point. For example this is also seen by orienting every arc around the subdisk away from the marked face. Its two endpoints form a matched pair in the cyclic parenthesis word. Repeating that word \(d\) times recovers the lifted matching.
+
+The antipodal pairing descends to the base antipodal pairing because \(d\) is odd. A disconnected base union cannot lift to a connected union. If the base union is one curve, it crosses the projective boundary line \(m\) times. Odd \(m\) makes it one-sided. Remove a small disk about the marked branch point. The resulting surface is a M\"obius band; an embedded one-sided curve represents a generator of its fundamental group up to sign. Indeed its lift to the orientation double cover is an essential simple circle of the annulus, which winds exactly once. Thus its preimage in the connected cyclic degree-\(d\) cover is a single curve. Each of the \(m+1\) disk faces works for every such base matching.
+
+For even \(m\) the curve bounds a disk \(U\) in the projective plane. A mark outside \(U\) leaves the curve contractible, so its lift is disconnected. A mark inside \(U\) makes the curve parallel to the boundary of the punctured projective plane: it represents twice a generator, up to sign. The lift is connected since \(d\) is odd. The projective line meets the curve in \(m\) transverse crossings; successive intersections alternate between entering and leaving \(U\). Its \(m/2\) disjoint proper subarcs in \(U\) cut the disk into \(m/2+1\) pieces. Each piece is a different face in the cut-open disk. This counts exactly the admissible marks. Summing the fixed counts of the cyclic group proves the congruence.
+\end{proof}
+
+There is an inexpensive check at \(n=39\). For each nonidentity odd divisor enumerate all balanced binary words on \(2m\) sites, cyclically match parentheses within a rotated period, repeat the pairs \(d\) times and test connectivity upstairs. The three fixed counts are \(828\,856,8,2\) at \(d=3,13,39\), respectively. The first took \(10\,400\,600\) candidate words. Burnside's sum gives \(P_{39}\equiv34\pmod {78}\), independently of the transfer.
+
+\paragraph{Checks within each minimum height.}
+For \(n>2\), let \(S_h\) count diagrams of minimum cut height \(h\), and let
+\(F_{d,h}\) count those fixed by rotation of order \(d\). Rotation preserves
+the minimum, so Burnside's lemma on this class gives
+\[
+ S_h\equiv-\sum_{\substack{d\mid n,\ d>1\\d\ \mathrm{odd}}}
+                 \varphi(d)F_{d,h}\pmod{2n}.
+\]
+Put \(m=n/d\). Root a balanced period at a minimum to obtain a Dyck word.
+If its cyclic heights attain their minimum at \(k\) of the \(2m\) gaps,
+each labelled word has exactly \(k\) choices of such a root. Conversely,
+each Dyck word has \(2m\) placements of its root among the labelled gaps.
+Thus the number of accepted Dyck words with given \(h,k\), multiplied by
+\(2m/k\), counts the corresponding labelled words even when the period
+is not primitive. We test connectivity on the full \(2n\) sites.
+If \(a_i\) is the Dyck height at gap \(i\), its diametrically opposite
+gap has height \(a_{i+m}\), with indices modulo \(2m\). Every matched
+parenthesis interval has length less than \(2m<n\), so it cannot
+contain both gaps. The cut height is therefore \(a_i+a_{i+m}\), and we
+take its minimum over \(i\). At \(n=45\) this gives the residues
+\(58,32,54,6,30,30,60,0\) modulo \(90\) for the odd heights from
+\(1\) to \(15\), in order.
+
+\begin{corollary}
+Fix \(m\ge1\). For every odd \(d\ge3\), the number of connected
+matchings on \(2md\) sites fixed by a rotation of order \(d\), counted
+separately at each minimum height, is independent of \(d\).
+\end{corollary}
+\begin{proof}
+The quotient proof identifies the fixed matchings with pairs consisting
+of a labelled connected base matching and an admissible marked face
+\(f\). The admissible faces depend only on the base matching and the
+parity of \(m\). Start its boundary word at a gap of \(f\). The height
+\(a_i\) at any gap counts the arcs separating that gap from \(f\).
+The minimum height of the lifted matching is
+\(\min_i(a_i+a_{i+m})\) by the preceding cut calculation. Both the
+pairs being counted and the statistic on them are therefore specified
+on \(2m\) sites for every such \(d\).
+\end{proof}
+For an odd prime \(p\), the only nontrivial odd rotation order is \(p\).
+The two admissible marks at \(m=1\) give the two alternating matchings
+by neighbouring sites, both of minimum height one. Thus \(S_1\equiv2\)
+and every \(S_h\) with \(h\ne1\) is zero modulo \(2p\). At a power of
+two \(n>2\), all the \(S_h\) are divisible by \(2n\).
+
+A second computation used the dual tree of the base disk directly.
+For even \(m\) the two colours of its faces are the two sides of the
+base curve, since crossing an arc changes sides. The admissible side
+has \(m/2+1\) faces by the quotient proof. For odd \(m\) all faces are
+admissible. At \(m=15\) this calculation inspected all \(9\,694\,845\)
+base matchings and all sixteen faces of each of the \(576\,018\)
+connected matchings. The resulting distribution over seven heights,
+of total \(9\,216\,288\), agreed term by term with the lifted calculation.
+
+\paragraph{Application to ordinary meanders.} In the eight-element symmetry action on ordinary closed meanders, \(P_{39}\) and the marked symmetric count \(2K_{38}\) supply two fixed-set sizes. The companion paper \emph{Congruences for closed meanders from rotations and curve interchange} derives \(M_{39}\equiv16\pmod{312}\) and independently checks the projective term by enumerating self-dual diagrams.
+
+\begin{thebibliography}{99}\small
+\bibitem{lz} S.~K.~Lando and A.~K.~Zvonkin, Plane and projective meanders, \emph{Theoret. Comput. Sci.} \textbf{117} (1993), 227--241. \href{https://doi.org/10.1016/0304-3975(93)90316-L}{Publisher}, \href{https://www.labri.fr/perso/zvonkin/Research/proj-mean.pdf}{author's copy}.
+\bibitem{pseq} OEIS Foundation, \href{https://oeis.org/A006663}{A006663}, projective meanders; contributions by N.~J.~A.~Sloane, S.~Plouffe and A.~Howroyd.
+\bibitem{legendre} S.~Legendre, Foldings and meanders, \emph{Australas. J. Combin.} \textbf{58} (2014), 275--291. \href{https://ajc.maths.uq.edu.au/pdf/58/ajc_v58_p275.pdf}{Article}.
+\bibitem{folding} J.~Sawada and R.~Li, Stamp foldings, semi-meanders, and open meanders: fast generation algorithms, \emph{Electron. J. Combin.} \textbf{19}(2) (2012), P43. \href{https://doi.org/10.37236/2404}{Publisher}.
+\bibitem{how} A.~Howroyd, symmetry formula for closed meanders, \href{https://oeis.org/A077460}{OEIS A077460} (2015).
+\bibitem{rabinovich} Y.~Rabinovich and R.~Raz, Lower bounds on the distortion of embedding finite metric spaces in graphs, \emph{Discrete Comput. Geom.} \textbf{19} (1998), 79--94. \href{https://doi.org/10.1007/PL00009336}{Publisher}.
+\bibitem{hogan} H.~Hogan, \href{https://pypi.org/project/mapFolding/0.40.1/}{\emph{mapFolding} 0.40.1}, 17 November 2026.
+\bibitem{lacroix} M.~A.~La Croix, \emph{Approaches to the Enumerative Theory of Meanders}, University of Waterloo (2003). \href{https://www.math.uwaterloo.ca/~malacroi/Latex/Meanders.pdf}{Thesis}.
+\bibitem{alpu} P.~Alexandersson, S.~Linusson, S.~Potka and J.~Uhlin,
+Refined Catalan and Narayana cyclic sieving, \emph{Combinatorial Theory}
+\textbf{1} (2021). \href{https://doi.org/10.5070/C61055513}{Article}.
+\bibitem{bmk} M.~Bousquet-M\'elou and C.~Krattenthaler,
+Cyclic sieving phenomena for rooted plane trees and tree-rooted planar maps, preprint,
+version 4 (2026). \href{https://arxiv.org/abs/2512.18656v4}{arXiv:2512.18656}.
+\end{thebibliography}
+\end{document}

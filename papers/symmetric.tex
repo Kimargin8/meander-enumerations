@@ -1,0 +1,75 @@
+\input{preamble.tex}
+\hypersetup{pdfauthor={Iaroslav Argunov},pdftitle={Symmetric open meanders with two marked ends}}
+\begin{document}
+\paperhead{Symmetric open meanders with two marked ends}
+\begin{abstract}
+Let \(K_k\) be the number of centrally symmetric open meander shapes with \(2k+1\) crossings in the convention of Legendre. We compute \(K_k\) through \(k=45\), recovering all entries through \(k=32\) in the public data of Hogan. We keep the boundary path attached to one marked end and join each pair of endpoints as soon as every completion requires it. For a fixed deficit \(j\) of the crossing height we give a cyclotomic denominator and prove that the resulting count is eventually a quasipolynomial of degree \(2j\). Its period divides \(\operatorname{lcm}(1,3,\ldots,2j+1)\). Legendre's orbit formula then gives the total number of open shapes at every odd crossing count through 75.
+\end{abstract}
+
+\section{The marked path and the shape convention}
+An open meander is an oriented-line crossing diagram with one connected road and two unbounded ends. In passing from a labelled diagram to its shape we use the horizontal and vertical equivalences of Legendre \cite[Prop.~6.1]{legendre}. Write \(m(\ell)\) for the labelled open count at \(\ell\) crossings and \(M_n\) for the labelled closed count on \(2n\) sites. For odd lengths \(m(2n-1)=M_n\), by opening at the last crossing. For \(n\ge2\), write \(K_{n-1}\) for the number of centrally symmetric shapes at \(2n-1\) crossings. We keep \(K_0=1\) as a separate base case.
+
+To obtain the labelled count \(D_n\), take the matching \(A\) and its reflected copy on opposite hemispheres of the sphere. The reflection of boundary labels is \(t(i)=-i\pmod{2n}\). The half-turn of the sphere exchanges the hemispheres and fixes the two sites \(0,n\). Delete the two fixed points from the list of exterior pairs, leaving these sites as endpoints. The alternating union of \(A\) with the other edges of \(t\) consists of a path between the two endpoints and possibly some circles. Following two reflected edges is equivalent to following the square of \(At\). A path covering all \(2n\) vertices gives one cycle of \(At\) of length \(2n\); any separate circle remains a separate component in the doubled picture. This proves that connectedness of the doubled diagram is equivalent to connectedness of the marked path. Stereographic projection from either one specified fixed crossing opens the equator; adding it back is inverse to the opening. A centrally symmetric shape of odd length greater than one has two labelled representatives in Legendre's convention. Thus \(D_n=2K_{n-1}\). This factor concerns labels and is separate from the division by four in the total shape count.
+
+\begin{figure}[ht]\centering
+\includegraphics[width=.81\linewidth]{symmetric_example.pdf}
+\caption{The two-end test on eight labels. The dashed reflection edges leave sites 0 and 4 exposed (open circles). There are ten choices of upper matching leading to one path. They give \(K_3=5\) shapes.}
+\end{figure}
+\input{symmetric_algorithm.tex}
+
+\section{Values and external comparisons}
+The public OEIS file for A223096 ends at \(K_{22}=9\,962\,795\,554\) \cite{sseq}. The wheel of \textit{mapFolding} 0.40.1, released on 17 November 2026, contains nine further terms through \(K_{31}\). The public repository on the same date adds \(K_{32}=1\,650\,268\,613\,634\,453\) \cite{hogan}. The disk calculation agrees through \(K_{27}\). Two earlier implementations of the reflected transfer agree through \(K_{30}\). The marked-path transfer gives all the values listed below, including those for which an external value exists.
+
+\begin{table}[htbp]\centering
+\begin{tabular}{rr@{\hspace{2em}}rr}\toprule
+Index&\(K_k\)&Index&\(K_k\)\\\midrule
+23 & 32\,846\,647\,658 & 35 & 62\,567\,332\,433\,552\,830\\
+24 & 108\,498\,959\,945 & 36 & 210\,636\,220\,209\,732\,928\\
+25 & 359\,367\,363\,740 & 37 & 709\,999\,304\,027\,656\,342\\
+26 & 1\,192\,228\,650\,177 & 38 & 2\,395\,099\,469\,566\,939\,312\\
+27 & 3\,964\,528\,526\,244 & 39 & 8\,088\,627\,634\,690\,725\,560\\
+28 & 13\,201\,939\,675\,885 & 40 & 27\,335\,977\,176\,330\,801\,104\\
+29 & 44\,051\,514\,192\,054 & 41 & 92\,477\,031\,405\,925\,909\,792\\
+30 & 147\,170\,887\,842\,404 & 42 & 313\,050\,008\,470\,252\,133\,808\\
+31 & 492\,550\,457\,391\,043 & 43 & 1\,060\,701\,561\,590\,886\,000\,892\\
+32 & 1\,650\,268\,613\,634\,453 & 44 & 3\,596\,076\,920\,714\,729\,163\,608\\
+33 & 5\,537\,787\,877\,254\,848 & 45 & 12\,201\,962\,983\,536\,099\,355\,104\\
+34 & 18\,601\,185\,486\,419\,129 &  & \\
+\bottomrule\end{tabular}
+\caption{Symmetric open shapes by index. Index \(k\) corresponds to \(2k+1\) physical crossings.}
+\end{table}
+At index 45 the full sector sum accounts for 144\,193\,608\,212 attempted moves. The largest individual process recorded for the selected runs used 3.21 GiB. The fixed-deficit queue calculation independently checks the outer seven sectors of each extension. At an even disk order the zero-height sector equals the ordinary closed count at half that order. A computation with an unspecified final height independently reproduced the marked-path totals through disk order 34. At shape index 33, the first past the public table, an independent queue transfer agreed in every height sector. The attached records distinguish these partial checks from agreement of two full enumerations.
+
+For a separate timing experiment we compiled Hogan's published \texttt{cpp-pile} counter and the marked-path program with the same optimization settings and pinned them to one CPU on the same machine. Each call computed the whole shape count. With four tail layers and an equal 730 MiB memory limit at \(k=26\), the two runs took 80.59 and 75.48 seconds for Hogan's program and 1.222 and 1.205 seconds for the marked-path calculation. All four returned \(1\,192\,228\,650\,177\). The ratio of the two medians was 64.3. At \(k=24\) the observed median ratio at four tail layers was 32.9; the supplement also records results with the tail depth varied. These timings concern the named implementations and input orders. Each timing file records parameters, run order, and memory limits. Other local calculations shared the host.
+
+\section{All open shapes at odd lengths}
+Write \(a(\ell)\) for all open meander shapes at length \(\ell\), including asymmetric shapes. Legendre's formulas read
+\[
+ a(2p+1)=\frac{M_{p+1}+2K_p}{4},\qquad
+ a(2p)=\frac{m(2p)+m(p)}{2}\qquad(p\ge1).
+\]
+The archived ordinary closed count runs through \(M_{38}\). The new symmetric data therefore give each odd value through \(a(75)\), with \(a(1)=1\). The labelled open even sequence supplies all even values through 58. Representative values are
+\begin{center}
+\begin{tabular}{rr}\toprule
+Crossings \(\ell\)&All shapes \(a(\ell)\)\\\midrule
+59 & 319\,960\,722\,152\,016\,248\,206\,479\,788\\
+65 & 428\,415\,405\,209\,401\,772\,951\,427\,083\,588\\
+67 & 4\,751\,908\,454\,324\,444\,995\,437\,008\,580\,879\\
+71 & 589\,565\,459\,687\,932\,286\,086\,752\,243\,007\,918\\
+75 & 73\,899\,520\,455\,701\,062\,036\,121\,592\,186\,576\,909\\
+\bottomrule\end{tabular}
+\end{center}
+At length 77 the symmetric summand is now known, while the other summand is the full integer \(M_{39}\). The congruence \(M_{39}\equiv16\bmod312\) from the companion paper on closed-count congruences gives \(a(77)\equiv60\bmod78\). The supplement tabulates the labelled count, symmetric correction and exact quotient at each available length. The official A077055 b-file retrieved in November started at index zero for physical length one. Hogan's additional table uses the physical length itself \cite{shapes,hogan}. Direct comparison uses the translated indices. The published symmetric terms through \(K_{32}\) already imply odd shape counts through length 65. The new symmetric inputs first enter at length 67.
+
+\section*{Sources and reproduction}
+The supplement records exact integers, sector totals, timing and memory for completed runs, and the numerator and denominator of the fixed-deficit functions. Its verifier checks the finite Catalan examples, the external terms, all available sector sums, and the reconstruction of the open shapes. It can replay complete indices or individual sectors. Comparisons with earlier publications concern the conventions and files specified above.
+\begin{thebibliography}{9}\small
+\bibitem{legendre} S.~Legendre, Foldings and meanders, \emph{Australas. J. Combin.} \textbf{58} (2014), 275--291. \href{https://ajc.maths.uq.edu.au/pdf/58/ajc_v58_p275.pdf}{Article}.
+\bibitem{sseq} OEIS Foundation, \href{https://oeis.org/A223096}{A223096}, symmetric meander shapes at odd crossing counts.
+\bibitem{hogan} H.~Hogan, \emph{mapFolding} \href{https://pypi.org/project/mapFolding/0.40.1/}{0.40.1}; \href{https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/mapFolding/oeis/terms/files/A223/b223096.txt}{symmetric counts through index 32}, 17 November 2026.
+\bibitem{zhangma2026} W.~Zhang and H.~Ma, \emph{Semi-meanders with a fixed winding deficit: the third and fourth diagonals of A400429}, 6 October 2026. \href{https://oeis.org/A400429/a400429.pdf}{Manuscript}.
+\bibitem{ferudun2026} A.~Ferudun, fixed-deficit semi-meander transfer, October 2026. \href{https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/research/matrixMeanders/fixed_deficit_semimeanders.py}{Source in mapFolding}.
+\bibitem{dg} P.~Di Francesco, O.~Golinelli and E.~Guitter, Meanders: a direct enumeration approach, \emph{Nuclear Phys.~B} \textbf{482} (1996), 497--535. \href{https://arxiv.org/abs/hep-th/9607039}{Preprint}.
+\bibitem{shapes} OEIS Foundation, \href{https://oeis.org/A077055}{A077055}, \href{https://oeis.org/A078592}{A078592}, \href{https://oeis.org/A005315}{A005315} and \href{https://oeis.org/A005316}{A005316}.
+\end{thebibliography}
+\end{document}

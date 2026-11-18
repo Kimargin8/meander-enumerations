@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the paper corresponding to the tables or algorithms you use."
+type: dataset
+title: "Projective and symmetric meanders, closed-count congruences, and winding-diagonal certificates"
+authors:
+  - family-names: Argunov
+    given-names: Iaroslav
+version: "2026.11.18"
+keywords:
+  - meanders
+  - noncrossing matchings
+  - exact enumeration
+  - algebraic combinatorics
+  - integer sequences
+repository-code: "https://github.com/Kimargin8/meander-enumerations"
+url: "https://github.com/Kimargin8/meander-enumerations/releases/tag/v2026.11.18"
+date-released: 2026-11-18

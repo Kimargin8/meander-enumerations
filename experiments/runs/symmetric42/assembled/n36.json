@@ -1,0 +1,191 @@
+{
+  "n": 36,
+  "D": 125134664867105660,
+  "K_index": 35,
+  "K": 62567332433552830,
+  "by_height": {
+    "0": {
+      "value": 608188709574124,
+      "results": [
+        "sectors/n36/h00.json"
+      ],
+      "file_sha256": [
+        "147304974636e973ec5516c10ac6abd49f2badba1320aa1391a06e00442b9919"
+      ]
+    },
+    "2": {
+      "value": 8249540326629861,
+      "results": [
+        "sectors/n36/h02.json"
+      ],
+      "file_sha256": [
+        "0705a02604bf533b4b73ae86632bf6748daed6c5ed6c83dadf88f10bd2997579"
+      ]
+    },
+    "4": {
+      "value": 22166289248850203,
+      "results": [
+        "sectors/n36/h04.json"
+      ],
+      "file_sha256": [
+        "d00a34f363d2067d4da57d8df5cbedccf7890eba6f0fe34275e1c1445434ce57"
+      ]
+    },
+    "6": {
+      "value": 30931327861435422,
+      "results": [
+        "sectors/n36/h06.json"
+      ],
+      "file_sha256": [
+        "4b1d8434205b46a5a94a8673a5da42c8380cee7860df4f002f0b4d2a2c19a91e"
+      ]
+    },
+    "8": {
+      "value": 28767223340885336,
+      "results": [
+        "sectors/n36/h08.json"
+      ],
+      "file_sha256": [
+        "73f0fe16f6cc82e5223247af83749ed5e3be72048e58456e1f0c7a2350ced09c"
+      ]
+    },
+    "10": {
+      "value": 19411944012169910,
+      "results": [
+        "sectors/n36/h10.json"
+      ],
+      "file_sha256": [
+        "c600443bf2a72db16cdf71f317a6b830685b65dca30d136b02c1870d6511dae0"
+      ]
+    },
+    "12": {
+      "value": 9827805361482968,
+      "results": [
+        "sectors/n36/h12.json"
+      ],
+      "file_sha256": [
+        "ffe7014d2ab0b17830819a680a4bbf7737c34506396b6851f205c00e94e8d6cb"
+      ]
+    },
+    "14": {
+      "value": 3778847416005396,
+      "results": [
+        "sectors/n36/h14.json"
+      ],
+      "file_sha256": [
+        "be493b1c322c67464055a1bcf6866133e6161002e8d7bd6199084487755391f1"
+      ]
+    },
+    "16": {
+      "value": 1104485576961580,
+      "results": [
+        "sectors/n36/h16.json"
+      ],
+      "file_sha256": [
+        "b5a08f8d69e605b2165a2e411d75e2485ad67e112d0cfdb895181ae529b62d66"
+      ]
+    },
+    "18": {
+      "value": 243718263732782,
+      "results": [
+        "sectors/n36/h18.json"
+      ],
+      "file_sha256": [
+        "17ec4a279e867708dc5de6a0d7c09feb3a926cce161c4de34ce6386c6ed11098"
+      ]
+    },
+    "20": {
+      "value": 40057029375529,
+      "results": [
+        "sectors/n36/h20.json"
+      ],
+      "file_sha256": [
+        "5d5aabf42d81261ce81b67f99746a24165abfa5b52ee85b208d3350fd336aaa6"
+      ]
+    },
+    "22": {
+      "value": 4804548431465,
+      "results": [
+        "sectors/n36/h22.json"
+      ],
+      "file_sha256": [
+        "dd3b062460c238951289bd578e730248da3d6642c3f2f4606ec618652d117cb4"
+      ]
+    },
+    "24": {
+      "value": 408599446535,
+      "results": [
+        "sectors/n36/h24.json"
+      ],
+      "file_sha256": [
+        "cb1cb461b07e520ea9702e0fca5c43d85fe766fa6f683eb5d5c79677fab7df30"
+      ]
+    },
+    "26": {
+      "value": 23670054750,
+      "results": [
+        "sectors/n36/h26.json"
+      ],
+      "file_sha256": [
+        "b4c789298754af8fbddd7b92fa0d135f4f8a6e1aa0672896b58dd226109d8f25"
+      ]
+    },
+    "28": {
+      "value": 882390764,
+      "results": [
+        "sectors/n36/h28.json"
+      ],
+      "file_sha256": [
+        "a5db731459b6c3b9680f12ce2662b79a8ea4e1db63dd6fdb62dba168c75ce1fd"
+      ]
+    },
+    "30": {
+      "value": 19456407,
+      "results": [
+        "sectors/n36/h30.json"
+      ],
+      "file_sha256": [
+        "574d4e93f4a7d1c40e66aa8c34463c9555c54a2ffb4a61cf624fcf4b85d1438b"
+      ]
+    },
+    "32": {
+      "value": 221612,
+      "results": [
+        "sectors/n36/h32.json"
+      ],
+      "file_sha256": [
+        "a6b810d2854e719af3e95d2eaa078a6109d9d6277a63efca58af73a0388410ad"
+      ]
+    },
+    "34": {
+      "value": 1015,
+      "results": [
+        "sectors/n36/h34.json"
+      ],
+      "file_sha256": [
+        "ab30e9118bfe046c9790eb452073fb09ebe99f75722149018a80f0ceee040b71"
+      ]
+    },
+    "36": {
+      "value": 1,
+      "results": [
+        "sectors/n36/h36.json"
+      ],
+      "file_sha256": [
+        "372c92387cec9cddd67ce015974c4f7817cd2f306b4104c5b2c3d8d619afc035"
+      ]
+    }
+  },
+  "independent_queue_deficits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "even_h0_matches_M": true,
+  "all_sectors_prior_independent_files": [],
+  "source_sha256": "fa38235a51829fd46dc8a5444794452db6d4a68308df256872c282c13383a188"
+}

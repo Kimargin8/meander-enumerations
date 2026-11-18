@@ -1,0 +1,61 @@
+{
+  "n": 24,
+  "status": "PASS",
+  "answer": "794337831754570367812",
+  "codec": {
+    "read": 1027670640,
+    "write": 658897955,
+    "logical_read": 2291376128,
+    "logical_write": 1275869184,
+    "zero_reads": 571,
+    "packed_reads": 3116,
+    "packed_writes": 2101,
+    "raw_reads": 0,
+    "raw_writes": 0
+  },
+  "cache": {
+    "cache_misses": 3687,
+    "max_charge": 4187136,
+    "cache_hits": 448,
+    "avoided_bytes_raw": 297842688,
+    "avoided_bytes_lz4": 145747180
+  },
+  "footprint": {
+    "peak_apparent_bytes": 160714752,
+    "peak_fs_allocated_bytes": 80052224,
+    "peak_file_count": 10,
+    "files": 27,
+    "digest_reads": 4135,
+    "tile_writes": 2101,
+    "digest_writes": 2101,
+    "rewrites": 1530,
+    "longer_rewrites": 1177,
+    "shorter_rewrites": 352
+  },
+  "read_hash_stream": "ae0b5129b269d31f6e75a00a2f312b38d74a379cd6c9145600819e1185ffe5fb",
+  "write_hash_stream": "04026d74584876d341822cfc4d7dae4a0f4fac60fec4f3f81383a0c5f0dfb7e1",
+  "inputs": {
+    "scripts/source36/measure.py": "5572cf26fc3d54a5b6e429bb84e2086e1eff6591452f922da6a168f162adf81b",
+    "scripts/source36/tiled.py": "991fbc77a81535cfb6908c9fd28e408b04720491e443c5e487a77f4da6b16a41",
+    "scripts/io36/codec.py": "50affdf8c61abeeb8f7478855046ca4287dbd09e266ec77abb464980dd660b7e",
+    "scripts/io36/clean.py": "f7e5c516befced0c994a7cd325ad6d49ff7970d3c387aa1d72be3ee8d1d1cdb6",
+    "scripts/m30stage36/lazy.so": "0fe94514d35e01b62b4ef339f90fbc0ed065b0d74252764ce984dc520a10a10b",
+    "scripts/orbit35/receiver.py": "5c55e89ec1fe09526038adfda516ee19d652c28f67b11d107e83309f4ac342b8",
+    "scripts/rescue36/run.py": "14b028351247e80cb9935f35fcdc73811c1832567570e48126d46692d4679f7f",
+    "scripts/rescue36/footprint.py": "c7a15244e0a9a625f71ab85ec1b267318cb8aedb49c8f044381f499b52e36bf0"
+  },
+  "physical_write_delta": 290779136,
+  "physical_read_delta": 2641920,
+  "lz4_version": 10904,
+  "affinity": [
+    6
+  ],
+  "raw_comparison": {
+    "compared_layers": 47,
+    "compared_blocks": 3113,
+    "exhaustive_analytic_cells": 108423201,
+    "raw_sha": "ee475421a0ca1a337975363c6056dff34a39037be324d8b041a950470695f8c4",
+    "raw_layers_sha": "f44db61fb404980654f2d9f26cfe6f373b3a5f1aac9310fe15c075e8493f24b0"
+  },
+  "admission": null
+}

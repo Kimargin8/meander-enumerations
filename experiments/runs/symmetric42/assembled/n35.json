@@ -1,0 +1,182 @@
+{
+  "n": 35,
+  "D": 37202370972838258,
+  "K_index": 34,
+  "K": 18601185486419129,
+  "by_height": {
+    "1": {
+      "value": 957320026208288,
+      "results": [
+        "sectors/n35/h01.json"
+      ],
+      "file_sha256": [
+        "3daf7122d893dfc88b9d7e9a2817c942de3b152a77fbc7929225a0567dd336d5"
+      ]
+    },
+    "3": {
+      "value": 4705564346610434,
+      "results": [
+        "sectors/n35/h03.json"
+      ],
+      "file_sha256": [
+        "f64ac966dc1aea037fa3fe9e3beae724d45bef443eb2ecb6baeb0c55b09325d5"
+      ]
+    },
+    "5": {
+      "value": 8506702368338349,
+      "results": [
+        "sectors/n35/h05.json"
+      ],
+      "file_sha256": [
+        "c7edfc6c8c24d907224087486cda6e3257c40800a177d8c7041cf7c1692bd4de"
+      ]
+    },
+    "7": {
+      "value": 9353613578360128,
+      "results": [
+        "sectors/n35/h07.json"
+      ],
+      "file_sha256": [
+        "08555fcb071932e437a756fd4f150b79eedcb4eb8b860061db1acffa8ee2c144"
+      ]
+    },
+    "9": {
+      "value": 7185462490118322,
+      "results": [
+        "sectors/n35/h09.json"
+      ],
+      "file_sha256": [
+        "519eae423bfed92abbab9e0e33b9380a5659e3f4ce22f7d522f1357a87b11eff"
+      ]
+    },
+    "11": {
+      "value": 4061135007270741,
+      "results": [
+        "sectors/n35/h11.json"
+      ],
+      "file_sha256": [
+        "faef3536e9f7abab70a93b2715539732beff48d219e68ccc9cc788fb52bfdec6"
+      ]
+    },
+    "13": {
+      "value": 1722579016462684,
+      "results": [
+        "sectors/n35/h13.json"
+      ],
+      "file_sha256": [
+        "f7b4965485536b92ad9988fe634e7495267c0001ed33783aa76cd531f592f08c"
+      ]
+    },
+    "15": {
+      "value": 550903106216718,
+      "results": [
+        "sectors/n35/h15.json"
+      ],
+      "file_sha256": [
+        "54c2c4d03b252a15a296fa442b14a3af88a78810d13ed00d70dff50b608d0898"
+      ]
+    },
+    "17": {
+      "value": 132222310522987,
+      "results": [
+        "sectors/n35/h17.json"
+      ],
+      "file_sha256": [
+        "32e2c63abcf0e0f0f1dacea509878faaf7c1e1715fca87a86f3030163fef514e"
+      ]
+    },
+    "19": {
+      "value": 23528391772381,
+      "results": [
+        "sectors/n35/h19.json"
+      ],
+      "file_sha256": [
+        "a5047835da8196c196e1787f9bfa43c754252b7af2d8ecea25ff493936a4508c"
+      ]
+    },
+    "21": {
+      "value": 3043980567650,
+      "results": [
+        "sectors/n35/h21.json"
+      ],
+      "file_sha256": [
+        "8b5bd6025fcc540d7235433424e02d3c67978369a7d2d1f8fd119c443ed4078b"
+      ]
+    },
+    "23": {
+      "value": 278353623162,
+      "results": [
+        "sectors/n35/h23.json"
+      ],
+      "file_sha256": [
+        "945631cbeb64b7948b1287dc33feebc8b614825a92914fafa63c467401720be0"
+      ]
+    },
+    "25": {
+      "value": 17290852523,
+      "results": [
+        "sectors/n35/h25.json"
+      ],
+      "file_sha256": [
+        "e55ca47eeca2ec796b4270abddf41b8acfe984154695a169e405faed5ec6da86"
+      ]
+    },
+    "27": {
+      "value": 689491029,
+      "results": [
+        "sectors/n35/h27.json"
+      ],
+      "file_sha256": [
+        "3ef923bdd13a7f232624a87541eb544c7a4c287a9296ce566f9d8bd35eba0264"
+      ]
+    },
+    "29": {
+      "value": 16225112,
+      "results": [
+        "sectors/n35/h29.json"
+      ],
+      "file_sha256": [
+        "e430325311286bc62a0c63a5366e949256794ea5a5f4d64b32a60a4196cb2668"
+      ]
+    },
+    "31": {
+      "value": 196791,
+      "results": [
+        "sectors/n35/h31.json"
+      ],
+      "file_sha256": [
+        "ab1f95aa58aa644111db9f16090a2b1465147b957000d5bb17b90e6d04860d64"
+      ]
+    },
+    "33": {
+      "value": 958,
+      "results": [
+        "sectors/n35/h33.json"
+      ],
+      "file_sha256": [
+        "01bad12a33ea816cb2e87d5c9b91f0096f432adaa6e912c1a6d728d8ee3bfbb6"
+      ]
+    },
+    "35": {
+      "value": 1,
+      "results": [
+        "sectors/n35/h35.json"
+      ],
+      "file_sha256": [
+        "646b785ec23de70fc78c8dd2842db0f8a8c43ee70b598d83aced4d9579680703"
+      ]
+    }
+  },
+  "independent_queue_deficits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "even_h0_matches_M": false,
+  "all_sectors_prior_independent_files": [],
+  "source_sha256": "fa38235a51829fd46dc8a5444794452db6d4a68308df256872c282c13383a188"
+}

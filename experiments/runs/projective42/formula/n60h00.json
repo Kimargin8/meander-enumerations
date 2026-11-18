@@ -1,0 +1,16 @@
+{
+  "n": 60,
+  "h": 0,
+  "count": 76790573316478613387852102640,
+  "status": "exact",
+  "formula": "n M_(n/2) = n o_(n-1)",
+  "input": {
+    "sequence": "A005315",
+    "url": "https://oeis.org/A005315",
+    "path": "references/oeis/2026-11-15/b005315.txt",
+    "sha256": "f4a7b3ca6fc1ac097fa2f6aaef2d8988974984c97a52917a85735d15e048b3f9"
+  },
+  "input_index": 30,
+  "last_input": 30,
+  "external_tabulated_input": true
+}

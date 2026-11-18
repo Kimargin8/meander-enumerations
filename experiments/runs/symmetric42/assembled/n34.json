@@ -1,0 +1,239 @@
+{
+  "n": 34,
+  "D": 11075575754509696,
+  "K_index": 33,
+  "K": 5537787877254848,
+  "by_height": {
+    "0": {
+      "value": 59923200729046,
+      "results": [
+        "sectors/n34/h00.json"
+      ],
+      "file_sha256": [
+        "6787019af25a7842957492c5b4e0823c13d465df4af899bc53d0055260c3377a"
+      ]
+    },
+    "2": {
+      "value": 802163323229950,
+      "results": [
+        "sectors/n34/h02.json"
+      ],
+      "file_sha256": [
+        "6595ea4b318e46517732b6d73cc1bcd3664173c0506c82ce99e17ad9b6299d89"
+      ]
+    },
+    "4": {
+      "value": 2107256375783623,
+      "results": [
+        "sectors/n34/h04.json"
+      ],
+      "file_sha256": [
+        "3f039505a38b9fd51f2e816621d6d1a14b1a9f71f1fbec9932080a9a316a0e73"
+      ]
+    },
+    "6": {
+      "value": 2845762294695829,
+      "results": [
+        "sectors/n34/h06.json"
+      ],
+      "file_sha256": [
+        "d41355ab7365a6b0c453799f01516107daf93e119b3d0965ee34e89488b3d58d"
+      ]
+    },
+    "8": {
+      "value": 2532518786119070,
+      "results": [
+        "sectors/n34/h08.json"
+      ],
+      "file_sha256": [
+        "51fa15aa130f4fab501d55a7e2b41792015573d5d5c76461239327cece6a6e2f"
+      ]
+    },
+    "10": {
+      "value": 1614133823497356,
+      "results": [
+        "sectors/n34/h10.json"
+      ],
+      "file_sha256": [
+        "8bd5232d058d36b9f9edf6546618481387fd69cfa435ce4e56d368a7ba92cb64"
+      ]
+    },
+    "12": {
+      "value": 760486689342209,
+      "results": [
+        "sectors/n34/h12.json"
+      ],
+      "file_sha256": [
+        "6347993c5870931c8a0f8519351bf175ba0ad7612b7782a051680500914b155f"
+      ]
+    },
+    "14": {
+      "value": 267528937297058,
+      "results": [
+        "sectors/n34/h14.json"
+      ],
+      "file_sha256": [
+        "470bbbd898e2b89bdd48e58d4673bbd5aaa30f325aa143bdf555ee08a768181d"
+      ]
+    },
+    "16": {
+      "value": 70140915065394,
+      "results": [
+        "sectors/n34/h16.json"
+      ],
+      "file_sha256": [
+        "945d9fdedcfc4c16be8690525f9a7a986a2791daec4c1aac427584b3753b9dbf"
+      ]
+    },
+    "18": {
+      "value": 13562510400151,
+      "results": [
+        "sectors/n34/h18.json"
+      ],
+      "file_sha256": [
+        "44636973006879a293a65dcf6d2805d6ac395292bd3ad454a1e5847717b7ca54"
+      ]
+    },
+    "20": {
+      "value": 1898637044804,
+      "results": [
+        "sectors/n34/h20.json"
+      ],
+      "file_sha256": [
+        "4c5ce16789bdfef48cfd95cc4a45eaf1f55293c809badc11d8a2891cfd6d9393"
+      ]
+    },
+    "22": {
+      "value": 187210958134,
+      "results": [
+        "sectors/n34/h22.json"
+      ],
+      "file_sha256": [
+        "a30f939f5e42b3bd4702d4d21dc12e26bbe96ede85812c8d8f2be17da3905df0"
+      ]
+    },
+    "24": {
+      "value": 12502181464,
+      "results": [
+        "sectors/n34/h24.json"
+      ],
+      "file_sha256": [
+        "a4c6e89abeb5826f228b6fa6da0f94edff53587e36ba644f64f555c04f99c65e"
+      ]
+    },
+    "26": {
+      "value": 534536873,
+      "results": [
+        "sectors/n34/h26.json"
+      ],
+      "file_sha256": [
+        "913ba0bee2ab6470aa94068a8c921c7eb25f5d5a414c6a2faf19613c85448821"
+      ]
+    },
+    "28": {
+      "value": 13453700,
+      "results": [
+        "sectors/n34/h28.json"
+      ],
+      "file_sha256": [
+        "9927ba2173201eb13c8977e7b0b07aa62467c465c2cc86b126269832ce042683"
+      ]
+    },
+    "30": {
+      "value": 174132,
+      "results": [
+        "sectors/n34/h30.json"
+      ],
+      "file_sha256": [
+        "94fec1ff1a2163459da770072be2c19b24c90f9d42d8dd2b04e7579faf855291"
+      ]
+    },
+    "32": {
+      "value": 902,
+      "results": [
+        "sectors/n34/h32.json"
+      ],
+      "file_sha256": [
+        "c65246eb88a48782e627d0b814ac2e8893acf102c3ca6014ae7acdad72fe6380"
+      ]
+    },
+    "34": {
+      "value": 1,
+      "results": [
+        "sectors/n34/h34.json"
+      ],
+      "file_sha256": [
+        "e7f264987cc7f13fd141918fe60b1a72344283d32f89cf06a90f49ac203ee37f"
+      ]
+    }
+  },
+  "independent_queue_deficits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "even_h0_matches_M": true,
+  "independent_FIFO_height_files": {
+    "0": [
+      "fifo/n34/h00.json"
+    ],
+    "2": [
+      "fifo/n34/h02.json"
+    ],
+    "4": [
+      "fifo_spill/n34/h04.json"
+    ],
+    "6": [
+      "fifo_spill/n34/h06.json"
+    ],
+    "8": [
+      "fifo_spill/n34/h08.json"
+    ],
+    "10": [
+      "fifo_spill/n34/h10.json"
+    ],
+    "12": [
+      "fifo/n34/h12.json"
+    ],
+    "14": [
+      "fifo/n34/h14.json"
+    ],
+    "16": [
+      "fifo/n34/h16.json"
+    ],
+    "18": [
+      "fifo/n34/h18.json"
+    ],
+    "20": [
+      "fifo/n34/h20.json"
+    ],
+    "22": [
+      "fifo/n34/h22.json"
+    ],
+    "24": [
+      "fifo/n34/h24.json"
+    ],
+    "26": [
+      "fifo/n34/h26.json"
+    ],
+    "28": [
+      "fifo/n34/h28.json"
+    ],
+    "30": [
+      "fifo/n34/h30.json"
+    ],
+    "32": [
+      "fifo/n34/h32.json"
+    ],
+    "34": [
+      "fifo/n34/h34.json"
+    ]
+  },
+  "independent_FIFO_all_heights": true,
+  "all_sectors_prior_independent_files": [],
+  "source_sha256": "cc847d825fec70244ed0ca9bc1a032f42c2367122eecb9f917dfa4870eddfaf9"
+}

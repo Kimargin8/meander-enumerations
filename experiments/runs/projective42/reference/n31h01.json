@@ -1,0 +1,14 @@
+{
+  "n": 31,
+  "h": 1,
+  "count": 5969806669034,
+  "peak_states": 742137,
+  "transitions": 8557579,
+  "rss_kib": 171052,
+  "seconds": 3.55142,
+  "status": "exact",
+  "start_utc": "2026-11-18T07:10:47.606090+00:00",
+  "cap_mib": 2400,
+  "timeout_seconds": 1800,
+  "binary_sha256": "4f9bcc8e1f5a1996793e6c8a07511807c3dc3f222c2db7acaf80cd3f5722e90c"
+}

@@ -1,0 +1,100 @@
+{
+  "n": 38,
+  "h": 6,
+  "input_layer": 23,
+  "order": [
+    "three",
+    "one",
+    "one",
+    "three"
+  ],
+  "cpu": 0,
+  "input_raw_sha256": "21aef5a4118bffe9ff2950e666966d5181d03be3f728634253c2902ce3f9b0da",
+  "input_stored_sha256": "63dba7c4f780e81b8d31cc72200adf4291d38809f0b88be458f44adacf42f15e",
+  "zstd": "1.5.5",
+  "rows": [
+    {
+      "groups": "three",
+      "wall_seconds": 16.73,
+      "user_seconds": 16.92,
+      "system_seconds": 0.3,
+      "max_rss_KiB": 167232,
+      "logical_checkpoint": [
+        38,
+        6,
+        24,
+        28567998,
+        14838447223175648276,
+        28567998,
+        244397354
+      ],
+      "stored_output_bytes": 191216021
+    },
+    {
+      "groups": "one",
+      "wall_seconds": 17.82,
+      "user_seconds": 16.74,
+      "system_seconds": 0.52,
+      "max_rss_KiB": 68444,
+      "logical_checkpoint": [
+        38,
+        6,
+        24,
+        28567998,
+        14838447223175648276,
+        28567998,
+        244397354
+      ],
+      "stored_output_bytes": 191216021
+    },
+    {
+      "groups": "one",
+      "wall_seconds": 16.13,
+      "user_seconds": 16.04,
+      "system_seconds": 0.52,
+      "max_rss_KiB": 68420,
+      "logical_checkpoint": [
+        38,
+        6,
+        24,
+        28567998,
+        14838447223175648276,
+        28567998,
+        244397354
+      ],
+      "stored_output_bytes": 191216021
+    },
+    {
+      "groups": "three",
+      "wall_seconds": 16.57,
+      "user_seconds": 15.74,
+      "system_seconds": 0.23,
+      "max_rss_KiB": 167220,
+      "logical_checkpoint": [
+        38,
+        6,
+        24,
+        28567998,
+        14838447223175648276,
+        28567998,
+        244397354
+      ],
+      "stored_output_bytes": 191216021
+    }
+  ],
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "narrow.cpp": "02a0a539b7be243573eb6d22c1c4bba6bb069029d00dde9f3691a267f3c5be92",
+    "packed_stream.cpp": "c180211257c037e6262b93904e9a00cae00e5ef17a07865d706828cdd085d8a6"
+  },
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "utc": "2026-11-18T12:10:51.587414+00:00"
+}

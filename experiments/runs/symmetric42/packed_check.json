@@ -1,0 +1,57 @@
+{
+  "n": 32,
+  "h": 8,
+  "large_sector": 222321486261549,
+  "comparisons": [
+    {
+      "t": 19,
+      "raw_bytes": 10662138,
+      "stored_bytes": 5346669,
+      "raw_sha256": "c5f30574e06f4d9da2051d8540557ff33d3f55f33bfdcdf996ad80862356df21",
+      "packed_sha256": "a399690b1da077132349e3da9dc0e4f5bba1f8c1533e476b8bdd21614f9fc051",
+      "framed": true
+    },
+    {
+      "t": 20,
+      "raw_bytes": 15669151,
+      "stored_bytes": 8288926,
+      "raw_sha256": "f5c17b1e1d66e0c6960d3b5e9d9ee4eecc99c5ed7fe2eccb357fe85eb9107a21",
+      "packed_sha256": "5addfd0a2e7838f1fc5ad6f155437e366538cdf00c819fe6de90db08ed162017",
+      "framed": true
+    },
+    {
+      "t": 21,
+      "raw_bytes": 14850819,
+      "stored_bytes": 8457131,
+      "raw_sha256": "2f2369e2177f40c933d28e00054ee5e5c5560630d36ed497c58de7dc3ab8ad7d",
+      "packed_sha256": "eb0eb543e9085a31f1f00492aac3c812605d53c4fdc6fa0745523a1d89786697",
+      "framed": true
+    }
+  ],
+  "truncation_rejected": true,
+  "complete_small_order": 24,
+  "complete_small_heights": [
+    678390116,
+    8246172953,
+    18348899734,
+    19414460625,
+    12357543930,
+    5054114047,
+    1341904362,
+    226999788,
+    23407188,
+    1362846,
+    39289,
+    437,
+    1
+  ],
+  "complete_small_total": 65693295316,
+  "sources": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "narrow.cpp": "02a0a539b7be243573eb6d22c1c4bba6bb069029d00dde9f3691a267f3c5be92",
+    "packed_stream.cpp": "c180211257c037e6262b93904e9a00cae00e5ef17a07865d706828cdd085d8a6",
+    "packed_layer.py": "67a4bb2fba9c83863877e40359e8e85cff75881e5f63a87c75539823dc7b7c5a"
+  }
+}

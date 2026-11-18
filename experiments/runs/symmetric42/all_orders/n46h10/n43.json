@@ -1,0 +1,149 @@
+{
+  "n": 43,
+  "h": 7,
+  "source_N": 46,
+  "source_H": 10,
+  "j": 18,
+  "t": 42,
+  "left": 70689909454646314918,
+  "right": 72201615464598785949,
+  "value": 142891524919245100867,
+  "status": "exact",
+  "input_states": 354,
+  "layer_digest64": 9945507428035491853,
+  "attempted_moves_through_layer": 21153226144,
+  "compared_methods": [
+    "spill"
+  ],
+  "peak_states_through_layer": 1072314773,
+  "layer_bytes_read_and_written": 169326942643,
+  "max_two_layers_bytes": 15945119875,
+  "process_peak_KiB_this_invocation": 1702752,
+  "wall_seconds_this_invocation": 3676.79,
+  "resumed_from_layer": 28,
+  "driver_sha256": "8339735f22d33b53a04608ff22118f424bc7f97bbaffbbfbd687088e1c1885ee",
+  "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+  "python_digest_semantics": "source bytes present at worker startup",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": {
+    "solver": "e159dd0cce7d197a0b63d3e19bbe9a2afed009cdf0e0045759b5ddb88e9c086c",
+    "reader": "7581cfa3bea5e6ee25ec9691f4878e9a129de758fa07379f87bf1148c689f02a"
+  },
+  "layer": {
+    "size": 6105,
+    "sha256": "883c2196bbf0425184d754d1766c2ddf885ec5b21d921857e02aa96eb5f655e6",
+    "embedded": true,
+    "encoding": "zlib+base64",
+    "data": "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"
+  },
+  "generator_sha256": "30eb21aaa4a456eff5b45d33465f31d4e874c2011d1a2156eb54b3064a328be6",
+  "generator_sources": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574",
+    "narrow.cpp": "02a0a539b7be243573eb6d22c1c4bba6bb069029d00dde9f3691a267f3c5be92",
+    "packed_stream.cpp": "c180211257c037e6262b93904e9a00cae00e5ef17a07865d706828cdd085d8a6"
+  },
+  "single_output_group": true,
+  "packed_storage": true,
+  "limit_address_mib": 4100,
+  "limit_two_layers_mib": 24800,
+  "wall_limit_seconds_per_sector": 28800,
+  "minimum_free_mib": 15360,
+  "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+  },
+  "utc": "2026-11-18T12:33:38.876132+00:00",
+  "transport_link_flags": [
+    "-Wl,--wrap=fopen",
+    "-ldl"
+  ],
+  "zstd_version": "1.5.5",
+  "lifted_seed": {
+    "shorter": {
+      "metadata": [
+        45,
+        9,
+        28,
+        680309616,
+        14255618501969661069,
+        680309616,
+        4590120086,
+        27328763110,
+        10914063968
+      ],
+      "metadata_sha256": "82f1b931a8e0cde47c303ca767cf6481774aacca9d1e3a229c7f35ad7a03a118",
+      "size": 6274616552,
+      "layer_sha256": "25859646d64b7e475aa737f6a4456ac656c12549b3a0c66baf9ab490a885537d"
+    },
+    "complement": {
+      "metadata": [
+        46,
+        10,
+        28,
+        167252355,
+        1050630010662260701,
+        167252355,
+        881278232,
+        5523050847,
+        2480510115
+      ],
+      "metadata_sha256": "b94f7b9e9243387dfc8223c4fc4df2cb8cd6970bc985d7a2ee7d338300741ef6",
+      "size": 1505309253,
+      "layer_sha256": "6e567b31adf65c23c4b1f3a1f85df0cb96d6a46e507f044617671d95db9eadbe"
+    },
+    "output": {
+      "metadata": [
+        46,
+        10,
+        28,
+        847561971,
+        9845063254809169028,
+        847561971,
+        5471398318,
+        48411665333,
+        15559851376
+      ],
+      "metadata_sha256": "185b84d02d198898a8f7698f5ebe6dd28934e746b77e99cc7b719aec0a306e44",
+      "size": 7779925571,
+      "layer_sha256": "2fca94824ac1f0e445055f0f196206f7cdfe0bf42b2ffab78f5f5c474c48d09a"
+    },
+    "deficit": 18,
+    "shorter_opening_budget": 27,
+    "left_closing_threshold": 1,
+    "right_closing_threshold": 0,
+    "source_files": {
+      "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+      "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+      "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+      "horizon.cpp": "f4625ba45a5c1a4e9e9b1aa17eaafb7b271277d6c97c19a01d1641e6d8dd345d"
+    },
+    "sources_sha256": "2a1da02f233a1103a8a672f72f62c0005531337a1a4601d99e55d416bcd12278",
+    "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "compiler_flags": [
+      "-O3",
+      "-march=native",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra"
+    ],
+    "binary_sha256": "67e604af8af0ef809a111ddac7c947ab095fdd89a2ee1854f3a36e59a0aaf5f7",
+    "driver_sha256": "6c7d43085897624f8e96c1f7853bd58072152fe3d3a6bb9da0a62911cfca0801",
+    "comparison_sha256": "b7ef950514cf1883d2f23b8c8e5fdd7c683e4dab7e2d7aa420ab7e1eaa98177f",
+    "merge_and_output_hash_seconds": 60.0994189120247,
+    "utc": "2026-11-18T10:48:24.807063+00:00"
+  },
+  "lifted_seed_sha256": "63f0ef67d37bdf60c554a0dc7b706d427d3d0c86299033a60fe4fd9a42db7f1e"
+}

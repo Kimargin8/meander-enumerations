@@ -1,0 +1,16 @@
+{
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "flags": [
+    "-O3",
+    "-std=c++20",
+    "-march=native",
+    "-Wall",
+    "-Wextra"
+  ],
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "binary_sha256": "4f9bcc8e1f5a1996793e6c8a07511807c3dc3f222c2db7acaf80cd3f5722e90c",
+  "source_sha256": {
+    "reference.cpp": "22ecffdf165fcf548787735cc1a94c1a156bdc06f8eaebeb741465cad096d0af",
+    "projective41/seams.cpp": "46ef77eee295966e4ef68ac82a50d4c9fea361d70e7e6edcef98cd835538576c"
+  }
+}

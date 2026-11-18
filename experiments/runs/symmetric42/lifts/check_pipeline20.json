@@ -1,0 +1,555 @@
+{
+  "n": 20,
+  "h": 8,
+  "old_n": 19,
+  "old_h": 7,
+  "t": 16,
+  "receipts": [
+    {
+      "n": 17,
+      "h": 5,
+      "source_N": 20,
+      "source_H": 8,
+      "j": 6,
+      "t": 16,
+      "left": 3118544,
+      "right": 2648731,
+      "value": 5767275,
+      "status": "exact",
+      "input_states": 353,
+      "layer_digest64": 14138886553396880296,
+      "attempted_moves_through_layer": 122640,
+      "compared_methods": [],
+      "peak_states_through_layer": 4872,
+      "layer_bytes_read_and_written": 637054,
+      "max_two_layers_bytes": 78432,
+      "process_peak_KiB_this_invocation": 3584,
+      "wall_seconds_this_invocation": 0.0,
+      "resumed_from_layer": 16,
+      "driver_sha256": "d5c87b3bda3786439534eeee0400b370cdca14db9d3b18bf26a930b277a7fc60",
+      "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+      "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "compiler_flags": [
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra"
+      ],
+      "binary_sha256": {
+        "solver": "cc6c371ee0da59ca854d94c536c3ac2c755866c75603e39c71d8429a23cf0915",
+        "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+      },
+      "layer": {
+        "size": 3688,
+        "sha256": "7b4bfe6b9919537813b353a71fc871ed0ebaf85e942445210741481ba9b4608b",
+        "embedded": true,
+        "encoding": "zlib+base64",
+        "data": "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"
+      },
+      "generator_sha256": "34d304220a321e15dc97d374fd4b45e747ccb418433a694269eb2f7cb002567a",
+      "generator_sources": {
+        "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+        "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+        "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+        "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574",
+        "narrow.cpp": "02a0a539b7be243573eb6d22c1c4bba6bb069029d00dde9f3691a267f3c5be92"
+      },
+      "single_output_group": true,
+      "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+      "source_files": {
+        "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+        "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+        "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+        "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+      },
+      "utc": "2026-11-18T10:48:05.323966+00:00",
+      "lifted_seed": {
+        "shorter": {
+          "metadata": [
+            19,
+            7,
+            16,
+            74,
+            2341727311764766613,
+            3696,
+            53644,
+            272800,
+            65477
+          ],
+          "metadata_sha256": "7a204bc8a237070ee8540506390cfe513cdb38f0264833b6682601319ba59833",
+          "size": 858,
+          "layer_sha256": "7f86592e057f000072144ffff8a05c165230b87c52ad02d1232905eef12d9646"
+        },
+        "complement": {
+          "metadata": [
+            20,
+            8,
+            16,
+            279,
+            4005832875839446845,
+            4872,
+            68996,
+            356824,
+            78432
+          ],
+          "metadata_sha256": "779340d1be906bb00af6595ac945ab1903bae08a34fd9105a108c774f4a5701c",
+          "size": 2884,
+          "layer_sha256": "f884afc29eed71dbf5f1963526eead160586d357eebfe5ed77c8bf9a130f5920"
+        },
+        "output": {
+          "metadata": [
+            20,
+            8,
+            16,
+            353,
+            14138886553396880296,
+            4872,
+            122640,
+            637054,
+            78432
+          ],
+          "metadata_sha256": "a8fb9bad2177c676aebd958193d8d64e0c499b6d6ebb39bd084414cb32cdd472",
+          "size": 3688,
+          "layer_sha256": "7b4bfe6b9919537813b353a71fc871ed0ebaf85e942445210741481ba9b4608b"
+        },
+        "deficit": 6,
+        "shorter_opening_budget": 13,
+        "left_closing_threshold": 3,
+        "right_closing_threshold": 2,
+        "source_files": {
+          "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+          "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+          "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+          "horizon.cpp": "f4625ba45a5c1a4e9e9b1aa17eaafb7b271277d6c97c19a01d1641e6d8dd345d"
+        },
+        "sources_sha256": "2a1da02f233a1103a8a672f72f62c0005531337a1a4601d99e55d416bcd12278",
+        "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+        "compiler_flags": [
+          "-O3",
+          "-march=native",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra"
+        ],
+        "binary_sha256": "67e604af8af0ef809a111ddac7c947ab095fdd89a2ee1854f3a36e59a0aaf5f7",
+        "driver_sha256": "6c7d43085897624f8e96c1f7853bd58072152fe3d3a6bb9da0a62911cfca0801",
+        "comparison_sha256": "b7ef950514cf1883d2f23b8c8e5fdd7c683e4dab7e2d7aa420ab7e1eaa98177f",
+        "merge_and_output_hash_seconds": 0.030275414988864213,
+        "utc": "2026-11-18T10:47:53.576350+00:00"
+      },
+      "lifted_seed_sha256": "948344fff177652ff40b235472c21de7849d6e2e107e4464cc6a178edf2a7a13"
+    },
+    {
+      "n": 18,
+      "h": 6,
+      "source_N": 20,
+      "source_H": 8,
+      "j": 6,
+      "t": 17,
+      "left": 8725595,
+      "right": 6494562,
+      "value": 15220157,
+      "status": "exact",
+      "input_states": 74,
+      "layer_digest64": 17650650561414284374,
+      "attempted_moves_through_layer": 123856,
+      "compared_methods": [],
+      "peak_states_through_layer": 4872,
+      "layer_bytes_read_and_written": 648984,
+      "max_two_layers_bytes": 78432,
+      "process_peak_KiB_this_invocation": 7936,
+      "wall_seconds_this_invocation": 0.0,
+      "resumed_from_layer": 16,
+      "driver_sha256": "d5c87b3bda3786439534eeee0400b370cdca14db9d3b18bf26a930b277a7fc60",
+      "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+      "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "compiler_flags": [
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra"
+      ],
+      "binary_sha256": {
+        "solver": "cc6c371ee0da59ca854d94c536c3ac2c755866c75603e39c71d8429a23cf0915",
+        "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+      },
+      "layer": {
+        "size": 866,
+        "sha256": "6f1ecf8433b07553ce6a32ed070bba30a7f401f5e469739371b821327099fe43",
+        "embedded": true,
+        "encoding": "zlib+base64",
+        "data": "eNo9ks1rE0EYxmd2k5pZkmZjTaVemjjM6uwpPXjxNMU/wZvQg+Af4UWYUDBRI5HG6MFq1LaIH01VqLTVyIaCFSy1NAXBjxzUVBRzkIL4kYPJO2/cy/x45nmfeefdiTvEfJyoSG99XYhykgF823YE4qXPEUlcwEpzQJIU4Ku6K7Bs489enxDA8mZcoLfaYhy9eR3y0FCbchIxPFYqN9RbZ884uPvj1wmG5TOTR4XKwP6LosMRLxQthqGTb05xlQK1ckwifX8a9xUBDCphrhTg720mEO/vJgQee/Uh9dBbqttDg9gVw6jVrZOeNtLPhm1hhx8fF2wHq6a3faldcNztUgpo9hsVOgP4Pkc54vyjrmqsm0eEVkA3v1g+ntCYCXNUO9UYx6zsAMNe7zSiyX6DIjCzaJ+2FIn26N3LyyGmzVhu1I5zNHydo0ybae6ePSADc6+F9TDvY9ILzFWyz0dlYI7KlW0RmGHt5Ad9NOzUIgINxYshjoYH15ijzWDO36vS/f//LEmDuLZ+kJNx80haEUESgPMfwixIQedP/paoIGMgL6xaHqGAV3LDPmLn9mGOac+Wu16TttaMOYG5fKsyRyUmd24lOablt2wWuOBY1hMj/acuVAK0laWkVGnAxXpaoto+130dY4DZjRhX46a+M+QpCjg9NSJQLVwf5ZhQ/7SHY1m5tM9H70rz0D8HLJqE"
+      },
+      "generator_sha256": "34d304220a321e15dc97d374fd4b45e747ccb418433a694269eb2f7cb002567a",
+      "generator_sources": {
+        "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+        "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+        "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+        "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574",
+        "narrow.cpp": "02a0a539b7be243573eb6d22c1c4bba6bb069029d00dde9f3691a267f3c5be92"
+      },
+      "single_output_group": true,
+      "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+      "source_files": {
+        "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+        "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+        "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+        "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+      },
+      "utc": "2026-11-18T10:48:05.377513+00:00",
+      "lifted_seed": {
+        "shorter": {
+          "metadata": [
+            19,
+            7,
+            16,
+            74,
+            2341727311764766613,
+            3696,
+            53644,
+            272800,
+            65477
+          ],
+          "metadata_sha256": "7a204bc8a237070ee8540506390cfe513cdb38f0264833b6682601319ba59833",
+          "size": 858,
+          "layer_sha256": "7f86592e057f000072144ffff8a05c165230b87c52ad02d1232905eef12d9646"
+        },
+        "complement": {
+          "metadata": [
+            20,
+            8,
+            16,
+            279,
+            4005832875839446845,
+            4872,
+            68996,
+            356824,
+            78432
+          ],
+          "metadata_sha256": "779340d1be906bb00af6595ac945ab1903bae08a34fd9105a108c774f4a5701c",
+          "size": 2884,
+          "layer_sha256": "f884afc29eed71dbf5f1963526eead160586d357eebfe5ed77c8bf9a130f5920"
+        },
+        "output": {
+          "metadata": [
+            20,
+            8,
+            16,
+            353,
+            14138886553396880296,
+            4872,
+            122640,
+            637054,
+            78432
+          ],
+          "metadata_sha256": "a8fb9bad2177c676aebd958193d8d64e0c499b6d6ebb39bd084414cb32cdd472",
+          "size": 3688,
+          "layer_sha256": "7b4bfe6b9919537813b353a71fc871ed0ebaf85e942445210741481ba9b4608b"
+        },
+        "deficit": 6,
+        "shorter_opening_budget": 13,
+        "left_closing_threshold": 3,
+        "right_closing_threshold": 2,
+        "source_files": {
+          "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+          "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+          "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+          "horizon.cpp": "f4625ba45a5c1a4e9e9b1aa17eaafb7b271277d6c97c19a01d1641e6d8dd345d"
+        },
+        "sources_sha256": "2a1da02f233a1103a8a672f72f62c0005531337a1a4601d99e55d416bcd12278",
+        "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+        "compiler_flags": [
+          "-O3",
+          "-march=native",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra"
+        ],
+        "binary_sha256": "67e604af8af0ef809a111ddac7c947ab095fdd89a2ee1854f3a36e59a0aaf5f7",
+        "driver_sha256": "6c7d43085897624f8e96c1f7853bd58072152fe3d3a6bb9da0a62911cfca0801",
+        "comparison_sha256": "b7ef950514cf1883d2f23b8c8e5fdd7c683e4dab7e2d7aa420ab7e1eaa98177f",
+        "merge_and_output_hash_seconds": 0.030275414988864213,
+        "utc": "2026-11-18T10:47:53.576350+00:00"
+      },
+      "lifted_seed_sha256": "948344fff177652ff40b235472c21de7849d6e2e107e4464cc6a178edf2a7a13"
+    },
+    {
+      "n": 19,
+      "h": 7,
+      "source_N": 20,
+      "source_H": 8,
+      "j": 6,
+      "t": 18,
+      "left": 22146409,
+      "right": 14764225,
+      "value": 36910634,
+      "status": "exact",
+      "input_states": 14,
+      "layer_digest64": 8497322905190738606,
+      "attempted_moves_through_layer": 124096,
+      "compared_methods": [],
+      "peak_states_through_layer": 4872,
+      "layer_bytes_read_and_written": 651782,
+      "max_two_layers_bytes": 78432,
+      "process_peak_KiB_this_invocation": 7936,
+      "wall_seconds_this_invocation": 0.0,
+      "resumed_from_layer": 17,
+      "driver_sha256": "d5c87b3bda3786439534eeee0400b370cdca14db9d3b18bf26a930b277a7fc60",
+      "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+      "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "compiler_flags": [
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra"
+      ],
+      "binary_sha256": {
+        "solver": "cc6c371ee0da59ca854d94c536c3ac2c755866c75603e39c71d8429a23cf0915",
+        "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+      },
+      "layer": {
+        "size": 200,
+        "sha256": "d20edccd391a18d0760b32c8bd5a2a7e42254c923f03e8f061ece15cfa5b2735",
+        "embedded": true,
+        "encoding": "zlib+base64",
+        "data": "eNoTZGaAAC4GBhYQfebbTkZOBgEw+92cKk4GBTDz751zjMIsULWcDgpg+u/jXYycDgJg9onTYkxQIw5ObGXncoAonfzNRxSmjcmBgQNEv7x1nIuzAWJuy/8ljFwNEH3Nje+YOBsgVvd+MBaHO+0ARN+RRd+ZOA8ogNkrH14GsgXA7O6FVxkB8oEkzg=="
+      },
+      "generator_sha256": "34d304220a321e15dc97d374fd4b45e747ccb418433a694269eb2f7cb002567a",
+      "generator_sources": {
+        "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+        "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+        "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+        "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574",
+        "narrow.cpp": "02a0a539b7be243573eb6d22c1c4bba6bb069029d00dde9f3691a267f3c5be92"
+      },
+      "single_output_group": true,
+      "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+      "source_files": {
+        "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+        "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+        "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+        "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+      },
+      "utc": "2026-11-18T10:48:05.412786+00:00",
+      "lifted_seed": {
+        "shorter": {
+          "metadata": [
+            19,
+            7,
+            16,
+            74,
+            2341727311764766613,
+            3696,
+            53644,
+            272800,
+            65477
+          ],
+          "metadata_sha256": "7a204bc8a237070ee8540506390cfe513cdb38f0264833b6682601319ba59833",
+          "size": 858,
+          "layer_sha256": "7f86592e057f000072144ffff8a05c165230b87c52ad02d1232905eef12d9646"
+        },
+        "complement": {
+          "metadata": [
+            20,
+            8,
+            16,
+            279,
+            4005832875839446845,
+            4872,
+            68996,
+            356824,
+            78432
+          ],
+          "metadata_sha256": "779340d1be906bb00af6595ac945ab1903bae08a34fd9105a108c774f4a5701c",
+          "size": 2884,
+          "layer_sha256": "f884afc29eed71dbf5f1963526eead160586d357eebfe5ed77c8bf9a130f5920"
+        },
+        "output": {
+          "metadata": [
+            20,
+            8,
+            16,
+            353,
+            14138886553396880296,
+            4872,
+            122640,
+            637054,
+            78432
+          ],
+          "metadata_sha256": "a8fb9bad2177c676aebd958193d8d64e0c499b6d6ebb39bd084414cb32cdd472",
+          "size": 3688,
+          "layer_sha256": "7b4bfe6b9919537813b353a71fc871ed0ebaf85e942445210741481ba9b4608b"
+        },
+        "deficit": 6,
+        "shorter_opening_budget": 13,
+        "left_closing_threshold": 3,
+        "right_closing_threshold": 2,
+        "source_files": {
+          "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+          "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+          "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+          "horizon.cpp": "f4625ba45a5c1a4e9e9b1aa17eaafb7b271277d6c97c19a01d1641e6d8dd345d"
+        },
+        "sources_sha256": "2a1da02f233a1103a8a672f72f62c0005531337a1a4601d99e55d416bcd12278",
+        "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+        "compiler_flags": [
+          "-O3",
+          "-march=native",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra"
+        ],
+        "binary_sha256": "67e604af8af0ef809a111ddac7c947ab095fdd89a2ee1854f3a36e59a0aaf5f7",
+        "driver_sha256": "6c7d43085897624f8e96c1f7853bd58072152fe3d3a6bb9da0a62911cfca0801",
+        "comparison_sha256": "b7ef950514cf1883d2f23b8c8e5fdd7c683e4dab7e2d7aa420ab7e1eaa98177f",
+        "merge_and_output_hash_seconds": 0.030275414988864213,
+        "utc": "2026-11-18T10:47:53.576350+00:00"
+      },
+      "lifted_seed_sha256": "948344fff177652ff40b235472c21de7849d6e2e107e4464cc6a178edf2a7a13"
+    },
+    {
+      "n": 20,
+      "h": 8,
+      "source_N": 20,
+      "source_H": 8,
+      "j": 6,
+      "t": 19,
+      "left": 52178856,
+      "right": 31527788,
+      "value": 83706644,
+      "status": "exact",
+      "input_states": 2,
+      "layer_digest64": 11709392884817195387,
+      "attempted_moves_through_layer": 124136,
+      "compared_methods": [],
+      "peak_states_through_layer": 4872,
+      "layer_bytes_read_and_written": 652424,
+      "max_two_layers_bytes": 78432,
+      "process_peak_KiB_this_invocation": 8192,
+      "wall_seconds_this_invocation": 0.0,
+      "resumed_from_layer": 18,
+      "driver_sha256": "d5c87b3bda3786439534eeee0400b370cdca14db9d3b18bf26a930b277a7fc60",
+      "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+      "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "compiler_flags": [
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra"
+      ],
+      "binary_sha256": {
+        "solver": "cc6c371ee0da59ca854d94c536c3ac2c755866c75603e39c71d8429a23cf0915",
+        "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+      },
+      "layer": {
+        "size": 42,
+        "sha256": "7ffa1ac50775fd7a7bdadf9652fb55aedfdf76c2fae601bf76e5bde08949423b",
+        "embedded": true,
+        "encoding": "zlib+base64",
+        "data": "eNoTZmSAACYo/WZZC78oXNCBgQVEr7j/QQIAQ3MFJw=="
+      },
+      "generator_sha256": "34d304220a321e15dc97d374fd4b45e747ccb418433a694269eb2f7cb002567a",
+      "generator_sources": {
+        "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+        "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+        "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+        "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574",
+        "narrow.cpp": "02a0a539b7be243573eb6d22c1c4bba6bb069029d00dde9f3691a267f3c5be92"
+      },
+      "single_output_group": true,
+      "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+      "source_files": {
+        "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+        "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+        "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+        "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+      },
+      "utc": "2026-11-18T10:48:05.447944+00:00",
+      "lifted_seed": {
+        "shorter": {
+          "metadata": [
+            19,
+            7,
+            16,
+            74,
+            2341727311764766613,
+            3696,
+            53644,
+            272800,
+            65477
+          ],
+          "metadata_sha256": "7a204bc8a237070ee8540506390cfe513cdb38f0264833b6682601319ba59833",
+          "size": 858,
+          "layer_sha256": "7f86592e057f000072144ffff8a05c165230b87c52ad02d1232905eef12d9646"
+        },
+        "complement": {
+          "metadata": [
+            20,
+            8,
+            16,
+            279,
+            4005832875839446845,
+            4872,
+            68996,
+            356824,
+            78432
+          ],
+          "metadata_sha256": "779340d1be906bb00af6595ac945ab1903bae08a34fd9105a108c774f4a5701c",
+          "size": 2884,
+          "layer_sha256": "f884afc29eed71dbf5f1963526eead160586d357eebfe5ed77c8bf9a130f5920"
+        },
+        "output": {
+          "metadata": [
+            20,
+            8,
+            16,
+            353,
+            14138886553396880296,
+            4872,
+            122640,
+            637054,
+            78432
+          ],
+          "metadata_sha256": "a8fb9bad2177c676aebd958193d8d64e0c499b6d6ebb39bd084414cb32cdd472",
+          "size": 3688,
+          "layer_sha256": "7b4bfe6b9919537813b353a71fc871ed0ebaf85e942445210741481ba9b4608b"
+        },
+        "deficit": 6,
+        "shorter_opening_budget": 13,
+        "left_closing_threshold": 3,
+        "right_closing_threshold": 2,
+        "source_files": {
+          "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+          "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+          "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+          "horizon.cpp": "f4625ba45a5c1a4e9e9b1aa17eaafb7b271277d6c97c19a01d1641e6d8dd345d"
+        },
+        "sources_sha256": "2a1da02f233a1103a8a672f72f62c0005531337a1a4601d99e55d416bcd12278",
+        "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+        "compiler_flags": [
+          "-O3",
+          "-march=native",
+          "-std=c++17",
+          "-Wall",
+          "-Wextra"
+        ],
+        "binary_sha256": "67e604af8af0ef809a111ddac7c947ab095fdd89a2ee1854f3a36e59a0aaf5f7",
+        "driver_sha256": "6c7d43085897624f8e96c1f7853bd58072152fe3d3a6bb9da0a62911cfca0801",
+        "comparison_sha256": "b7ef950514cf1883d2f23b8c8e5fdd7c683e4dab7e2d7aa420ab7e1eaa98177f",
+        "merge_and_output_hash_seconds": 0.030275414988864213,
+        "utc": "2026-11-18T10:47:53.576350+00:00"
+      },
+      "lifted_seed_sha256": "948344fff177652ff40b235472c21de7849d6e2e107e4464cc6a178edf2a7a13"
+    }
+  ],
+  "original_receipt_hashes": [
+    "01dfa990f8cb71efa7a1f81bccf01c3d14932b541de75dec5771a988b5d5f5e7",
+    "0ba3dff843d09d0dd6b6980dac25dac5b4d7abb6b226f4ef73aa902747f21507",
+    "678ec4c84c022dde4fbf28eeb5787963895ba0fd0b7ab9b2295829ae48fd6b45",
+    "cfc67408f1153ddc0cd7b9a31ee52c8ed1c4de5febbada48d445d2613a1c610f"
+  ]
+}

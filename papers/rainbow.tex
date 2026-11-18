@@ -1,0 +1,94 @@
+\input{preamble.tex}
+\hypersetup{pdfauthor={Iaroslav Argunov},pdftitle={Exact certificates for seven semi-meander diagonals}}
+\begin{document}
+\paperhead{Exact certificates for seven semi-meander diagonals}
+\begin{abstract}
+Hunter Hogan gives rational functions for the winding diagonals five through eleven of the connected semi-meander triangle. We prove that the seven functions have the stated coefficients at every index. The proof bounds the multiplicities of individual cyclotomic factors and the degree of the numerator. This reduces the largest identity to coefficients through crossing number 418. Two finite transfers check the resulting integer polynomial identities. The same calculation recovers rational functions for further diagonals.
+\end{abstract}
+
+\section{The counting problem}
+Number the vertices of a disk \(0,\ldots,2n-1\). Fix the lower matching \(i\leftrightarrow 2n-1-i\), usually called the rainbow. The upper matching \(A\) is noncrossing. The union, with edge colours retained so that a common edge forms a cycle of length two, must have a single component. Write \(S_j(n)\) for the number of such upper matchings with exactly \(j\) local arches in each half. Thus the number of upper arches crossing the midpoint is \(n-2j\). We use \(j\ge1\) and set \(S_j(n)=0\) for \(0\le n<2j\). In the indexing of A400429 this is \(T(n,\lfloor n/2\rfloor-j+1)\) for \(n\ge2j\) \cite{hogan,triangle}. Write \(F_j(z)=\sum_{n\ge0}S_j(n)z^n\).
+
+Zhang and Ma proved the third and fourth formulas by a bounded arch transfer. Their general theorem establishes eventual quasipolynomiality, degree \(2j-2\) and a period dividing \(2\operatorname{lcm}(1,\ldots,j)\) \cite[Thms.~1--2]{zm}. A fixed period and degree leave the exceptional initial range open. To compare specific rational functions one also needs effective control of the numerator. We obtain it using the queue description of fixed winding deficit due to Ferudun \cite{ferudun}.
+
+\begin{theorem}\label{thm:hogan}
+For each \(5\le j\le11\), let \(N_j^{\mathrm H},B_j^{\mathrm H}\) be the numerator and denominator coefficient arrays in the default-offset function \texttt{A005315of}\(j\) in \cite{hogan}. At every \(n\ge 2j\),
+\[
+ S_j(n)=2[z^{n-2j}]\,N_j^{\mathrm H}(z)/B_j^{\mathrm H}(z).
+\]
+\end{theorem}
+The factors of two and the shift are part of the published convention. The numerical arrays in the supplement identify the seven formulas even if the software changes.
+
+\section{A denominator for the counting series}
+For each \(m\ge3\) write \(k(m)=m/\gcd(m,2)\) and let \(\Phi_m\) denote the \(m\)-th cyclotomic polynomial. Put
+\[
+ Q_j(z)=(1-z^2)^{2j-1}\!
+ \prod_{\substack{3\le m\le 2j\\ k(m)\le j}}\!
+ \Phi_m(z)^{\,j+1-k(m)}.
+\]
+\begin{theorem}\label{thm:bound}
+The series \(Q_jF_j\) is an integer polynomial of degree at most \(\deg Q_j+4j\).
+\end{theorem}
+\begin{proof}
+Read an upper matching from the outside in, across both halves at once. Its two local arch diagrams are partial noncrossing matchings. At a site one opens a local arch, closes the last open arch on that side, or records an endpoint of a midpoint-crossing arch. The third choice requires that side's stack to be empty. The first crossing endpoint on the left matches the first on the right, and likewise at every rank. Keep a queue of crossing endpoints awaiting their mates. They all belong to one side. Add the lower rainbow edge at each step and follow the induced paths between live ports. A cycle is admissible only when it completes the whole object. These rules construct each eligible upper matching once.
+
+Delete from a completed history all steps having a crossing endpoint on both sides. The remaining word has length \(s\le4j\), since a local arch supplies two events and there are \(2j\) local arches. A gap that permits any deleted steps requires both stacks to be empty. At such a gap, write \(x,y\) for the numbers of local arches completed on the two sides. The signed queue length is \(d=2(y-x)\). If \(d=0\), a double crossing endpoint forms an isolated rainbow edge with its mate. Since \(j\ge1\), this cannot occur in an accepted history, even at the last step.
+
+If \(d\ne0\), the next double crossing endpoint moves the oldest free port to the tail: the new lower edge simply continues its path. The path pairing on the queue is transported by a cyclic permutation of its \(|d|\) positions. In particular the state after a string of such steps depends only on their number modulo \(|d|\). The other gaps admit no deleted steps. For a fixed remaining word choose residues \(0\le r_i<|d_i|\) at all eligible gaps. Either every history specified by these residues is accepted or none is. Its contribution in the former case is
+\[
+ z^{s+\sum_i r_i}\prod_i(1-z^{|d_i|})^{-1}.
+\]
+This description includes gaps with zero inserted steps. It uses the pairing to decide acceptance after the residues have been fixed.
+
+The gap positions \((x,y)\) lie, in order, on a monotone lattice path from \((0,0)\) to \((j,j)\): between successive eligible gaps at least one local arch has closed. Complete simultaneous closings in either order to extend to a unit-step lattice path. The endpoints have \(d=0\), so at most \(2j-1\) positions can contribute factors \(\Phi_1\) and \(\Phi_2\). For \(m\ge3\), the factor \(\Phi_m\) can occur only where \(y-x\) is a nonzero multiple of \(k=k(m)\ge2\). Such a position is at least \(k\) steps from either endpoint. Between any two contributing positions there are at least two steps, since a unit step changes the difference by one. Their number is at most \(1+(2j-2k)/2\). Thus the denominator of each displayed summand divides \(Q_j\), up to a sign. After multiplication by \(Q_j\) the degree of that summand is at most
+\[
+ \deg Q_j+s+\sum_i(r_i-|d_i|)\ \le\ \deg Q_j+4j.
+\]
+There are finitely many words and choices of residues. The coefficients are integers.
+\end{proof}
+
+\section{The finite identities}
+For each \(j\) we divide \(Q_j\) by \(B_j^{\mathrm H}\) over \(\Z[z]\) and check that the remainder vanishes. With \(C=Q_j/B_j^{\mathrm H}\), it then suffices to show
+\[
+ Q_j(z)F_j(z)=2z^{2j}N_j^{\mathrm H}(z)C(z).
+\]
+For the seven candidates the polynomial on the right has degree at most the bound in Theorem~\ref{thm:bound}. The table gives this bound \(b\), the number of reachable states in each of the two transfers, and the degree of the published denominator. Only \(b+1\) coefficients, including index zero, are required.
+
+\begin{center}
+\begin{tabular}{rrrrr}\toprule
+\(j\)&\(b\)&Queue states&Arch states&\(\deg B_j^{\mathrm H}\)\\\midrule
+5 & 74 & 3\,516 & 620 & 42\\
+6 & 104 & 13\,706 & 2\,068 & 68\\
+7 & 146 & 52\,939 & 6\,977 & 106\\
+8 & 196 & 203\,734 & 23\,838 & 152\\
+9 & 258 & 783\,512 & 82\,402 & 210\\
+10 & 328 & 3\,015\,393 & 287\,871 & 276\\
+11 & 418 & 11\,621\,599 & 1\,015\,323 & 362\\
+\bottomrule\end{tabular}
+\end{center}
+
+In the queue calculation a state contains the two arch counts, the two stack depths, and the pairing on stacks and queue. A transition inserts one fixed rainbow edge and applies the two local decisions. Joining ports that already belong to the same path closes a circuit. We accept this only when all ports disappear and both arch counts equal \(j\). This explicitly distinguishes final closure from a circuit closed early.
+
+The second transition is Zhang and Ma's bounded arch construction \cite[Lemma~1]{zm}. A midpoint-crossing endpoint is initially indistinguishable from an arch opening. After \(u,v\) closings on stacks of lengths \(a,b\), join their lowest
+\(\max(0,\min(a-j+u,b-j+v))\) pairs. No future sequence of the remaining closings can reach these endpoints. The two programs construct states and update connectivity separately. They share a checked nonnegative integer class. For the third and fourth diagonals the arch program reproduces the 56 and 187 states reported in \cite{zm}. For the small crossing counts the supplement also enumerates the entire Catalan family and tests each union directly.
+
+Both transfers give identical coefficients through \(b+5\) in all seven rows. Multiplying these coefficients by \(Q_j\) yields exactly the right-hand polynomial in every degree through \(b\), proving Theorem~\ref{thm:hogan}. The five surplus coefficients provide a check of index alignment. No fitted recurrence enters either transfer.
+
+\section{Further rational functions}
+The degree bound also reconstructs the entire numerator without a proposed formula. Multiplication by the universal denominator, followed by exact cancellation, gives the following functions. The supplement gives the coefficients. The numerator degree includes the shift to the first nonzero term. These further rows were computed by the bounded arch transfer. Each agrees with the published triangle throughout the complete rows through 45 crossings. The two values at the left edge also agree with the ordinary closed counts at orders \(j\) and \(j+1\). For deficits 12 and 13 the least eventual periods are respectively 55\,440 and 720\,720, obtained as the least common multiples of the orders of the poles of the reduced fractions.
+\begin{center}\begin{tabular}{rrrrr}\toprule \(j\)&Bound&Numerator degree&Denominator degree&States\\\midrule
+12 & 516 & 479 & 456 & 3\,611\,679\\
+13 & 638 & 599 & 574 & 12\,945\,706\\
+\bottomrule\end{tabular}\end{center}
+
+\section*{Reproduction}
+The supplement contains the two transfer sources, the integer coefficients of the candidate rational functions, the exact quotient polynomials, and the coefficient vectors. Its verification program recomputes the polynomials and the degree bounds and can rerun either transfer for the seven candidates. For deficits 12 and 13 it reruns the bounded arch transfer. A reproduction needs Python and a C++17 compiler. Only extraction of the original candidate arrays from the pinned public release requires that external file.
+
+\begin{thebibliography}{9}\small
+\bibitem{dg} P.~Di Francesco, O.~Golinelli and E.~Guitter, Meanders: a direct enumeration approach, \emph{Nuclear Phys.~B} \textbf{482} (1996), 497--535. \href{https://arxiv.org/abs/hep-th/9607039}{Preprint}.
+\bibitem{triangle} H.~Hogan, connected semi-meanders by crossing number and winding, \href{https://oeis.org/A400429}{OEIS A400429}.
+\bibitem{zm} W.~Zhang and H.~Ma, \emph{Semi-meanders with a fixed winding deficit: the third and fourth diagonals of A400429}, 6 October 2026. \href{https://oeis.org/A400429/a400429.pdf}{Manuscript}.
+\bibitem{ferudun} A.~Ferudun, fixed-deficit semi-meander transfer, October 2026, in H.~Hogan, \emph{mapFolding}. \href{https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/research/matrixMeanders/fixed_deficit_semimeanders.py}{Source}.
+\bibitem{hogan} H.~Hogan, \emph{mapFolding}, release 0.40.1 (17 November 2026), module \texttt{mapFolding.oeis.A400429}. \href{https://pypi.org/project/mapFolding/0.40.1/}{Archived release}, \href{https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/mapFolding/oeis/A400429.py}{coefficient arrays and conjecture statements}.
+\end{thebibliography}
+\end{document}

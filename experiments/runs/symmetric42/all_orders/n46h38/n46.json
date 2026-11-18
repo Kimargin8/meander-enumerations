@@ -1,0 +1,51 @@
+{
+  "n": 46,
+  "h": 38,
+  "source_N": 46,
+  "source_H": 38,
+  "j": 4,
+  "t": 45,
+  "left": 6573366128,
+  "right": 783483030,
+  "value": 7356849158,
+  "status": "exact",
+  "input_states": 2,
+  "layer_digest64": 13807261134956781877,
+  "attempted_moves_through_layer": 48900,
+  "compared_methods": [],
+  "peak_states_through_layer": 460,
+  "layer_bytes_read_and_written": 311504,
+  "max_two_layers_bytes": 9368,
+  "process_peak_KiB_this_invocation": 6144,
+  "wall_seconds_this_invocation": 0.0,
+  "resumed_from_layer": 44,
+  "driver_sha256": "80682b0b55d5e203183f1595ef87372b2598a0266ca2590ab92b0556efc08219",
+  "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": {
+    "solver": "51e7ded25b365ed3a0869b2ab689dfa026e558150c85d45df4bef711096384df",
+    "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+  },
+  "layer": {
+    "size": 44,
+    "sha256": "cd8e4e8178447d08c4b5c150f064b37b0c05390a9fb5b85de6047536b90d38b7",
+    "embedded": true,
+    "encoding": "zlib+base64",
+    "data": "eNrTZWSAACYoPa3xzFcmfbgoiwOY/rBt2z4JAGK+BrM="
+  },
+  "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+  },
+  "utc": "2026-11-18T09:53:27.706344+00:00"
+}

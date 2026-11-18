@@ -1,0 +1,74 @@
+{
+  "shorter": {
+    "metadata": [
+      45,
+      9,
+      28,
+      680309616,
+      14255618501969661069,
+      680309616,
+      4590120086,
+      27328763110,
+      10914063968
+    ],
+    "metadata_sha256": "82f1b931a8e0cde47c303ca767cf6481774aacca9d1e3a229c7f35ad7a03a118",
+    "size": 6274616552,
+    "layer_sha256": "25859646d64b7e475aa737f6a4456ac656c12549b3a0c66baf9ab490a885537d"
+  },
+  "complement": {
+    "metadata": [
+      46,
+      10,
+      28,
+      167252355,
+      1050630010662260701,
+      167252355,
+      881278232,
+      5523050847,
+      2480510115
+    ],
+    "metadata_sha256": "b94f7b9e9243387dfc8223c4fc4df2cb8cd6970bc985d7a2ee7d338300741ef6",
+    "size": 1505309253,
+    "layer_sha256": "6e567b31adf65c23c4b1f3a1f85df0cb96d6a46e507f044617671d95db9eadbe"
+  },
+  "output": {
+    "metadata": [
+      46,
+      10,
+      28,
+      847561971,
+      9845063254809169028,
+      847561971,
+      5471398318,
+      48411665333,
+      15559851376
+    ],
+    "metadata_sha256": "185b84d02d198898a8f7698f5ebe6dd28934e746b77e99cc7b719aec0a306e44",
+    "size": 7779925571,
+    "layer_sha256": "2fca94824ac1f0e445055f0f196206f7cdfe0bf42b2ffab78f5f5c474c48d09a"
+  },
+  "deficit": 18,
+  "shorter_opening_budget": 27,
+  "left_closing_threshold": 1,
+  "right_closing_threshold": 0,
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "horizon.cpp": "f4625ba45a5c1a4e9e9b1aa17eaafb7b271277d6c97c19a01d1641e6d8dd345d"
+  },
+  "sources_sha256": "2a1da02f233a1103a8a672f72f62c0005531337a1a4601d99e55d416bcd12278",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": "67e604af8af0ef809a111ddac7c947ab095fdd89a2ee1854f3a36e59a0aaf5f7",
+  "driver_sha256": "6c7d43085897624f8e96c1f7853bd58072152fe3d3a6bb9da0a62911cfca0801",
+  "comparison_sha256": "b7ef950514cf1883d2f23b8c8e5fdd7c683e4dab7e2d7aa420ab7e1eaa98177f",
+  "merge_and_output_hash_seconds": 60.0994189120247,
+  "utc": "2026-11-18T10:48:24.807063+00:00"
+}

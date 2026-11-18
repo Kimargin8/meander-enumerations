@@ -1,0 +1,116 @@
+{
+  "min_n": 31,
+  "max_n": 47,
+  "orders": {
+    "31": {
+      "P": 89760045001718,
+      "passport_sha256": "14ae7683cc8d3b17676b4b989f582ecc5b6982ee0b5e96b9a579c3cc216d95a7",
+      "complete_covers": 5
+    },
+    "32": {
+      "P": 457842107839104,
+      "passport_sha256": "d4129c0887dc0b3a63282ea22b759e83db789a1e4a94e2f9d5703f2735f26db0",
+      "complete_covers": 2
+    },
+    "33": {
+      "P": 992691750273066,
+      "passport_sha256": "0a6c0b2f7046b70db2e031e6d7093ac4b423912ae210a73e1e1a71948a76df14",
+      "complete_covers": 4
+    },
+    "34": {
+      "P": 5066368912728652,
+      "passport_sha256": "7346b1089914f9f9ee19abb76bb4b1aa7f1bea4a56757d482885482e128815f9",
+      "complete_covers": 2
+    },
+    "35": {
+      "P": 11044223760599948,
+      "passport_sha256": "989ec7f00239285c54cec5a00d7712af8f29fd649c6b14f6a0693c0b0e4bc74c",
+      "complete_covers": 6
+    },
+    "36": {
+      "P": 56389748865507576,
+      "passport_sha256": "38f544466afc45dc31e50010c783ef4e467163231d4dfb175313849e8d8e8f4a",
+      "complete_covers": 3
+    },
+    "37": {
+      "P": 123526942005010542,
+      "passport_sha256": "a0882b0e5a19c68ccddb19463fb81308f44ff4ebb2ef4cd2a596cee29f7fc5bd",
+      "complete_covers": 2
+    },
+    "38": {
+      "P": 630893573030449592,
+      "passport_sha256": "d4955c875c5c38ad347993bf68db69888ebff97e00d0d1b6116f3ade467046fb",
+      "complete_covers": 2
+    },
+    "39": {
+      "P": 1388207765065576684,
+      "passport_sha256": "5cfe26d612c990b29641631d5454363c94be257d3b4b930ba25a06210f513e8f",
+      "complete_covers": 2
+    },
+    "40": {
+      "P": 7091465641012195920,
+      "passport_sha256": "1ea160812d8bfc1848374e78a01d428db29c508a077943bc034ad55b02bcda73",
+      "complete_covers": 2
+    },
+    "41": {
+      "P": 15667858250501674960,
+      "passport_sha256": "976a7d9febc1e587b84efba75c934bb68b09e93e19e36d88bb60703a34643724",
+      "complete_covers": 1
+    },
+    "42": {
+      "P": 80046867529579845256,
+      "passport_sha256": "7b7a62ca4d8ef41de572a8d6f6159b34816a65cb357f4d4cc64cfa26292f4e5a",
+      "complete_covers": 1
+    },
+    "43": {
+      "P": 177521966872449581620,
+      "passport_sha256": "2beebc4be2e5f6850102291d8b60834ab4d16c738c6a5a1c37001f5d38aae0e1",
+      "complete_covers": 1
+    },
+    "44": {
+      "P": 907011128480812884256,
+      "passport_sha256": "891404e0f259829df0217bbe8fcf25b20768cb94f77c767384c7d0190531a42a",
+      "complete_covers": 1,
+      "rotation_orbit_checks": {
+        "total_modulus": 88,
+        "total_residue": 24,
+        "checked_minimum_sectors": 8,
+        "sector_modulus": 11
+      }
+    },
+    "45": {
+      "P": 2018507715763963571880,
+      "passport_sha256": "b8872d58af23fe197defbf143ab9928628b150f29e8090a256929f093b9e94c8",
+      "complete_covers": 1,
+      "rotation_orbit_checks": {
+        "total_modulus": 90,
+        "total_residue": 0,
+        "checked_minimum_sectors": 8,
+        "sector_modulus": 5
+      }
+    },
+    "46": {
+      "P": 10313227102656698518952,
+      "passport_sha256": "eedcad7cc61498d2357ad0445bbede0eb46a96c3b33423183ec1a602fb43f5e1",
+      "complete_covers": 1,
+      "rotation_orbit_checks": {
+        "total_modulus": 92,
+        "total_residue": 4,
+        "checked_minimum_sectors": 8,
+        "sector_modulus": 23
+      }
+    },
+    "47": {
+      "P": 23025690740071248492028,
+      "passport_sha256": "1335d8714a3d4874c127504fc28e4657d40a9ca7d0418b2f21faa9cf0f23b23c",
+      "complete_covers": 1,
+      "rotation_orbit_checks": {
+        "total_modulus": 94,
+        "total_residue": 2,
+        "checked_minimum_sectors": 8,
+        "sector_modulus": 47
+      }
+    }
+  },
+  "status": "verified"
+}

@@ -1,0 +1,27 @@
+{
+  "m": 15,
+  "forward": {
+    "m": 15,
+    "connected": 602188541928,
+    "sum_even_upper": 4817508335424,
+    "sum_even_lower": 4817508335424,
+    "sum_product": 37855949856210,
+    "fixed": 78448367021148,
+    "peak_states": 155152
+  },
+  "midpoint": [
+    15,
+    602188541928,
+    4817508335424,
+    4817508335424,
+    37855949856210,
+    78448367021148,
+    6435,
+    59282,
+    4630603
+  ],
+  "midpoint_seconds": 7.061774604022503,
+  "forward_seconds": 11.080346891016234,
+  "half_source": "f290b873db4e9fab9dae03d617871fd73040c7325c5fc728635beb0e18324ea7",
+  "forward_source": "9b641fe97edcfadfd5920482a3cf2c02de02a0a28efc83e7bee10df2304faf65"
+}

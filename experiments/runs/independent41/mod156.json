@@ -1,0 +1,114 @@
+{
+  "scope": "congruence only; rooted ordered closed count A005315",
+  "n": 39,
+  "residue": 16,
+  "modulus": 156,
+  "open39": 64477712119584604,
+  "half19": 600994488311709056,
+  "residues": {
+    "4": 0,
+    "3": 1,
+    "13": 3
+  },
+  "identity": "Howroyd (2015), A077460, odd-order formula",
+  "identity_url": "https://oeis.org/A077460/internal",
+  "table_verifications": [
+    {
+      "n": 3,
+      "published_orbit_count": true
+    },
+    {
+      "n": 5,
+      "published_orbit_count": true
+    },
+    {
+      "n": 7,
+      "published_orbit_count": true
+    },
+    {
+      "n": 9,
+      "published_orbit_count": true
+    },
+    {
+      "n": 11,
+      "published_orbit_count": true
+    },
+    {
+      "n": 13,
+      "published_orbit_count": true
+    },
+    {
+      "n": 15,
+      "published_orbit_count": true
+    },
+    {
+      "n": 17,
+      "published_orbit_count": true
+    },
+    {
+      "n": 19,
+      "published_orbit_count": true
+    },
+    {
+      "n": 21,
+      "published_orbit_count": true
+    },
+    {
+      "n": 23,
+      "published_orbit_count": true
+    },
+    {
+      "n": 25,
+      "published_orbit_count": true
+    },
+    {
+      "n": 27,
+      "published_orbit_count": true
+    },
+    {
+      "n": 29,
+      "published_orbit_count": false
+    },
+    {
+      "n": 31,
+      "published_orbit_count": false
+    },
+    {
+      "n": 33,
+      "published_orbit_count": false
+    },
+    {
+      "n": 35,
+      "published_orbit_count": false
+    },
+    {
+      "n": 37,
+      "published_orbit_count": false
+    }
+  ],
+  "sources": {
+    "A005315": {
+      "url": "https://oeis.org/A005315/b005315.txt",
+      "sha256": "f4a7b3ca6fc1ac097fa2f6aaef2d8988974984c97a52917a85735d15e048b3f9"
+    },
+    "A005316": {
+      "url": "https://oeis.org/A005316/b005316.txt",
+      "sha256": "2c264f47f4b8d3962c0b0a3c8281ec1779477540c3bac93f9dd85e77adaf1721"
+    },
+    "A060206": {
+      "url": "https://oeis.org/A060206/b060206.txt",
+      "sha256": "99e001e06ee08ac8a3ced1f44fc83652323a9fb5b759c62ec7a88b67e125790d"
+    },
+    "A000682": {
+      "url": "https://oeis.org/A000682/b000682.txt",
+      "sha256": "7b69d33b0d6d211ed0f822821206e513f4aa768c4aa8bcf06d03d0c722dd4ea0"
+    },
+    "A077460": {
+      "url": "https://oeis.org/A077460/b077460.txt",
+      "sha256": "0d587f5656724e0e51208fbecb757917290c09db98e5f259042fb7a209742031"
+    }
+  },
+  "rotation_sha256": "afa6e3b1a91fdede9e3d4e07d16560709f27d7986c7668e11160339b827ecd0b",
+  "code_sha256": "d707cea70605d371e05f99e40e6be2d4886ec9e655b54e23692d3e9e7c84c756",
+  "checked_utc": "2026-11-18T05:35:50.705298+00:00"
+}

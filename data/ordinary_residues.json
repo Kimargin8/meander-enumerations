@@ -1,0 +1,504 @@
+[
+  {
+    "n": 3,
+    "rotation_fixed": {
+      "3": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 6,
+      "R": 2,
+      "RX": 2,
+      "HX": 2,
+      "LX": 4,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 0,
+    "modulus": 24,
+    "residue": 8,
+    "known_exact": 8,
+    "shape_crossings": 5,
+    "shape_modulus": 6,
+    "shape_residue": 3
+  },
+  {
+    "n": 5,
+    "rotation_fixed": {
+      "5": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 50,
+      "R": 8,
+      "RX": 10,
+      "HX": 12,
+      "LX": 26,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 6,
+    "modulus": 40,
+    "residue": 22,
+    "known_exact": 262,
+    "shape_crossings": 9,
+    "shape_modulus": 10,
+    "shape_residue": 2
+  },
+  {
+    "n": 7,
+    "rotation_fixed": {
+      "7": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 462,
+      "R": 42,
+      "RX": 66,
+      "HX": 86,
+      "LX": 204,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 4,
+    "modulus": 56,
+    "residue": 44,
+    "known_exact": 13820,
+    "shape_crossings": 13,
+    "shape_modulus": 14,
+    "shape_residue": 6
+  },
+  {
+    "n": 9,
+    "rotation_fixed": {
+      "3": 68,
+      "9": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 4536,
+      "R": 262,
+      "RX": 504,
+      "HX": 710,
+      "LX": 1778,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 2,
+    "modulus": 72,
+    "residue": 50,
+    "known_exact": 933458,
+    "shape_crossings": 17,
+    "shape_modulus": 18,
+    "shape_residue": 7
+  },
+  {
+    "n": 11,
+    "rotation_fixed": {
+      "11": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 46310,
+      "R": 1828,
+      "RX": 4210,
+      "HX": 6316,
+      "LX": 16534,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 2,
+    "modulus": 88,
+    "residue": 2,
+    "known_exact": 73424650,
+    "shape_crossings": 21,
+    "shape_modulus": 22,
+    "shape_residue": 20
+  },
+  {
+    "n": 13,
+    "rotation_fixed": {
+      "13": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 485914,
+      "R": 13820,
+      "RX": 37378,
+      "HX": 59204,
+      "LX": 160698,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 2,
+    "modulus": 104,
+    "residue": 2,
+    "known_exact": 6405031050,
+    "shape_crossings": 25,
+    "shape_modulus": 26,
+    "shape_residue": 5
+  },
+  {
+    "n": 15,
+    "rotation_fixed": {
+      "3": 4932,
+      "5": 68,
+      "15": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 5202690,
+      "R": 110954,
+      "RX": 346846,
+      "HX": 576018,
+      "LX": 1612668,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 0,
+    "modulus": 120,
+    "residue": 48,
+    "known_exact": 602188541928,
+    "shape_crossings": 29,
+    "shape_modulus": 30,
+    "shape_residue": 9
+  },
+  {
+    "n": 17,
+    "rotation_fixed": {
+      "17": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 56579196,
+      "R": 933458,
+      "RX": 3328188,
+      "HX": 5764430,
+      "LX": 16581290,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 6,
+    "modulus": 136,
+    "residue": 70,
+    "known_exact": 59923200729046,
+    "shape_crossings": 33,
+    "shape_modulus": 34,
+    "shape_residue": 26
+  },
+  {
+    "n": 19,
+    "rotation_fixed": {
+      "19": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 622945970,
+      "R": 8152860,
+      "RX": 32786630,
+      "HX": 58970568,
+      "LX": 173762358,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 6,
+    "modulus": 152,
+    "residue": 78,
+    "known_exact": 6234277838531806,
+    "shape_crossings": 37,
+    "shape_modulus": 38,
+    "shape_residue": 35
+  },
+  {
+    "n": 21,
+    "rotation_fixed": {
+      "3": 457676,
+      "7": 68,
+      "21": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 6927964218,
+      "R": 73424650,
+      "RX": 329903058,
+      "HX": 614037754,
+      "LX": 1849043436,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 4,
+    "modulus": 168,
+    "residue": 68,
+    "known_exact": 672265814872772972,
+    "shape_crossings": 41,
+    "shape_modulus": 42,
+    "shape_residue": 14
+  },
+  {
+    "n": 23,
+    "rotation_fixed": {
+      "23": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 77692142980,
+      "R": 678390116,
+      "RX": 3377919260,
+      "HX": 6487276640,
+      "LX": 19925591108,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 0,
+    "modulus": 184,
+    "residue": 48,
+    "known_exact": 74661728661167809752,
+    "shape_crossings": 45,
+    "shape_modulus": 46,
+    "shape_residue": 13
+  },
+  {
+    "n": 25,
+    "rotation_fixed": {
+      "5": 4932,
+      "25": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 877395996200,
+      "R": 6405031050,
+      "RX": 35095839848,
+      "HX": 69375045522,
+      "LX": 216997919890,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 2,
+    "modulus": 200,
+    "residue": 82,
+    "known_exact": 8499066628515413229282,
+    "shape_crossings": 49,
+    "shape_modulus": 50,
+    "shape_residue": 43
+  },
+  {
+    "n": 27,
+    "rotation_fixed": {
+      "3": 47985692,
+      "9": 68,
+      "27": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 9968202968958,
+      "R": 61606881612,
+      "RX": 369192702554,
+      "HX": 749582142524,
+      "LX": 2384457300354,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 6,
+    "modulus": 216,
+    "residue": 158,
+    "known_exact": 987975910996038555989486,
+    "shape_crossings": 53,
+    "shape_modulus": 54,
+    "shape_residue": 2
+  },
+  {
+    "n": 29,
+    "rotation_fixed": {
+      "29": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 113837957337750,
+      "R": 602188541928,
+      "RX": 3925446804750,
+      "HX": 8171105982948,
+      "LX": 26403879351770,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 6,
+    "modulus": 232,
+    "residue": 118,
+    "known_exact": 116936079373841873422508566,
+    "shape_crossings": 57,
+    "shape_modulus": 58,
+    "shape_residue": 36
+  },
+  {
+    "n": 31,
+    "rotation_fixed": {
+      "31": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 1305930965874738,
+      "R": 5969806669034,
+      "RX": 42126805350798,
+      "HX": 89760045001718,
+      "LX": 294341775684808,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 0,
+    "modulus": 248,
+    "residue": 64,
+    "known_exact": 14058963484756608748809713192,
+    "shape_crossings": 61,
+    "shape_modulus": 62,
+    "shape_residue": 20
+  },
+  {
+    "n": 33,
+    "rotation_fixed": {
+      "3": 5411044784,
+      "11": 68,
+      "33": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 15041167138186200,
+      "R": 59923200729046,
+      "RX": 455792943581400,
+      "HX": 992691750273066,
+      "LX": 3300537227268906,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 6,
+    "modulus": 264,
+    "residue": 134,
+    "known_exact": 1713661620837603791268481065446,
+    "shape_crossings": 65,
+    "shape_modulus": 66,
+    "shape_residue": 44
+  },
+  {
+    "n": 35,
+    "rotation_fixed": {
+      "5": 457676,
+      "7": 4932,
+      "35": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 173850561915497530,
+      "R": 608188709574124,
+      "RX": 4967158911871358,
+      "HX": 11044223760599948,
+      "LX": 37202370972838258,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 6,
+    "modulus": 280,
+    "residue": 46,
+    "known_exact": 211433268000094602372146238438566,
+    "shape_crossings": 69,
+    "shape_modulus": 70,
+    "shape_residue": 46
+  },
+  {
+    "n": 37,
+    "rotation_fixed": {
+      "37": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 2015766450596782386,
+      "R": 6234277838531806,
+      "RX": 54480174340453578,
+      "HX": 123526942005010542,
+      "LX": 421272440419465856,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 0,
+    "modulus": 296,
+    "residue": 224,
+    "known_exact": 26370652969449510879209096913242792,
+    "shape_crossings": 73,
+    "shape_modulus": 74,
+    "shape_residue": 62
+  },
+  {
+    "n": 39,
+    "rotation_fixed": {
+      "3": 640398992404,
+      "13": 68,
+      "39": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 23438785044156653184,
+      "R": 64477712119584604,
+      "RX": 600994488311709056,
+      "HX": 1388207765065576684,
+      "LX": 4790198939133878624,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 0,
+    "modulus": 312,
+    "residue": 16,
+    "known_exact": null,
+    "shape_crossings": 77,
+    "shape_modulus": 78,
+    "shape_residue": 60
+  },
+  {
+    "n": 41,
+    "rotation_fixed": {
+      "41": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 273238606399218084680,
+      "R": 672265814872772972,
+      "RX": 6664356253639465480,
+      "HX": 15667858250501674960,
+      "LX": 54671954352661602208,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 4,
+    "modulus": 328,
+    "residue": 84,
+    "known_exact": null,
+    "shape_crossings": 81,
+    "shape_modulus": 82,
+    "shape_residue": 43
+  },
+  {
+    "n": 43,
+    "rotation_fixed": {
+      "43": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 3192705159389711876360,
+      "R": 7060941974458061392,
+      "RX": 74248957195109578520,
+      "HX": 177521966872449581620,
+      "LX": 626100016940504267616,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 4,
+    "modulus": 344,
+    "residue": 260,
+    "known_exact": null,
+    "shape_crossings": 85,
+    "shape_modulus": 86,
+    "shape_residue": 37
+  },
+  {
+    "n": 45,
+    "rotation_fixed": {
+      "3": 78448367021148,
+      "5": 47985692,
+      "9": 4932,
+      "15": 68,
+      "45": 2
+    },
+    "eight_group_nonidentity": {
+      "H": 37384929247793935264200,
+      "R": 74661728661167809752,
+      "RX": 830776205506531894760,
+      "HX": 2018507715763963571880,
+      "LX": 7192153841429458327216,
+      "IX": 0,
+      "L": 0
+    },
+    "mod8": 0,
+    "modulus": 360,
+    "residue": 72,
+    "known_exact": null,
+    "shape_crossings": 89,
+    "shape_modulus": 90,
+    "shape_residue": 82
+  }
+]

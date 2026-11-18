@@ -1,0 +1,53 @@
+{
+  "n": 44,
+  "h": 22,
+  "source_N": 46,
+  "source_H": 24,
+  "j": 11,
+  "t": 43,
+  "left": 587262914938871134,
+  "right": 246805767703647618,
+  "value": 834068682642518752,
+  "status": "exact",
+  "input_states": 74,
+  "layer_digest64": 16209090991171285658,
+  "attempted_moves_through_layer": 258777504,
+  "compared_methods": [
+    "compact"
+  ],
+  "peak_states_through_layer": 5810552,
+  "layer_bytes_read_and_written": 1465749585,
+  "max_two_layers_bytes": 112432787,
+  "process_peak_KiB_this_invocation": 5888,
+  "wall_seconds_this_invocation": 0.0,
+  "resumed_from_layer": 42,
+  "driver_sha256": "80682b0b55d5e203183f1595ef87372b2598a0266ca2590ab92b0556efc08219",
+  "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": {
+    "solver": "51e7ded25b365ed3a0869b2ab689dfa026e558150c85d45df4bef711096384df",
+    "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+  },
+  "layer": {
+    "size": 1227,
+    "sha256": "a8cadecaf6830a5cc758ce367cb42371249f410e65446ab473c70e70d349e1fe",
+    "embedded": true,
+    "encoding": "zlib+base64",
+    "data": "eNpNlN1TGmcUxlk+TNDWJG2u2mmnnR2YwU5sMp3cp7HtTf+FXvS2973opS64Gq1RPkyMiKaSAlHJriIbNCoiUI2EL4OfEGNsBi2xiGCw61dyzvbNtMwwu785532e57z77uoqZf/+dDLZtc/g2jfgfxK3MUrgeuTXfXya211Xa2SyaeTyczbkbjeqtHCPvPzPn8X06n0VDfefw7/52UvDm0hHRQ2pH7gFPuOzqmmyXrj9IHX3D9sZDekXmUDB51mqpInfsHUwOiVuyzUkj2nlV3bCuVbxxfskqJoUnMNjwf7S61oI+vV54PhmwBeYroV11AXAfdGVmY8XKmjC23PmudVuVgHtDdhe2BMf7gUtFWriG+trGQ4act9BbgrrJy+NXV5Hkqp8N8euQdR7wte0pN4Q4xpdr+opDbHfE/i/vJ7vAQNSeezQFLHwSppwMVZ0xtZ+oon7DcdmNHv/k0vVZChQlePV2vL0tGn050pisjFzkvwtmTwvJyGYQVHfY/QKOMV17DdvF0veaBXIyinAxE5k3DUmKtQk1ImxMz9tu62Cdgbb02Mm4XSjroa4mY+2UuYijzNIy/sF4y07/6OahHQlE8kdi/uyhphFf+84HCqfA5yRVo8sta5N6GiifS+T7+QccppUX4RTttOBq19W/3e+9Ciay5SWjh9vUMB1yJl7oz7huAkzKPA5CY6RIJPglMBB6Tm12YdnerWQicEdaGZH2YEbQ7U0keuZ1C+H75yF8nUsl/4u8G2thWrYQDlyIdnvbhZaGigYWYH9i5Fnd5t6/BhTstsfdzwur0vHTYrTefwomeY4iib2yxGeDR1dhe2iLgOuj4cWnR1d5rNaovd0lWUfNL6quvK/46nHzhWPNb6zGXCisxKjJLemSnPZOxfB6RvkxQOTZbZ3AZOEkPejPbzPVqRAoA4FJrfs7bP20C9QN2DdY52PveB+0BE8SPEdItv6gZbIr2YcuW69Ad9TJb5Xwk1LJnLLjI9esps1L2zslhfe0xC7wtqjPFNvwfOtQDvvzvNDf5f/IU4uCbQLTMCfuKn46t0XAgqN2Nk2Yx8JBnJnQPlb5IVtayyc81SDsuoKcKB3Jb7PcR/pSH8LH5vKN2Q/hqQq5PjQYD4h8hdAL4xstY/OMdn6D2tI3dkYyjrjk59qiP6EGDaZ2yYu0kT/yDv/JOxrx3MorU+nunl32VX1Fpa0pqg="
+  },
+  "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+  },
+  "utc": "2026-11-18T10:10:52.335117+00:00"
+}

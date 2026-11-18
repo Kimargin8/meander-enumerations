@@ -1,0 +1,43 @@
+{
+  "n": 23,
+  "D": 19925591108,
+  "D_lower": 51368,
+  "direct": null,
+  "classes": {
+    "SC": {
+      "value": 225472,
+      "nodes": 1281283,
+      "seconds": 0.615106
+    },
+    "T": {
+      "status": "time limit",
+      "limit_seconds": 25
+    },
+    "CT": {
+      "value": 241636,
+      "nodes": 3764239,
+      "seconds": 2.52659
+    },
+    "ST": {
+      "value": 0,
+      "nodes": 277443,
+      "seconds": 0.198128
+    },
+    "SCT": {
+      "value": 58688,
+      "nodes": 1666481,
+      "seconds": 1.13082
+    }
+  },
+  "build": {
+    "source_sha256": "4447690a77e1ee660bec3d8f6d920b5bce1046bb02f9d789b7625f82bfdacd88",
+    "driver_sha256": "f0a3428f63ba3631fff726c1f016d8c5366b461f227c1f6c3c37f6fc7945793b",
+    "flags": [
+      "-std=c++17",
+      "-O3",
+      "-Wall",
+      "-Wextra"
+    ],
+    "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+  }
+}

@@ -1,0 +1,934 @@
+{
+  "cpp_compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compile_flags": [
+    "-O3",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": "86f1adbb65394edda128b60dbdbe88655c339004baf479adf9a84dafba592712",
+  "sha256": {
+    "rotation.json": "afa6e3b1a91fdede9e3d4e07d16560709f27d7986c7668e11160339b827ecd0b",
+    "b005315.txt": "d007e8718fd36583779ed67ea6b07400e50e749a980b1c837e396e84e94a0673",
+    "rotation.py": "9b641fe97edcfadfd5920482a3cf2c02de02a0a28efc83e7bee10df2304faf65",
+    "rotation_halves.cpp": "ba53038adad8b1bb80032a1dd79036feb7aa96b582e72b0653fece328fb98210",
+    "rotation_check.py": "cf50aea66735d54060b80f0eeaaf30b90cd1010853b8f8a838bdd75df0671a53"
+  },
+  "midpoint": [
+    {
+      "m": 1,
+      "connected": 1,
+      "sum_even_upper": 1,
+      "sum_even_lower": 1,
+      "sum_product": 1,
+      "fixed": 2,
+      "half_words": 1,
+      "midpoint_states": 1,
+      "admissible_joins": 1
+    },
+    {
+      "m": 2,
+      "connected": 2,
+      "sum_even_upper": 3,
+      "sum_even_lower": 3,
+      "sum_product": 4,
+      "fixed": 10,
+      "half_words": 2,
+      "midpoint_states": 3,
+      "admissible_joins": 2
+    },
+    {
+      "m": 3,
+      "connected": 8,
+      "sum_even_upper": 16,
+      "sum_even_lower": 16,
+      "sum_product": 30,
+      "fixed": 68,
+      "half_words": 3,
+      "midpoint_states": 6,
+      "admissible_joins": 5
+    },
+    {
+      "m": 4,
+      "connected": 42,
+      "sum_even_upper": 105,
+      "sum_even_lower": 105,
+      "sum_product": 248,
+      "fixed": 554,
+      "half_words": 6,
+      "midpoint_states": 15,
+      "admissible_joins": 12
+    },
+    {
+      "m": 5,
+      "connected": 262,
+      "sum_even_upper": 786,
+      "sum_even_lower": 786,
+      "sum_product": 2250,
+      "fixed": 4932,
+      "half_words": 10,
+      "midpoint_states": 29,
+      "admissible_joins": 33
+    },
+    {
+      "m": 6,
+      "connected": 1828,
+      "sum_even_upper": 6398,
+      "sum_even_lower": 6398,
+      "sum_product": 21504,
+      "fixed": 46564,
+      "half_words": 20,
+      "midpoint_states": 67,
+      "admissible_joins": 92
+    },
+    {
+      "m": 7,
+      "connected": 13820,
+      "sum_even_upper": 55280,
+      "sum_even_lower": 55280,
+      "sum_product": 213402,
+      "fixed": 457676,
+      "half_words": 35,
+      "midpoint_states": 134,
+      "admissible_joins": 283
+    },
+    {
+      "m": 8,
+      "connected": 110954,
+      "sum_even_upper": 499293,
+      "sum_even_lower": 499293,
+      "sum_product": 2176816,
+      "fixed": 4633642,
+      "half_words": 70,
+      "midpoint_states": 299,
+      "admissible_joins": 870
+    },
+    {
+      "m": 9,
+      "connected": 933458,
+      "sum_even_upper": 4667290,
+      "sum_even_lower": 4667290,
+      "sum_product": 22680054,
+      "fixed": 47985692,
+      "half_words": 126,
+      "midpoint_states": 614,
+      "admissible_joins": 2853
+    },
+    {
+      "m": 10,
+      "connected": 8152860,
+      "sum_even_upper": 44840730,
+      "sum_even_lower": 44840730,
+      "sum_product": 240302120,
+      "fixed": 505891820,
+      "half_words": 252,
+      "midpoint_states": 1348,
+      "admissible_joins": 9298
+    },
+    {
+      "m": 11,
+      "connected": 73424650,
+      "sum_even_upper": 440547900,
+      "sum_even_lower": 440547900,
+      "sum_product": 2581052408,
+      "fixed": 5411044784,
+      "half_words": 462,
+      "midpoint_states": 2813,
+      "admissible_joins": 31665
+    },
+    {
+      "m": 12,
+      "connected": 678390116,
+      "sum_even_upper": 4409535754,
+      "sum_even_lower": 4409535754,
+      "sum_product": 28038031680,
+      "fixed": 58571866244,
+      "half_words": 924,
+      "midpoint_states": 6125,
+      "admissible_joins": 107218
+    },
+    {
+      "m": 13,
+      "connected": 6405031050,
+      "sum_even_upper": 44835217350,
+      "sum_even_lower": 44835217350,
+      "sum_product": 307493546698,
+      "fixed": 640398992404,
+      "half_words": 1716,
+      "midpoint_states": 12905,
+      "admissible_joins": 374395
+    }
+  ],
+  "direct_even_composite": [
+    {
+      "m": 1,
+      "p": 2,
+      "matchings": 2,
+      "ordered_pairs": 4,
+      "connected": 2
+    },
+    {
+      "m": 2,
+      "p": 2,
+      "matchings": 6,
+      "ordered_pairs": 36,
+      "connected": 10
+    },
+    {
+      "m": 3,
+      "p": 2,
+      "matchings": 20,
+      "ordered_pairs": 400,
+      "connected": 68
+    },
+    {
+      "m": 4,
+      "p": 2,
+      "matchings": 70,
+      "ordered_pairs": 4900,
+      "connected": 554
+    },
+    {
+      "m": 1,
+      "p": 4,
+      "matchings": 2,
+      "ordered_pairs": 4,
+      "connected": 2
+    },
+    {
+      "m": 2,
+      "p": 4,
+      "matchings": 6,
+      "ordered_pairs": 36,
+      "connected": 10
+    },
+    {
+      "m": 3,
+      "p": 4,
+      "matchings": 20,
+      "ordered_pairs": 400,
+      "connected": 68
+    },
+    {
+      "m": 4,
+      "p": 4,
+      "matchings": 70,
+      "ordered_pairs": 4900,
+      "connected": 554
+    },
+    {
+      "m": 1,
+      "p": 6,
+      "matchings": 2,
+      "ordered_pairs": 4,
+      "connected": 2
+    },
+    {
+      "m": 2,
+      "p": 6,
+      "matchings": 6,
+      "ordered_pairs": 36,
+      "connected": 10
+    },
+    {
+      "m": 3,
+      "p": 6,
+      "matchings": 20,
+      "ordered_pairs": 400,
+      "connected": 68
+    },
+    {
+      "m": 4,
+      "p": 6,
+      "matchings": 70,
+      "ordered_pairs": 4900,
+      "connected": 554
+    },
+    {
+      "m": 1,
+      "p": 9,
+      "matchings": 2,
+      "ordered_pairs": 4,
+      "connected": 2
+    },
+    {
+      "m": 2,
+      "p": 9,
+      "matchings": 6,
+      "ordered_pairs": 36,
+      "connected": 10
+    },
+    {
+      "m": 3,
+      "p": 9,
+      "matchings": 20,
+      "ordered_pairs": 400,
+      "connected": 68
+    },
+    {
+      "m": 4,
+      "p": 9,
+      "matchings": 70,
+      "ordered_pairs": 4900,
+      "connected": 554
+    }
+  ],
+  "known_cyclic_congruences": [
+    {
+      "n": 2,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 2
+        }
+      ],
+      "contribution": 2,
+      "modulus": 4,
+      "residue": 2
+    },
+    {
+      "n": 3,
+      "terms": [
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 2
+        }
+      ],
+      "contribution": 4,
+      "modulus": 3,
+      "residue": 2
+    },
+    {
+      "n": 4,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 10
+        },
+        {
+          "order": 4,
+          "multiplicity": 2,
+          "fixed": 2
+        }
+      ],
+      "contribution": 14,
+      "modulus": 8,
+      "residue": 2
+    },
+    {
+      "n": 5,
+      "terms": [
+        {
+          "order": 5,
+          "multiplicity": 4,
+          "fixed": 2
+        }
+      ],
+      "contribution": 8,
+      "modulus": 5,
+      "residue": 2
+    },
+    {
+      "n": 6,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 68
+        },
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 10
+        },
+        {
+          "order": 6,
+          "multiplicity": 2,
+          "fixed": 2
+        }
+      ],
+      "contribution": 92,
+      "modulus": 12,
+      "residue": 4
+    },
+    {
+      "n": 7,
+      "terms": [
+        {
+          "order": 7,
+          "multiplicity": 6,
+          "fixed": 2
+        }
+      ],
+      "contribution": 12,
+      "modulus": 7,
+      "residue": 2
+    },
+    {
+      "n": 8,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 554
+        },
+        {
+          "order": 4,
+          "multiplicity": 2,
+          "fixed": 10
+        },
+        {
+          "order": 8,
+          "multiplicity": 4,
+          "fixed": 2
+        }
+      ],
+      "contribution": 582,
+      "modulus": 16,
+      "residue": 10
+    },
+    {
+      "n": 9,
+      "terms": [
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 68
+        },
+        {
+          "order": 9,
+          "multiplicity": 6,
+          "fixed": 2
+        }
+      ],
+      "contribution": 148,
+      "modulus": 9,
+      "residue": 5
+    },
+    {
+      "n": 10,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 4932
+        },
+        {
+          "order": 5,
+          "multiplicity": 4,
+          "fixed": 10
+        },
+        {
+          "order": 10,
+          "multiplicity": 4,
+          "fixed": 2
+        }
+      ],
+      "contribution": 4980,
+      "modulus": 20,
+      "residue": 0
+    },
+    {
+      "n": 11,
+      "terms": [
+        {
+          "order": 11,
+          "multiplicity": 10,
+          "fixed": 2
+        }
+      ],
+      "contribution": 20,
+      "modulus": 11,
+      "residue": 2
+    },
+    {
+      "n": 12,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 46564
+        },
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 554
+        },
+        {
+          "order": 4,
+          "multiplicity": 2,
+          "fixed": 68
+        },
+        {
+          "order": 6,
+          "multiplicity": 2,
+          "fixed": 10
+        },
+        {
+          "order": 12,
+          "multiplicity": 4,
+          "fixed": 2
+        }
+      ],
+      "contribution": 47836,
+      "modulus": 24,
+      "residue": 20
+    },
+    {
+      "n": 13,
+      "terms": [
+        {
+          "order": 13,
+          "multiplicity": 12,
+          "fixed": 2
+        }
+      ],
+      "contribution": 24,
+      "modulus": 13,
+      "residue": 2
+    },
+    {
+      "n": 14,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 457676
+        },
+        {
+          "order": 7,
+          "multiplicity": 6,
+          "fixed": 10
+        },
+        {
+          "order": 14,
+          "multiplicity": 6,
+          "fixed": 2
+        }
+      ],
+      "contribution": 457748,
+      "modulus": 28,
+      "residue": 24
+    },
+    {
+      "n": 15,
+      "terms": [
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 4932
+        },
+        {
+          "order": 5,
+          "multiplicity": 4,
+          "fixed": 68
+        },
+        {
+          "order": 15,
+          "multiplicity": 8,
+          "fixed": 2
+        }
+      ],
+      "contribution": 10152,
+      "modulus": 15,
+      "residue": 3
+    },
+    {
+      "n": 16,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 4633642
+        },
+        {
+          "order": 4,
+          "multiplicity": 2,
+          "fixed": 554
+        },
+        {
+          "order": 8,
+          "multiplicity": 4,
+          "fixed": 10
+        },
+        {
+          "order": 16,
+          "multiplicity": 8,
+          "fixed": 2
+        }
+      ],
+      "contribution": 4634806,
+      "modulus": 32,
+      "residue": 10
+    },
+    {
+      "n": 17,
+      "terms": [
+        {
+          "order": 17,
+          "multiplicity": 16,
+          "fixed": 2
+        }
+      ],
+      "contribution": 32,
+      "modulus": 17,
+      "residue": 2
+    },
+    {
+      "n": 18,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 47985692
+        },
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 46564
+        },
+        {
+          "order": 6,
+          "multiplicity": 2,
+          "fixed": 68
+        },
+        {
+          "order": 9,
+          "multiplicity": 6,
+          "fixed": 10
+        },
+        {
+          "order": 18,
+          "multiplicity": 6,
+          "fixed": 2
+        }
+      ],
+      "contribution": 48079028,
+      "modulus": 36,
+      "residue": 16
+    },
+    {
+      "n": 19,
+      "terms": [
+        {
+          "order": 19,
+          "multiplicity": 18,
+          "fixed": 2
+        }
+      ],
+      "contribution": 36,
+      "modulus": 19,
+      "residue": 2
+    },
+    {
+      "n": 20,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 505891820
+        },
+        {
+          "order": 4,
+          "multiplicity": 2,
+          "fixed": 4932
+        },
+        {
+          "order": 5,
+          "multiplicity": 4,
+          "fixed": 554
+        },
+        {
+          "order": 10,
+          "multiplicity": 4,
+          "fixed": 10
+        },
+        {
+          "order": 20,
+          "multiplicity": 8,
+          "fixed": 2
+        }
+      ],
+      "contribution": 505903956,
+      "modulus": 40,
+      "residue": 4
+    },
+    {
+      "n": 21,
+      "terms": [
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 457676
+        },
+        {
+          "order": 7,
+          "multiplicity": 6,
+          "fixed": 68
+        },
+        {
+          "order": 21,
+          "multiplicity": 12,
+          "fixed": 2
+        }
+      ],
+      "contribution": 915784,
+      "modulus": 21,
+      "residue": 5
+    },
+    {
+      "n": 22,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 5411044784
+        },
+        {
+          "order": 11,
+          "multiplicity": 10,
+          "fixed": 10
+        },
+        {
+          "order": 22,
+          "multiplicity": 10,
+          "fixed": 2
+        }
+      ],
+      "contribution": 5411044904,
+      "modulus": 44,
+      "residue": 32
+    },
+    {
+      "n": 23,
+      "terms": [
+        {
+          "order": 23,
+          "multiplicity": 22,
+          "fixed": 2
+        }
+      ],
+      "contribution": 44,
+      "modulus": 23,
+      "residue": 2
+    },
+    {
+      "n": 24,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 58571866244
+        },
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 4633642
+        },
+        {
+          "order": 4,
+          "multiplicity": 2,
+          "fixed": 46564
+        },
+        {
+          "order": 6,
+          "multiplicity": 2,
+          "fixed": 554
+        },
+        {
+          "order": 8,
+          "multiplicity": 4,
+          "fixed": 68
+        },
+        {
+          "order": 12,
+          "multiplicity": 4,
+          "fixed": 10
+        },
+        {
+          "order": 24,
+          "multiplicity": 8,
+          "fixed": 2
+        }
+      ],
+      "contribution": 58581228092,
+      "modulus": 48,
+      "residue": 4
+    },
+    {
+      "n": 25,
+      "terms": [
+        {
+          "order": 5,
+          "multiplicity": 4,
+          "fixed": 4932
+        },
+        {
+          "order": 25,
+          "multiplicity": 20,
+          "fixed": 2
+        }
+      ],
+      "contribution": 19768,
+      "modulus": 25,
+      "residue": 7
+    },
+    {
+      "n": 26,
+      "terms": [
+        {
+          "order": 2,
+          "multiplicity": 1,
+          "fixed": 640398992404
+        },
+        {
+          "order": 13,
+          "multiplicity": 12,
+          "fixed": 10
+        },
+        {
+          "order": 26,
+          "multiplicity": 12,
+          "fixed": 2
+        }
+      ],
+      "contribution": 640398992548,
+      "modulus": 52,
+      "residue": 36
+    },
+    {
+      "n": 27,
+      "terms": [
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 47985692
+        },
+        {
+          "order": 9,
+          "multiplicity": 6,
+          "fixed": 68
+        },
+        {
+          "order": 27,
+          "multiplicity": 18,
+          "fixed": 2
+        }
+      ],
+      "contribution": 95971828,
+      "modulus": 27,
+      "residue": 23
+    },
+    {
+      "n": 29,
+      "terms": [
+        {
+          "order": 29,
+          "multiplicity": 28,
+          "fixed": 2
+        }
+      ],
+      "contribution": 56,
+      "modulus": 29,
+      "residue": 2
+    },
+    {
+      "n": 31,
+      "terms": [
+        {
+          "order": 31,
+          "multiplicity": 30,
+          "fixed": 2
+        }
+      ],
+      "contribution": 60,
+      "modulus": 31,
+      "residue": 2
+    },
+    {
+      "n": 33,
+      "terms": [
+        {
+          "order": 3,
+          "multiplicity": 2,
+          "fixed": 5411044784
+        },
+        {
+          "order": 11,
+          "multiplicity": 10,
+          "fixed": 68
+        },
+        {
+          "order": 33,
+          "multiplicity": 20,
+          "fixed": 2
+        }
+      ],
+      "contribution": 10822090288,
+      "modulus": 33,
+      "residue": 2
+    },
+    {
+      "n": 35,
+      "terms": [
+        {
+          "order": 5,
+          "multiplicity": 4,
+          "fixed": 457676
+        },
+        {
+          "order": 7,
+          "multiplicity": 6,
+          "fixed": 4932
+        },
+        {
+          "order": 35,
+          "multiplicity": 24,
+          "fixed": 2
+        }
+      ],
+      "contribution": 1860344,
+      "modulus": 35,
+      "residue": 11
+    },
+    {
+      "n": 37,
+      "terms": [
+        {
+          "order": 37,
+          "multiplicity": 36,
+          "fixed": 2
+        }
+      ],
+      "contribution": 72,
+      "modulus": 37,
+      "residue": 2
+    }
+  ],
+  "target": {
+    "n": 39,
+    "terms": [
+      {
+        "order": 3,
+        "multiplicity": 2,
+        "fixed": 640398992404
+      },
+      {
+        "order": 13,
+        "multiplicity": 12,
+        "fixed": 68
+      },
+      {
+        "order": 39,
+        "multiplicity": 24,
+        "fixed": 2
+      }
+    ],
+    "contribution": 1280797985672,
+    "modulus": 39,
+    "residue": 16
+  }
+}

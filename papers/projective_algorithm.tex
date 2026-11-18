@@ -1,0 +1,370 @@
+\subsection{A cyclic encoding of the partial paths}
+\label{sec:projective-word}
+
+Split the boundary into two labelled intervals of length \(n\), read both
+intervals in increasing order, and let \(h\) be the number of chords of the
+noncrossing matching that join the intervals. The \(h\) ends on one interval
+are paired with those on the other in reverse order. We refer to the ends of
+these prescribed chords as anchors. Locally paired ends are read with a stack.
+An anchor can be consumed only when the local stack on its side is empty.
+At each step the antipodal matching joins the two vertices just read. A
+component closed before the last step can never be joined to a later vertex.
+
+Write \(a,b\) for the numbers of unused anchors and \(\ell,r\) for the
+numbers of local openings on the two sides. Order the free ports by taking the
+left anchors in reverse order, the left local stack from bottom to top, the
+right local stack from top to bottom, and the right anchors in forward order.
+Draw a chord between the two ports of each partial path, and call two chords
+crossing when their ends alternate. These chords record connectivity.
+
+\paragraph{Lemma.}
+The crossing graph of the partial paths is a clique together with isolated
+vertices. On \(2m\) labelled ports all matchings of this form, including the
+planar ones, admit a canonical binary encoding. Their number is
+\[
+ C_m+\sum_{k=2}^{m}\binom{2m}{m-k}.
+\]
+
+\paragraph{Proof.}
+Suppose the clique has \(k\ge2\) chords. Every isolated chord cuts off a
+unique cyclic interval containing no clique ends. Indeed, a clique chord
+cannot have one end on each side of an isolated chord, and clique chords on
+opposite sides could not cross. Orient the isolated chord along the interval
+without clique ends. Mark its initial end with a one and its final end with a
+zero. Mark every clique end with a one. Successive deletions of cyclically
+adjacent \(10\) pairs recover the isolated chords from the inside out. The
+remaining \(2k\) ends must be paired with their opposites in cyclic order.
+Conversely, any binary word with \(m+k\) ones gives such a matching: the
+cyclic cancellations leave precisely \(2k\) ones, and the recovered ordinary
+arcs cut off no residual end. The cancellations are independent of the choice
+of pair, since different currently cancellable pairs are disjoint. In the
+planar case orient each chord from its smaller to its larger index to obtain
+the usual rooted Dyck word.
+
+Initially there are \(h\) mutually crossing chords, with the planar
+convention when \(h=0,1\). Two openings insert \(10\) at the active cut.
+One opening and one closing move the cut while preserving the word. Two
+closings fuse adjacent ends. A pair \(10\) closes a component. For \(01\),
+delete the bits. For \(00\), first change the opener of the first zero to a
+zero. For \(11\), when the second one has an ordinary closing partner,
+first change that partner to a one. These rules concatenate the two paths
+and preserve the orientation on all other ordinary chords.
+If the second one in \(11\) is a clique end, so is the first: an ordinary
+opening there would enclose the second end. Their opposite partners are
+consecutive among the remaining clique ends. Joining the partners makes an
+ordinary chord and leaves \(k-2\) mutually crossing chords. If at most one
+survives, recover the rooted planar encoding. This proves the invariant by
+induction and the enumeration follows from the inverse construction.
+\hfill\(\square\)
+
+\paragraph{The state quotient.}
+Set \(L=a+\ell,\ R=b+r\) and let \(w\) denote the word in the stated port
+order. The triple \((L,R,w)\) suffices for every continuation. In zero-based
+indices a left closing always takes port \(L-1\), and a right closing always
+takes port \(L\). At an empty local stack the same index denotes the next
+anchor. A closing on a side is available exactly when its total length is
+positive. An opening adds one to this length. After the move both lengths
+must fit within the remaining number of steps. At a successful terminal
+both stacks and all anchors have been consumed. Consequently two prefixes
+with different local and anchor counts, even from different initial
+heights, have identical weighted continuations whenever their triples
+agree. For each fixed starting height, every pair of legal step sequences
+recovers a unique original diagram by stack matching and reverse gluing.
+
+Exchanging the two sides reverses the cyclic order. It reverses the
+orientation of ordinary chords and preserves the set of clique ends. It
+interchanges the two mixed steps and preserves the terminal contribution.
+Thus the entire accumulated weight of an orbit can be propagated through
+all moves from any representative. Moves with coincident targets retain
+their multiplicities. This calculation counts labelled diagrams.
+
+Deleting the last two ports by a closure at time \(j\) contributes to the
+count of order \(j\). Restricting the two intervals to the \(j\) vertices
+already read preserves every antipodal pair in the relative labelling.
+Hence a transfer with horizon \(n\) can accumulate all shorter terminal
+counts of the same parity in its starting height interval. The size of
+the crossing clique never increases, so the time evolution of all states
+with a fixed clique size can also be completed before processing the
+smaller size to which they contribute.
+
+\subsection{An exponential bound for the exact transfer}
+\label{sec:projective-work-bound}
+
+\paragraph{Theorem.}
+Let
+\[
+ S=\frac{25}{4},\qquad \lambda=\frac{25+\sqrt{561}}8,\qquad
+ \alpha=\tfrac12\log_2\lambda,\qquad
+ \gamma=2^{2\alpha/(2+\alpha)}=1.72772438\ldots .
+\]
+There is a deterministic algorithm for \(P_n\) with time and space
+\(O(n^{O(1)}\gamma^n)\).
+
+\paragraph{Proof.}
+Count separately, for this bound, the states at time \(t\) with prescribed
+\(h,\ell,r,a,b\). The number of such parameter choices is polynomial in
+\(n\). Put
+\[
+ c_L=h-a,\quad c_R=h-b,\quad
+ d_L=\ell+c_L,\quad d_R=r+c_R,\quad D=d_L+d_R,\quad
+ s=\ell+r+a+b.
+\]
+With \(u=a+b-h\ge2\), at least \(u\) original paths have both ends still
+untouched. Those \(u\) chords still cross pairwise. Their \(2u\) bits are
+known ones in the two half-open intervals
+\([h-b,a)\) and \([s-b,s+a-h)\). The residual bit length is \(s-2u=D\).
+If \(u\le1\), then \(s=D+2u\le D+2\). There are therefore at most
+\(4\,2^D\) states in the prescribed group. There are also at most \(2^s\),
+where \(s\le2(n-t)\) because both stacks must be discharged.
+
+Each side of a prefix is a sign walk starting at zero. Its minimum is
+\(-c_L\) and its endpoint is \(\ell-c_L\) on the left, with the corresponding
+formulas on the right. Reflect the signs of each walk up to its first
+attainment of the minimum, inclusive. The transformed walks end at
+\(d_L,d_R\). Recording the two reflection times makes this mapping
+injective and partitions the steps into at most three intervals of
+constant sign changes.
+
+A retained prefix cannot have two simultaneous openings immediately
+followed by two simultaneous closings: the latter would close the new
+path to itself. Lando and Zvonkin used this forbidden two-letter factor
+and the nonoverlapping words for irreducible closed systems to bound
+the growth of the projective meandric numbers
+\cite[Lemma~3.3 and Theorem~3.4]{lz}. Here we apply the restriction after
+two changes of signs and weight it by final displacement to bound the
+number of transfer states. On each transformed interval one consecutive
+pair of letters \(X,Y\) is forbidden, where the four letters are
+\((+1,+1),(+1,-1),(-1,+1),(-1,-1)\) and \(Y=-X\).
+Weight a letter \((i,j)\) by \(2^{i+j}\). The total letter weight is \(S\),
+and \(\mathrm{wt}(X)\mathrm{wt}(Y)=1\) for every possible orientation.
+Let \(F_j\) be the total weight of length-\(j\) words avoiding this pair.
+Appending any letter produces total weight \(S F_{j-1}\). The invalid
+extensions are exactly a valid length-\((j-2)\) prefix followed by \(XY\),
+since \(X\ne Y\). Thus
+\[
+ F_0=1,\qquad F_1=S,\qquad F_j=S F_{j-1}-F_{j-2}.
+\]
+Its largest characteristic root is \(\lambda\), giving
+\(F_j\le C\lambda^j\) for an absolute \(C\). For fixed reflection times,
+ignoring restrictions across the at most two interval boundaries gives
+total weight at most \(C^3\lambda^t\). Each image contributing to the
+prescribed group has weight \(2^D\). Including the at most \((t+1)^2\)
+pairs of reflection times, the number of prefixes, and therefore of
+states, is \(O((t+1)^2\lambda^t 2^{-D})\). Taking the geometric mean
+with \(4\,2^D\) bounds each group by \(O((t+1)\lambda^{t/2})\).
+Finally
+\[
+ \min\{\alpha t,2(n-t)\}\le\frac{2\alpha}{2+\alpha}\,n .
+\]
+A balanced search tree implements exact state aggregation in polynomial
+overhead per transition. Every coefficient has \(O(n)\) bits: extend each
+prefix deterministically to a full noncrossing matching, disregarding
+connectedness, and recover the prefix from its completion and the cut.
+The bound follows for both time and space. \hfill\(\square\)
+
+\paragraph{A ballot check.}
+Without excluding any local factor, reflection at the minimum shows that
+the exact number of one-sided prefixes with the indicated \(c,\ell\) is
+\[
+ \binom{t}{(t+\ell+c)/2}-\binom{t}{(t+\ell+c)/2+1}.
+\]
+For \(x=D/(2t)\ge2/3\), the product of the two ballot bounds is at most
+\(2^{2tH_2((1+x)/2)}\le 2^{2tH_2(5/6)}<2^{4t/3}\), where \(H_2\) is binary
+entropy. For \(x\le2/3\) the bit-length bound gives \(4\,2^{4t/3}\).
+Together with the remaining-length bound this yields the simpler estimate
+\(O(n^{O(1)}2^{4n/5})\).
+
+\subsection{Rooting at a minimum diameter cut}
+\label{sec:minimum-cut}
+
+Let \(q_t(A)\) be the number of chords of the noncrossing matching \(A\)
+between the two open semicircles at the diameter cut moved \(t\) gaps from
+its initial position. Cuts opposite each other coincide as unlabelled
+diameters, so the indices form a cycle of length \(n\). At the initial
+cut \(q_0=h\). During the simultaneous scan,
+\[
+ q_t=\ell+r+|a+b-h|.
+\]
+Indeed, the local arches crossing the moving cut contribute \(\ell+r\).
+An original through chord contributes precisely when both of its ends have
+been read, or neither has been read. Reverse ordering of the original
+through endpoints makes these two counts \(\max(0,h-a-b)\) and
+\(\max(0,a+b-h)\), respectively.
+
+Keep only prefixes with \(q_t\ge h\). For a diagram with minimal cut at
+zero let \(g_0(A)\) be the positive number of steps from the preceding
+minimal cut to zero in the cyclic list of cuts. It equals \(n\) if zero is
+the only minimum. The exact labelled count is
+\[
+ P_n=\sum_{\substack{A\ {\rm connected}\\q_0(A)=\min_jq_j(A)}}g_0(A).
+\]
+For a fixed labelled diagram, sum the corresponding preceding gaps over
+all its minimal cuts indexed by \(0,\dots,n-1\). This sum is \(n\).
+Next sum over all labelled diagrams. Rotating the labelling sends the
+summand with a prescribed index \(j\) bijectively to the sum at index zero;
+thus the double sum equals \(n\) times the right-hand side. This proof also
+covers periodic diagrams, since the double sum uses the indices with their
+full multiplicities.
+
+At each state store \(c\), the number of prefixes, and \(d\), their sum of
+distances since the most recent minimal cut. Start with \((1,0)\). On each
+admissible nonterminal move propagate \((c,0)\) if the new cut is a minimum,
+and \((c,d+c)\) otherwise. At the final closure add \(d+c\) to the answer.
+Exchange of the two sides preserves both weights. This version retains the
+two anchor counts, since the minimum constraint uses them. Fixed initial
+heights index \emph{minimum-height} sectors here; these differ from the
+through-height sectors at a prescribed cut in the unrestricted calculation.
+
+\paragraph{Lemma.}
+For \(n\ge3\) every noncrossing matching has a diameter cut with
+\(q_t\le\lfloor n/3\rfloor\).
+
+\paragraph{Proof.}
+We apply the three-arc tree argument of Rabinovich and Raz
+\cite[Propositions 5.1--5.2]{rabinovich} to the contour of the matching.
+Take the plane tree dual to the \(n\) chords in the disk, using one vertex
+per region. Its unit-speed contour \(f\) has period \(2n\), visiting the
+regions at integer gaps. The number \(q_t\) is the tree distance from
+\(f(t)\) to \(f(t+n)\): the unique tree path crosses precisely the chords
+separating these two boundary gaps. Extend \(f\) linearly on each edge
+traversal. The images of three equally spaced times have a median in the
+metric tree. Each of the three intervening contour arcs meets this median,
+since the image of that arc contains the tree path between its ends.
+Choose one preimage from each arc.
+
+Two of the three chosen preimages have circular distance at least
+\(2n/3\). Otherwise, writing the three consecutive spacings around the
+circle, each spacing would be either less than \(2n/3\) or greater than
+\(4n/3\). They sum to \(2n\), so one must be greater than \(4n/3\).
+Its complement would be an arc shorter than \(2n/3\) meeting all three
+original thirds, which is impossible. The antipode of one of the two
+preimages is therefore at circular distance at most \(n/3\) from the
+other. Since \(f\) is 1-Lipschitz, some real cut has tree distance at most
+\(n/3\). On each unit interval the two contour points traverse tree edges
+at unit speed. Their distance is affine unless they meet while traversing
+the same edge in opposite directions. In that case the endpoint distances
+are one. As \(n/3\ge1\), an integer cut attains the claimed bound in both
+cases. \hfill\(\square\)
+
+For even \(n\), every connected diagram rooted at a zero cut has a unique
+zero cut among the \(n\) possible diameters. Two distinct zero cuts would
+separate a nonempty proper block of simultaneous steps whose vertices are
+closed under both matchings. Equivalently, a second zero in the two
+initially empty stacks would close an intermediate component. Thus the
+minimum-zero sector contributes \(nM_{n/2}\), using the standard two-half
+bijection for a prescribed zero cut. The standalone minimum-cut transfer
+can calculate that sector from the empty word without external ordinary
+meander values. The exact records identify the executor for each reported
+sector.
+
+At order 30 the minimum-cut transfer returned \(41\,646\,461\,012\,208\)
+and visited \(23\,859\,763\) legal height-filtered transitions in the
+original run, including attempts at heights subsequently ruled out by
+the lemma. The unrestricted side-symmetrised transfer required
+\(228\,059\,280\) transitions when summing the initial heights separately.
+At orders 35, 38 and 39 the complete minimum-cut totals also agree with
+the unrestricted transfer. These comparisons check the treatment of the
+labelled root and terminal weights. They are separate from the independent
+disk recursion through order 31.
+
+A separate Catalan enumeration tested every one of the \(13\,402\,696\)
+noncrossing matchings of orders 1 through 15. For each rotated cut it
+measured the height directly by testing which chord endpoints belonged to
+the semicircle. The bound \(\min_t q_t\le\lfloor n/3\rfloor\) held
+for \(3\le n\le15\). The labelled gap sum held at every tested order,
+including for connected matchings with nontrivial rotational stabilisers.
+An additional finite audit of the exponential bound covered
+all 83\,303 nonempty shape groups through order 20, comprising 1\,634\,252
+distinct frontier states. The ballot estimates, known-bit masks, forbidden
+two-step factor and reflected weighted-word bound were checked with
+integer arithmetic.
+
+\subsection{The distribution of unit cuts in odd order}
+\label{sec:unit-cuts}
+
+Let \(o_j\) count ordinary open meanders with \(j\) ordered crossings,
+using the convention of \cite[\S1]{lz}, and put
+\(O(z)=\sum_{j\ge1}o_jz^j\). In a pair of noncrossing arch diagrams for an
+open meander the two unmatched ends are exposed. They are on opposite sides
+for odd \(j\) and on a prescribed common side for even \(j\). Fixing the
+other choice of side gives the same count by reflection.
+For a connected projective diagram \(A\) of odd order \(n\), let \(m(A)\)
+be the number of its \(n\) cuts of height one.
+
+\paragraph{Theorem.}
+For odd \(n\), the number with \(m(A)>0\) is
+\[
+ 2n[z^n]\log(1+O(z))-n o_n .
+\]
+More generally, for \(r\ge2\),
+\[
+ \sum_A\binom{m(A)}r=\frac{2n}{r}[z^n]O(z)^r,
+ \qquad \sum_A m(A)=n o_n .
+\]
+In particular all positive frequencies of the statistic \(m(A)\) are
+determined by ordinary open meander numbers of orders at most \(n\).
+
+\paragraph{Proof.}
+At one prescribed unit cut, remove the unique chord crossing that cut.
+In the two half intervals the resulting arches have one exposed unmatched
+end on each side. Connectedness gives a single open meander, and the removed
+chord is recovered uniquely. The count is \(o_n\).
+
+Now prescribe \(r\ge2\) distinct cuts, with positive cyclic spacings
+\(d_1,\ldots,d_r\), totalling \(n\). A chord cannot be the unique crossing
+chord for two prescribed cuts. The two diameters divide the boundary into
+four intervals. A chord crossing both joins a pair of opposite intervals;
+all other chords would then be internal to one interval. The other pair of
+opposite intervals is closed under both matchings, contradicting
+connectedness.
+
+Thus each prescribed cut has its own crossing chord. The marked diameters
+partition the boundary into \(2r\) elementary intervals. As one moves from
+interval to interval, the \(r\) semicircle-membership bits change singly in
+cyclic order, then repeat in that order. Two different intervals have
+membership vectors at Hamming distance one precisely when they are adjacent.
+A crossing chord therefore joins the two intervals adjacent to one of the
+two lifted gaps of its cut. All remaining chords are internal to one
+elementary interval.
+
+Pairing opposite elementary intervals gives one block per spacing. Each
+block has two dangling ends after removal of the crossing chords, one for
+each of its bounding cuts. Its internal arches together with antipodal
+edges form a single open path covering all \(d_i\) crossings: any additional
+cycle would remain a component of the original diagram. Conversely these
+open paths can be assembled in cyclic order. Choose which lift of the first
+cut contains its crossing chord. In a block of odd length the two exposed
+ends must be on opposite sides, while at even length they must be on the
+same side, since on each side the other vertices pair internally. Thus
+each next lift is forced. After a circuit the side has switched because
+\(n\) is odd, exactly as required by the antipodal identification. For a
+specified choice of lifts there are \(o_{d_i}\) possibilities in block
+\(i\). If both exposed ends lie on the same side, attach them in boundary
+order. The connections across adjacent gaps are unique and noncrossing,
+and join the open paths into a single cycle. The two initial lift choices
+are distinct for \(r\ge2\), giving \(2\prod_i o_{d_i}\).
+
+Summing over prescribed subsets gives the binomial moments: an ordered
+composition and an initial cut have \(n\) placements, and each subset has
+\(r\) choices of its initial cut. Inclusion--exclusion now gives the
+logarithm. The full marked enumerator is equivalently
+\[
+ \sum_A\bigl(u^{m(A)}-1\bigr)
+ =-n o_n(u-1)-2n[z^n]\log\!\left(1-(u-1)O(z)\right).
+ \qquad\square
+\]
+
+For a division-free calculation write \(H_n=[z^n]\,zO'(z)/(1+O(z))\).
+Then \(H_n=n o_n-\sum_{j=1}^{n-1}o_jH_{n-j}\), and the unit-cut
+contribution is \(2H_n-n o_n\). Direct Catalan enumeration tested the
+product formula separately for all 43\,682 nonempty marked subsets in odd
+orders through 15. At order 43 the formula, using tabulated ordinary
+open-meander numbers, and the direct minimum-cut transfer both give
+\(125\,215\,915\,957\,522\,819\,244\) for this single sector.
+All ordinary inputs required by the unit-cut formula through order 47
+were also computed locally. A planar two-ended transfer gives
+\(o_0,\ldots,o_{44}\); closing the two exposed ends gives
+\(o_{45}=M_{23}\) and \(o_{47}=M_{24}\). The open channel of Osipov's
+first-crossing code, at revision \texttt{be0a3f5}, gives
+\(o_{46}=193\,909\,492\,888\,406\,631\,692\). The supplementary data
+record the exact native count and its comparison with A005316.

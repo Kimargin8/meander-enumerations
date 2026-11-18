@@ -1,0 +1,20 @@
+{
+  "method": "Checked C1 plane meander counter",
+  "order": 23,
+  "source": "research/meander_lab_v2/cpp/future_slack2_fast_frontier.cpp",
+  "source_sha256": "7cd1a8dcec37bb9ded80f9097d235825d1c62285698ebbb509ba6d17873813e0",
+  "binary_sha256": "db5712dffc601c536b3566e4bd151d1c9adf4863b5495c091cf54864997d16da",
+  "raw": "experiments/runs/projective42/closed23.txt",
+  "raw_sha256": "571104195794de4825fc3cf8ac0fabaa0703198669c20792c1e96556e7936a61",
+  "args": [
+    "--m",
+    "23",
+    "--symmetry",
+    "--reserve-scale",
+    "1",
+    "--max-states",
+    "14000000"
+  ],
+  "address_space_bytes": 1572864000,
+  "time_cap_seconds": 900
+}

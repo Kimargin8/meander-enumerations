@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "m": 1,
+      "matchings": 1,
+      "connected": 1,
+      "even_gluings": 0,
+      "fixed_by_minimum": {
+        "1": 2
+      }
+    },
+    {
+      "m": 2,
+      "matchings": 2,
+      "connected": 2,
+      "even_gluings": 2,
+      "fixed_by_minimum": {
+        "2": 4
+      }
+    },
+    {
+      "m": 3,
+      "matchings": 5,
+      "connected": 2,
+      "even_gluings": 0,
+      "fixed_by_minimum": {
+        "1": 8
+      }
+    },
+    {
+      "m": 4,
+      "matchings": 14,
+      "connected": 8,
+      "even_gluings": 8,
+      "fixed_by_minimum": {
+        "2": 24
+      }
+    },
+    {
+      "m": 5,
+      "matchings": 42,
+      "connected": 12,
+      "even_gluings": 0,
+      "fixed_by_minimum": {
+        "1": 52,
+        "3": 20
+      }
+    },
+    {
+      "m": 9,
+      "matchings": 4862,
+      "connected": 710,
+      "even_gluings": 0,
+      "fixed_by_minimum": {
+        "1": 3068,
+        "3": 3312,
+        "5": 684,
+        "7": 36
+      }
+    },
+    {
+      "m": 15,
+      "matchings": 9694845,
+      "connected": 576018,
+      "even_gluings": 0,
+      "fixed_by_minimum": {
+        "1": 2219908,
+        "3": 4314920,
+        "5": 2138580,
+        "7": 483900,
+        "9": 55920,
+        "11": 3000,
+        "13": 60
+      }
+    }
+  ],
+  "elapsed_seconds": {
+    "1": 0.003536,
+    "2": 0.002042,
+    "3": 0.002266,
+    "4": 0.002445,
+    "5": 0.001832,
+    "9": 0.002388,
+    "15": 0.908428
+  },
+  "verification_orders": [
+    44,
+    45,
+    46,
+    47
+  ],
+  "cpp_sha256": "c5de378b1b6b7bc9466380e0f8f5cb2097d412baf40b58f99f5736d88336fa5e",
+  "python_sha256": "bf9d9195da1d5320ea90227698a81eecee27f665c6ce497da0e9926d024915c3",
+  "cover_sha256": "233841921b7937447178fd87a802f9257eb8e52722ba3701c6d8751c2d796bec",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-pedantic"
+  ],
+  "utc": "2026-11-18T11:22:48.660678+00:00"
+}

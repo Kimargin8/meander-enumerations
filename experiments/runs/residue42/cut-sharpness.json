@@ -1,0 +1,62 @@
+[
+  {
+    "n": 3,
+    "maximum": 1,
+    "reaching": 5,
+    "connected_at_maximum": 2
+  },
+  {
+    "n": 4,
+    "maximum": 0,
+    "reaching": 14,
+    "connected_at_maximum": 8
+  },
+  {
+    "n": 5,
+    "maximum": 1,
+    "reaching": 42,
+    "connected_at_maximum": 12
+  },
+  {
+    "n": 6,
+    "maximum": 2,
+    "reaching": 4,
+    "connected_at_maximum": 4
+  },
+  {
+    "n": 7,
+    "maximum": 1,
+    "reaching": 429,
+    "connected_at_maximum": 86
+  },
+  {
+    "n": 8,
+    "maximum": 2,
+    "reaching": 96,
+    "connected_at_maximum": 64
+  },
+  {
+    "n": 9,
+    "maximum": 3,
+    "reaching": 6,
+    "connected_at_maximum": 0
+  },
+  {
+    "n": 10,
+    "maximum": 2,
+    "reaching": 1744,
+    "connected_at_maximum": 784
+  },
+  {
+    "n": 11,
+    "maximum": 3,
+    "reaching": 242,
+    "connected_at_maximum": 44
+  },
+  {
+    "n": 12,
+    "maximum": 4,
+    "reaching": 8,
+    "connected_at_maximum": 0
+  }
+]

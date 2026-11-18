@@ -1,0 +1,123 @@
+{
+  "source_url": "https://github.com/hunterhogan/mapFolding/blob/1862930c2f0bfe5a38ae8cd299e6b85eaa1dc632/research/matrixMeanders/axis_transfer.cpp",
+  "published_source_sha256": "47592b5f797471f1ec8c1ba1d271786998a2cc183700383576b33792b5b8e083",
+  "fold_sha256": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "physical_host": "shared with other local research runs",
+  "cpu_affinity": 16,
+  "threads": 1,
+  "tail_layers": 2,
+  "data_limit_mib": 218,
+  "limit_seconds": 150,
+  "run_order": "published, fold, fold, published at each p",
+  "records": [
+    {
+      "p": 20,
+      "mode": "published",
+      "status": "exact",
+      "K": 924521718,
+      "kernel_seconds": 0.389329,
+      "wall_seconds": 0.39740033802809194,
+      "peak_RSS_KiB": 36692
+    },
+    {
+      "p": 20,
+      "mode": "fold",
+      "status": "exact",
+      "K": 924521718,
+      "kernel_seconds": 0.046774043,
+      "wall_seconds": 0.05330537597183138,
+      "peak_RSS_KiB": 11832
+    },
+    {
+      "p": 20,
+      "mode": "fold",
+      "status": "exact",
+      "K": 924521718,
+      "kernel_seconds": 0.05410633,
+      "wall_seconds": 0.06118785298895091,
+      "peak_RSS_KiB": 11844
+    },
+    {
+      "p": 20,
+      "mode": "published",
+      "status": "exact",
+      "K": 924521718,
+      "kernel_seconds": 0.364845,
+      "wall_seconds": 0.37308911100262776,
+      "peak_RSS_KiB": 36696
+    },
+    {
+      "p": 22,
+      "mode": "published",
+      "status": "exact",
+      "K": 9962795554,
+      "kernel_seconds": 1.72519,
+      "wall_seconds": 1.7321162879816256,
+      "peak_RSS_KiB": 61272
+    },
+    {
+      "p": 22,
+      "mode": "fold",
+      "status": "exact",
+      "K": 9962795554,
+      "kernel_seconds": 0.129309072,
+      "wall_seconds": 0.135460871970281,
+      "peak_RSS_KiB": 11844
+    },
+    {
+      "p": 22,
+      "mode": "fold",
+      "status": "exact",
+      "K": 9962795554,
+      "kernel_seconds": 0.13920479,
+      "wall_seconds": 0.14595593698322773,
+      "peak_RSS_KiB": 11856
+    },
+    {
+      "p": 22,
+      "mode": "published",
+      "status": "exact",
+      "K": 9962795554,
+      "kernel_seconds": 1.8641,
+      "wall_seconds": 1.8725304089603014,
+      "peak_RSS_KiB": 61268
+    },
+    {
+      "p": 24,
+      "mode": "published",
+      "status": "incomplete",
+      "detail": "=24 layer=2 states=4\nn=24 layer=3 states=9\nn=24 layer=4 states=17\nn=24 layer=5 states=37\nn=24 layer=6 states=72\nn=24 layer=7 states=157\nn=24 layer=8 states=318\nn=24 layer=9 states=690\nn=24 layer=10 states=1429\nn=24 layer=11 states=3096\nn=24 layer=12 states=6501\nn=24 layer=13 states=14056\nn=24 layer=14 states=29742\nn=24 layer=15 states=64214\nn=24 layer=16 states=136522\nn=24 layer=17 states=294394\nn=24 layer=18 states=627750\nn=24 layer=19 states=1352425\nn=24 layer=20 states=2889539\nstd::bad_alloc\n",
+      "wall_seconds": 0.866945221030619
+    },
+    {
+      "p": 24,
+      "mode": "fold",
+      "status": "exact",
+      "K": 108498959945,
+      "kernel_seconds": 0.34662477399999997,
+      "wall_seconds": 0.3528754260041751,
+      "peak_RSS_KiB": 11860
+    },
+    {
+      "p": 24,
+      "mode": "fold",
+      "status": "exact",
+      "K": 108498959945,
+      "kernel_seconds": 0.342500492,
+      "wall_seconds": 0.34930075000738725,
+      "peak_RSS_KiB": 11864
+    },
+    {
+      "p": 24,
+      "mode": "published",
+      "status": "incomplete",
+      "detail": "=24 layer=2 states=4\nn=24 layer=3 states=9\nn=24 layer=4 states=17\nn=24 layer=5 states=37\nn=24 layer=6 states=72\nn=24 layer=7 states=157\nn=24 layer=8 states=318\nn=24 layer=9 states=690\nn=24 layer=10 states=1429\nn=24 layer=11 states=3096\nn=24 layer=12 states=6501\nn=24 layer=13 states=14056\nn=24 layer=14 states=29742\nn=24 layer=15 states=64214\nn=24 layer=16 states=136522\nn=24 layer=17 states=294394\nn=24 layer=18 states=627750\nn=24 layer=19 states=1352425\nn=24 layer=20 states=2889539\nstd::bad_alloc\n",
+      "wall_seconds": 0.8687459509819746
+    }
+  ],
+  "median_wall_time_published_over_fold": {
+    "20": 6.7295634512556,
+    "22": 12.808924635121672
+  }
+}

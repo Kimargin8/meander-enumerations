@@ -1,0 +1,53 @@
+{
+  "n": 43,
+  "h": 33,
+  "source_N": 46,
+  "source_H": 36,
+  "j": 5,
+  "t": 42,
+  "left": 143924655059,
+  "right": 23816627332,
+  "value": 167741282391,
+  "status": "exact",
+  "input_states": 332,
+  "layer_digest64": 9124897335041176969,
+  "attempted_moves_through_layer": 176772,
+  "compared_methods": [
+    "compact"
+  ],
+  "peak_states_through_layer": 1790,
+  "layer_bytes_read_and_written": 1093200,
+  "max_two_layers_bytes": 36301,
+  "process_peak_KiB_this_invocation": 5888,
+  "wall_seconds_this_invocation": 0.05,
+  "resumed_from_layer": 0,
+  "driver_sha256": "80682b0b55d5e203183f1595ef87372b2598a0266ca2590ab92b0556efc08219",
+  "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": {
+    "solver": "51e7ded25b365ed3a0869b2ab689dfa026e558150c85d45df4bef711096384df",
+    "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+  },
+  "layer": {
+    "size": 3704,
+    "sha256": "f52201088af5f9b17bbad82c1242f683609e3f912b71a007627c5406d026d379",
+    "embedded": true,
+    "encoding": "zlib+base64",
+    "data": "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"
+  },
+  "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+  },
+  "utc": "2026-11-18T09:53:26.916797+00:00"
+}

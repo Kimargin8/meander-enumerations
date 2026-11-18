@@ -1,0 +1,72 @@
+{
+  "n": 45,
+  "h": 7,
+  "source_N": 46,
+  "source_H": 8,
+  "j": 19,
+  "t": 44,
+  "left": 783027191582939614612,
+  "right": 811244777742207823689,
+  "value": 1594271969325147438301,
+  "status": "exact",
+  "input_states": 14,
+  "layer_digest64": 15329644221632466685,
+  "attempted_moves_through_layer": 21988870880,
+  "compared_methods": [],
+  "peak_states_through_layer": 1163533506,
+  "layer_bytes_read_and_written": 166020940028,
+  "max_two_layers_bytes": 16469068059,
+  "process_peak_KiB_this_invocation": 9728,
+  "wall_seconds_this_invocation": 0.0,
+  "resumed_from_layer": 43,
+  "driver_sha256": "8339735f22d33b53a04608ff22118f424bc7f97bbaffbbfbd687088e1c1885ee",
+  "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+  "python_digest_semantics": "source bytes present at worker startup",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": {
+    "solver": "e159dd0cce7d197a0b63d3e19bbe9a2afed009cdf0e0045759b5ddb88e9c086c",
+    "reader": "7581cfa3bea5e6ee25ec9691f4878e9a129de758fa07379f87bf1148c689f02a"
+  },
+  "layer": {
+    "size": 288,
+    "sha256": "2a4aa08e162e3f58f935e99ba1f5b03cdfaa15305ff5fa93c30981bdd59ae446",
+    "embedded": true,
+    "encoding": "zlib+base64",
+    "data": "eNrTZmaAAE4Q0SDA8PTxzvYJ91dNvqYKFnEQYHgx896po1M2dH4V4QKrFGBYf6lh7r5bSxsPKuuyQLUzQaVO3pvwY8WzWUt+hYO1OzIw9O/++vNe09Jp/dxg7YwMDJubTxzfcGDBqcmyYDWNDAxNxx+f69147P8sfX0WZPc0CTC8urhzys0VC/91KoK1Mwkw3L9368jRSTu+PDYGW8qowDBl9ptnrw/duv4pBKzLSYBhyelj77dsXPTxKY8higebFRjmPNx9/Pu/XW8WqoINZFZgWLXz7OobD2ZMWqIOVuOswNDTeqy9fffBD3tFAX1zZMI="
+  },
+  "generator_sha256": "30eb21aaa4a456eff5b45d33465f31d4e874c2011d1a2156eb54b3064a328be6",
+  "generator_sources": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574",
+    "narrow.cpp": "02a0a539b7be243573eb6d22c1c4bba6bb069029d00dde9f3691a267f3c5be92",
+    "packed_stream.cpp": "c180211257c037e6262b93904e9a00cae00e5ef17a07865d706828cdd085d8a6"
+  },
+  "single_output_group": true,
+  "packed_storage": true,
+  "limit_address_mib": 3900,
+  "limit_two_layers_mib": 24900,
+  "wall_limit_seconds_per_sector": 28800,
+  "minimum_free_mib": 15360,
+  "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+  },
+  "utc": "2026-11-18T12:47:51.988028+00:00",
+  "transport_link_flags": [
+    "-Wl,--wrap=fopen",
+    "-ldl"
+  ],
+  "zstd_version": "1.5.5"
+}

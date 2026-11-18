@@ -1,0 +1,211 @@
+\section{Symmetries in odd projective order}\label{app:residue}
+
+Throughout this section \(n>1\) is odd. Write \(H(i)=i+n\) on the
+\(2n\) boundary labels and let \(P_{n,h}\) denote the contribution of
+height \(h\) to \(P_n\). We use \(M_j\) for the ordinary closed
+meandric number. On \(2j\) labels let \(D_j\) count noncrossing
+matchings \(C\) for which \(C\cup tCt\) is connected, where \(t\)
+is a reflection through two opposite vertices.
+
+\subsection*{A free action above height one}
+For any division of the boundary into two half intervals,
+\[
+  4\mid P_{n,h}\quad(h>1),\qquad
+  P_n\equiv M_{(n+1)/2}\pmod 4.                         \tag{A1}
+\]
+Indeed, take the halves \(0,\dots,n-1\) and \(n,\dots,2n-1\).
+The half turn \(H\) and the reflection \(z(i)=n-1-i\) preserve
+height and generate a group of order four. If \(HAH=A\), any arc
+internal to a half belongs to an isolated four-cycle of \(A\cup H\).
+If all arcs pass between the halves, their ends pair in reverse
+order and the middle arc is an edge of \(H\). Neither case gives
+a connected object. The two fixed sites of \(z\) must be matched
+to each other in a \(z\)-invariant matching, again along an edge of
+\(H\).
+
+The remaining involution \(Hz\) exchanges the halves and reverses
+their orders. In an invariant matching it fixes each of the \(h\)
+through arcs setwise, since their ends pair in reverse order. It
+also fixes exactly one edge of \(H\) setwise. An involution of a
+cycle of length \(2n>2\) without fixed vertices fixes at most two
+edges. Thus the action is free for \(h>1\). At height one, append
+a site to each half and match it to the unique through end of that
+half. In place of the through edge this inserts a path through the
+two extra sites and their antipodal edge. After identifying paired
+sites in opposite halves, the two local matching systems form an
+ordinary meander of order \((n+1)/2\). Removing the extra sites
+recovers the original diagram. This proves (A1).
+
+\subsection*{Reversing and interchanging the two curves}
+View an ordinary meander as a pair of simple circles on the sphere.
+Keep the first circle's labels in cyclic order and record the labels
+on the second as a word \(p(0),\ldots,p(2n-1)\). Start at \(p(0)=0\)
+and first follow an upper arc. Then \(p\) preserves parity. The upper
+and lower arcs join successive word entries, with the upper arcs
+starting at even indices. In particular, the word determines both
+matchings.
+
+The projective objects correspond to the words with \(pH=Hp\).
+Indeed, write \(A\) for the upper matching. The lower matching is
+\(HAH\). The products for \(A\cup H\) and \(A\cup HAH\) are \(AH\)
+and \((AH)^2\). Each component of a union of perfect matchings
+gives two orbits of its product. When the first graph is connected,
+its two orbits have odd length \(n\) and remain orbits on squaring.
+Conversely, squaring cannot decrease the number of orbits.
+On the connected road of \(A\cup HAH\), \(H\) is a fixed-point-free
+involution that exchanges the two edge colors. It fixes no edge,
+so it shifts the road by \(n\) positions. Conversely, a word
+commuting with \(H\) has its upper and lower arcs interchanged by
+\(H\), since their starting indices differ by the odd number \(n\).
+
+Set \(r(i)=-i\) modulo \(2n\). Reversing the two circle orientations
+gives \(p\mapsto rp\) and \(p\mapsto pr\). Interchanging the two
+oriented circles gives \(p\mapsto p^{-1}\), with the first outgoing
+arc specifying the upper side in the new drawing. Each operation
+preserves the projective condition. In this class let
+\[
+ E_n=\#\{p:p=p^{-1}\},\qquad Q_n=\#\{p:p^2=r\},\qquad
+ k=(n+1)/2 .
+\]
+The two reversals and interchange define an action of the dihedral
+group of order eight on the words. The action may have a kernel.
+The orbit-counting formula gives
+\[
+ P_n+D_k+2E_n+2Q_n\equiv0\pmod 8.                      \tag{A2}
+\]
+
+To see the \(D_k\) term, simultaneous reversal fixes precisely the
+words commuting with \(r\). On such a word \(r\) interchanges
+upper and lower arcs, so \(rAr=HAH\). This makes \(A\) invariant
+under the gap reflection \(Hr\). After a rotation of the cut,
+this is the reflection \(Hz\) in the proof of (A1). An invariant
+connected \(A\) has height one in that cut. In the ordinary
+order-\(k\) construction its second matching is the reflection of
+its first. The reflection reverses the original \(n\) sites of a half,
+and fixes both the middle site and the appended site. Hence there are
+exactly \(D_k\) possibilities. Neither single reversal fixes a word.
+Interchange alone and interchange followed by both reversals are
+conjugate, giving \(E_n\) each. Interchange followed by either single
+reversal requires \(p^2=r\), giving the two \(Q_n\) terms.
+
+In fact \(Q_n=0\) unless \(n\equiv1\pmod8\). Suppose \(p^2=r\) and
+put \(m=(n-1)/2\). The word commutes with \(r\). Take the half
+interval \(I=\{-m,\ldots,m\}\), which \(Hr\) exchanges with its
+complement. The preceding argument gives one through edge of \(A\)
+and one of \(HAH\). Consequently \(p^{-1}(I)\) is a single cyclic
+interval of length \(n\). It contains zero and is invariant under
+\(r\). The centers of the two invariant intervals of this length
+are zero and \(n\), so \(p(I)=I\). On \(1,\ldots,m\), the induced
+permutation \(j\mapsto |p(j)|\), with signed representatives in
+\(I\), is a parity-preserving involution. A fixed point would give
+\(p(j)=\pm j\) and \(p^2(j)=j\), which is impossible. Therefore the
+even and odd subsets both have even cardinality, forcing \(4\mid m\).
+
+The restriction is sharp in every eligible order. A witness at order
+nine, read from position zero, is
+\[
+(0,3,4,17,16,11,10,5,6,9,12,13,8,7,2,1,14,15).
+\]
+Given a word \(p\) counted by \(Q_n\), choose a
+site other than \(0,n\). Its orbit under \(p\) has size four, and
+its translate by \(H\) is disjoint because \(H\) changes parity
+and \(p\) preserves it. Replace each of these eight crossings by
+three consecutive crossings in a small disk. Along the second
+curve the three may be read in either increasing or decreasing
+order along the first. Both choices are realized by a local
+zigzag of one arc across the other. For a block at position \(i\)
+in the word, choose the within-block sign \(\epsilon_i\) so that
+\(\epsilon_{p(i)}=-\epsilon_i\) and
+\(\epsilon_{H(i)}=\epsilon_i\). These prescriptions are consistent
+on the two four-cycles. On every enlarged block the square of the
+new permutation reverses order. It acts on the blocks as \(r\),
+and the half turn still commutes with the word. Thus \(Q_{n+8}>0\).
+In particular, for odd \(n>1\),
+\[
+ Q_n>0\quad\Longleftrightarrow\quad n\equiv1\pmod8.
+\]
+
+\subsection*{Computing the fixed sets}
+Write \(p(2i)=2\sigma(i)\) for \(i\in\mathbb Z/n\mathbb Z\) and
+put \(b=(n-1)/2\). Commutation with \(H\) determines the odd entries.
+For \(E_n\), enumerate involutions \(\sigma\) fixing zero and
+require the \(n\) chords
+\[
+  \bigl(2\sigma(i),\,2\sigma(i-b)+n\bmod 2n\bigr)               \tag{A3}
+\]
+to be noncrossing. These are precisely the upper arcs. Their
+antipodal images are all the lower arcs, and their alternating
+traversal is the full permutation \(p\). For \(Q_n\), replace the
+involution condition by \(\sigma^2(i)=-i\). This pairs the
+transpositions of negation into blocks of two, each admitting two
+four-cycles. A second computation uses the invariant interval \(I\)
+instead. It pairs absolute values of the same parity and assigns
+one of the two signs to the image of the first value in each pair.
+
+In the involution recursion each choice fixes one symbol or a
+transposition, and a chord can be tested as soon as both images
+are known. For larger orders the recursion reuses completions.
+The free domain symbols form directed runs under addition by \(b\).
+A run of length \(\ell\) has two physical sites per free symbol
+and one anchored site at each end. Their order along the run
+determines the obligations in (A3), while the physical sites that
+remain in each face of the disk inherit a cyclic order. The lengths
+of the runs and these face orders specify the completion problem.
+Renaming runs and independently reversing face orders preserve the
+set of admissible completions up to bijection. Counts are reused
+only after comparison of the entire encoded residual data.
+
+One large branch has an independent check in the preceding odd
+order. For \(b=(n-1)/2\), the branch \(\sigma(b)=b+1\) contributes
+exactly \(E_{n-2}\), with \(E_1=1\). On a word in this branch,
+\(p\) interchanges \(-1,1\) and \(n-1,n+1\), and fixes \(0,n\).
+Delete the four interchanged sites from both copies of the word.
+The resulting permutation remains an involution and commutes with
+the new half turn. To see noncrossing directly, delete the two
+adjacent arcs \((0,1),(n-1,n)\) of the old lower matching. Give
+the surviving sites \(-1,n+1\) the labels of the two new roots.
+This is the new upper matching, as is seen by reading successive
+entries of the shortened word. The same operation on the old upper
+matching, deleting \((-1,0),(n,n+1)\), gives the new lower one.
+Inserting the adjacent arcs and restoring the two reversed triples
+is the inverse. Thus the identity holds for each order.
+
+Direct generation of all noncrossing matchings through \(n=13\)
+checked all the group generators and both fixed-set counts in odd
+orders \(3,\ldots,13\). The plain involution search reached order
+27; it agreed with the calculation using residual states throughout
+the overlap. The two enumerations of the fourth-order symmetry
+agreed at \(n=9,17,\ldots,65\), where their common values are
+\[
+  2,\ 10,\ 70,\ 568,\ 5022,\ 46964,\ 456932,\ 4578628.
+\]
+The following values illustrate the scale of the self-dual count.
+\[
+\begin{array}{r|r@{\qquad}r|r}
+n&E_n&n&E_n\\ \hline
+ 3&2&21&2\,694\,816\\
+ 5&8&23&13\,862\,948\\
+ 7&36&25&71\,591\,504\\
+ 9&170&27&370\,926\,926\\
+11&826&29&1\,927\,211\,540\\
+13&4\,084&31&10\,037\,423\,838\\
+15&20\,452&33&52\,388\,267\,330\\
+17&103\,374&35&273\,940\,480\,428\\
+19&526\,298&37&1\,434\,822\,175\,554
+\end{array}
+\]
+At order 39 the 38 branches of the involution search give
+\[
+ E_{39}=7\,526\,335\,601\,910.
+\]
+The direct contribution of branch 20 was \(1\,434\,822\,175\,554\),
+equal to the independently computed \(E_{37}\) as predicted by
+contraction. Branches 21 through 38 were rerun with different
+memoization levels and an open-addressed table. The two computations
+agreed on each branch. The full run took 5216 seconds and reached a
+peak resident memory of 2.32 GiB.
+Since \(D_{20}=566\,068\,240\), formula (A2) predicts
+\(P_{39}\equiv-2E_{39}\equiv4\pmod8\). This agrees with the
+full projective count. In fact, (A1) was verified in every height
+and (A2) against the full totals in all nineteen odd orders from
+3 through 39.

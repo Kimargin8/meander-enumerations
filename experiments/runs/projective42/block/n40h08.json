@@ -1,0 +1,16 @@
+{
+  "n": 40,
+  "h": 8,
+  "first_height": 8,
+  "count": 1467945957062170672,
+  "peak_states": 256314133,
+  "max_block_states": 19686316,
+  "transitions": 3729363718,
+  "rss_kib": 628476,
+  "seconds": 354.762,
+  "status": "exact",
+  "start_utc": "2026-11-18T07:48:14.718313+00:00",
+  "cap_mib": 2450,
+  "timeout_seconds": 5400,
+  "binary_sha256": "27bd316b711022a7d20be2ed342fa76a5ada976aeee600294253079fb3085651"
+}

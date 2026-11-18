@@ -1,0 +1,53 @@
+{
+  "n": 45,
+  "h": 31,
+  "source_N": 46,
+  "source_H": 32,
+  "j": 7,
+  "t": 44,
+  "left": 135200623650014,
+  "right": 31299127917881,
+  "value": 166499751567895,
+  "status": "exact",
+  "input_states": 14,
+  "layer_digest64": 9123003729150924978,
+  "attempted_moves_through_layer": 2194884,
+  "compared_methods": [
+    "compact"
+  ],
+  "peak_states_through_layer": 26536,
+  "layer_bytes_read_and_written": 13136936,
+  "max_two_layers_bytes": 538107,
+  "process_peak_KiB_this_invocation": 5888,
+  "wall_seconds_this_invocation": 0.0,
+  "resumed_from_layer": 43,
+  "driver_sha256": "80682b0b55d5e203183f1595ef87372b2598a0266ca2590ab92b0556efc08219",
+  "port_verifier_sha256": "72c1009a2610a942a0a42953b883f38c91a6c456758d18d8855f8b096b70f182",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "binary_sha256": {
+    "solver": "51e7ded25b365ed3a0869b2ab689dfa026e558150c85d45df4bef711096384df",
+    "reader": "8bbcaa15a5615c5d12f5351031c09f535376711e15c5361f8712ae4096ddfbc3"
+  },
+  "layer": {
+    "size": 238,
+    "sha256": "8e5f190864f37b4a89663cae761268f19e743c377bd63de9b65a02569dd3c786",
+    "embedded": true,
+    "encoding": "zlib+base64",
+    "data": "eNrTZmaAAE6GBgEQPevO2mNbPbgYGMC8Rd83HV/uxMngAObNXjtr6yQzXRa4FkcwfXX68/N3GTkZGsG85uvTj3yR52JgBPPa9n+fu42NCWrczl+zVn/rY9dHmNAEFp96YsbxOcpMDIwKIN69k1NPvr0nx8ngBJbcsObSxV4uLgYmMG9pW+O9yYsZDRHudgZruvTv/40tHUxcDMxg7trj+1r/PWHiZGgGc/+eO7Z/3nEmAKeIPlU="
+  },
+  "source_sha256": "e3cdebb4a585d0b57a64a2b8f61d5041987ed6ea09bbe50ea89dae3232579722",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "read_ports.cpp": "9da2e54f17ae9a42b96a0d8a945e0d8f7723693a652311adbb0442337f094574"
+  },
+  "utc": "2026-11-18T09:53:26.123581+00:00"
+}

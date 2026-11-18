@@ -1,0 +1,19 @@
+{
+  "source_sha256": "a2eb1503752893f8c1e82a85e0b1b9c0b23a790dc2cd5035b6c4d53f33db4b35",
+  "driver_sha256": "d8a15742fe8b9ca38d36efc5517236dc5264f487499f9eb0ce8b376524e199bc",
+  "binary_sha256": "8ccd15617dae67c7267e5b6ab3b4cb7cc9c8e83ad58ea094fd64bd53ff052a5a",
+  "source_files": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "fifo.cpp": "23093762abe56354c62bbdf41a888c5b85450c3860e27df1a64ed7e0913a929a"
+  },
+  "flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+}

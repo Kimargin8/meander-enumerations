@@ -1,0 +1,15 @@
+{
+  "n": 35,
+  "h": 21,
+  "source_sha256": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+  "limit_address_bytes": 4141875200,
+  "limit_seconds": 2400,
+  "utc": "2026-11-18T07:32:10.540313+00:00",
+  "status": "exact",
+  "value": 3043980567650,
+  "peak_states": 26536,
+  "attempted_moves": 1272442,
+  "process_peak_KiB": 12328,
+  "kernel_seconds": 0.0586617,
+  "word_field_width": 36
+}

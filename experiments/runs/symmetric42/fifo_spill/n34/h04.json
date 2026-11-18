@@ -1,0 +1,39 @@
+{
+  "n": 34,
+  "h": 4,
+  "source_sha256": "cdd322adb30d9be27e07e51932dfd8ce585b7d2baec89246d2b65abb657cb3b7",
+  "sources": {
+    "fold.cpp": "b92ce18868273118742ab0d8c2654c81ba363e3b538743e7db6c09597b9e2df4",
+    "compact.cpp": "7509371afb8fa5c959824ddca24606979fae362220839f3b36ec359964eba0e3",
+    "spill.cpp": "b0791ec0505ab0edf60885f376b684bd2eb557245784abaad4e4192aaf13223a",
+    "fifo.cpp": "23093762abe56354c62bbdf41a888c5b85450c3860e27df1a64ed7e0913a929a",
+    "fifo_external.cpp": "f69a371791141586e1476758fdb495e18033f93001a99a8bc2835b19b1ec3d98"
+  },
+  "binary_sha256": "7a9d9eaafa3cabc66f1fa16c1600f9b6a1d17fe280474bd1cc665a67479dfc79",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra"
+  ],
+  "limit_address_mib": 775,
+  "limit_disk_mib": 1600,
+  "limit_seconds": 1800,
+  "minimum_free_mib": 35840,
+  "resumed_from_layer": 0,
+  "utc": "2026-11-18T09:23:38.872314+00:00",
+  "status": "exact",
+  "value": 2107256375783623,
+  "peak_states": 16428673,
+  "attempted_moves": 217097221,
+  "process_peak_KiB_this_invocation": 217348,
+  "kernel_seconds_this_invocation": 115.175,
+  "word_field_width": 32,
+  "layer_bytes_read_and_written": 1528043001,
+  "max_two_layers_bytes": 284607207,
+  "compared_with_sectors": true,
+  "wall_seconds_this_invocation": 115.26219645398669,
+  "completed_layer": 33
+}

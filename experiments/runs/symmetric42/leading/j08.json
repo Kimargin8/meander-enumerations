@@ -1,0 +1,8 @@
+{
+  "j": 8,
+  "degree": 16,
+  "leading_coefficient": "512292467507145510289931917/7983707178219937782841903680000000000",
+  "peak_marked_matchings_in_one_layer": 2056,
+  "agrees_with_full_rational_function": false,
+  "source_sha256": "682c4af4e3644b04ea453b370a0bdfa318b74b70340eb32ab74decf6e5243bba"
+}

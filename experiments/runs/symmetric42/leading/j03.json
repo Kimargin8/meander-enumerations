@@ -1,0 +1,8 @@
+{
+  "j": 3,
+  "degree": 6,
+  "leading_coefficient": "46367/3402000",
+  "peak_marked_matchings_in_one_layer": 9,
+  "agrees_with_full_rational_function": true,
+  "source_sha256": "682c4af4e3644b04ea453b370a0bdfa318b74b70340eb32ab74decf6e5243bba"
+}

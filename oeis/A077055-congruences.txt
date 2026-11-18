@@ -1,0 +1,5 @@
+# OEIS_index physical_crossings modulus least_nonnegative_residue
+76 77 78 60
+80 81 82 43
+84 85 86 37
+88 89 90 82

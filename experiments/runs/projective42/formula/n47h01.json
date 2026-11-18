@@ -1,0 +1,15 @@
+{
+  "n": 47,
+  "h": 1,
+  "count": 15590731681749684748188,
+  "status": "exact",
+  "formula": "2n [z^n] log(1+O(z)) - n o_n",
+  "input": {
+    "method": "odd open equals closed",
+    "path": "experiments/runs/projective42/open47.json",
+    "sha256": "1bae78a88a1f4af668e15177650284534c265fb375fe6375d0029c5b2d15bdfe",
+    "horizon": 47
+  },
+  "last_input": 47,
+  "external_tabulated_input": false
+}
